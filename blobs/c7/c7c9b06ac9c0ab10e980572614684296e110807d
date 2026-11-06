@@ -6,9 +6,9 @@
       "name": "OinkLand",
       "type": "Legacy",
       "checkPNG": true,
-      "skin": "https://raw.githubusercontent.com/Serezjjja/oinkland-downloads/player-textures/skins/{USERNAME}.png",
+      "skin": "https://raw.githubusercontent.com/cajone48-gif/oinkland-downloads/player-textures/skins/{USERNAME}.png",
       "model": "auto",
-      "cape": "https://raw.githubusercontent.com/Serezjjja/oinkland-downloads/player-textures/capes/{USERNAME}.png"
+      "cape": "https://raw.githubusercontent.com/cajone48-gif/oinkland-downloads/player-textures/capes/{USERNAME}.png"
     }
   ],
   "enableTransparentSkin": true,
