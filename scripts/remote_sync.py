@@ -5,7 +5,7 @@ import urllib.parse
 import urllib.request
 
 AUDIENCE = 'https://launcher.oinkland.com/mirror-publisher'
-REPOSITORY = 'Serezjjja/oinkland-downloads'
+REPOSITORY = 'cajone48-gif/oinkland-downloads'
 
 
 def main():

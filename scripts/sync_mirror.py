@@ -13,7 +13,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-REPOSITORY = 'Serezjjja/oinkland-downloads'
+REPOSITORY = 'cajone48-gif/oinkland-downloads'
 RELEASE = 'automatic-mirror'
 ORIGIN = 'https://launcher.oinkland.com'
 MAX_BYTES = 2 * 1024 ** 3 - 1
@@ -26,7 +26,7 @@ def valid_source(value):
     if url.scheme != 'https' or url.username or url.password or url.port not in (None, 443) or url.fragment:
         return False
     if url.hostname == 'github.com':
-        return bool(re.fullmatch(r'/Serezjjja/oinkland-downloads/releases/download/[a-zA-Z0-9_.-]+/[a-zA-Z0-9_.-]+\.zip', url.path)) and not url.query
+        return bool(re.fullmatch(r'/cajone48-gif/oinkland-downloads/releases/download/[a-zA-Z0-9_.-]+/[a-zA-Z0-9_.-]+\.zip', url.path)) and not url.query
     if url.hostname != 'launcher.oinkland.com':
         return False
     if re.fullmatch(r'/dist/(assets|libraries)-1\.21\.zip', url.path):
