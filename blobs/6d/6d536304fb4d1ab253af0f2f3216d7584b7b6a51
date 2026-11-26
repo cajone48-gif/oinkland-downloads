@@ -1,0 +1,56 @@
+{
+	title: "Больше света",
+	x: -40.5d,
+	y: -6.0d,
+	description: "С каких пор свет материальный?",
+	text: [
+		"Колодец света - блок который позволяет собирать свет как жидкость ",
+		"",
+		"&7Для этого нужно поместить в него аквамарин (или горный кристалл, но не рекомендую)",
+		"",
+		"Забрать с него свет можно обычным ведром",
+		"",
+		"Жидкий свет нужен для крафтов и некоторых строений."
+	],
+	dependencies: [
+		"51a74142"
+	],
+	tasks: [{
+		uid: "42dfa37b",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockwell"
+		}]
+	},
+	{
+		uid: "fd96834c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				Amount: 1000,
+				FluidName: "astralsorcery.liquidstarlight"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "894dafac",
+		type: "item",
+		item: "simpletools:lootbox_astralsorcery"
+	},
+	{
+		uid: "5b50cb7a",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "b4cdae15",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

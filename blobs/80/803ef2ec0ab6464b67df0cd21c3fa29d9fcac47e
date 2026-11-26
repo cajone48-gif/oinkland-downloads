@@ -1,0 +1,70 @@
+{
+	title: "Пустотная броня",
+	x: -14.0d,
+	y: -15.5d,
+	description: "Ещё один способ утратить рассудок",
+	text: [
+		"Броня хоть и защищает, но даёт искажение, будьте осторожнее."
+	],
+	dependencies: [
+		"908284ab"
+	],
+	tasks: [{
+		uid: "0dfc87ba",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:void_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "454cf8c9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:void_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e80e7635",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:void_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7a04523d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:void_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "64426689",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "6f5fdb78",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

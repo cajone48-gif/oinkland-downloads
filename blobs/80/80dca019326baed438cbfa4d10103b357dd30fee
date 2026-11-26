@@ -1,0 +1,43 @@
+{
+	title: "Алхимическая автоматизация",
+	icon: "thaumcraft:metal_alchemical",
+	x: 12.5d,
+	y: -20.5d,
+	shape: "diamond",
+	description: "Свободные руки, никаких хлопот",
+	text: [
+		"Вам больше не понадобиться неудобный тигель, теперь вы можете делать предметы гораздо быстрее на алхимической конструкции."
+	],
+	dependencies: [
+		"a6f15fc8",
+		"01732add"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "dbb26ac6",
+		type: "item",
+		items: [{
+			item: "thaumcraft:metal_alchemical"
+		}],
+		count: 2L
+	},
+	{
+		uid: "8ee00c47",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crucible"
+		}]
+	},
+	{
+		uid: "3034cf4a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "dd21d426",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

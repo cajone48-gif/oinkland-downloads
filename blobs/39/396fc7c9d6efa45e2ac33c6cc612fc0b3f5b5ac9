@@ -1,0 +1,46 @@
+{
+	title: "Карта шахты",
+	x: 4.0d,
+	y: 1.0d,
+	description: "Теперь я знаю, где копать!",
+	text: [
+		"Это обновлённая версия карты лабиринта.",
+		"",
+		"Карта сохранит ваши пути копания в шахте.",
+		"",
+		"&7Кажется, розовые точки показывают местонахождение руды."
+	],
+	dependencies: [
+		"0b5f323d"
+	],
+	tasks: [{
+		uid: "7bf845b3",
+		type: "item",
+		items: [{
+			item: "twilightforest:ore_map_empty"
+		}]
+	}],
+	rewards: [{
+		uid: "e285e2c8",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "5f1cfc35",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 2
+	},
+	{
+		uid: "f97fda6e",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	},
+	{
+		uid: "55576083",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 2
+	}]
+}

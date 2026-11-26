@@ -1,0 +1,38 @@
+{
+	title: "Помощник по наблюдению",
+	x: -2.5d,
+	y: -14.5d,
+	shape: "diamond",
+	description: "Сканирую...",
+	text: [
+		"&eТаумометр&f позволит вам сканировать предметы, блоки и существ в вашем окружении.",
+		"",
+		"&l[&6!&f&l]&f Просканируйте сундук, чтобы разом изучить все лежащие в нём ресурсы. "
+	],
+	dependencies: [
+		"1af03bae"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "a3dfbae4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "989ac98b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "bc2a4a1c",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

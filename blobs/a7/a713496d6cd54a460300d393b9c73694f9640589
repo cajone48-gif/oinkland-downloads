@@ -1,0 +1,34 @@
+{
+	title: "Веер полёта",
+	x: -2.0d,
+	y: -9.0d,
+	description: "Мега прыжок!",
+	text: [
+		"Веер полёта придаёт ускорение и высоту вашим прыжкам при его использовании ПКМ."
+	],
+	dependencies: [
+		"b99ed617"
+	],
+	tasks: [{
+		uid: "ce16a80e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:peacock_fan"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ad8ff55e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "a191f7c9",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

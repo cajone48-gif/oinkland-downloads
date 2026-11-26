@@ -1,0 +1,33 @@
+{
+	x: 7.5d,
+	y: -9.5d,
+	description: "Я не могу смотреть тебе в глаза!",
+	text: [
+		"Каждый раз, когда кто-либо будет смотреть на Вас в этой повязке - его &eвзгляд будет отведён&f в обратную сторону."
+	],
+	dependencies: [
+		"40e814cd"
+	],
+	tasks: [{
+		uid: "88e53ae1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "witchery:twisting_band"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8f55dbbc",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "db8fa0bd",
+		type: "item",
+		item: "simpletools:lootbox_witchery"
+	}]
+}

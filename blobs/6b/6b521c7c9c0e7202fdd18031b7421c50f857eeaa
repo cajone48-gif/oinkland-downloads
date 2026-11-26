@@ -1,0 +1,230 @@
+{
+	title: "Цветочки",
+	x: -3.0d,
+	y: -1.5d,
+	description: "Эх, красота!",
+	text: [
+		"Интересная комбинация, однако!",
+		"",
+		"&l[&6!&f&l]&f Информацию о том, как работают все цветы можно найти в лексиконе ботании."
+	],
+	dependencies: [
+		"984b8f88"
+	],
+	tasks: [{
+		uid: "9560389a",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "exoflame"
+			}
+		}]
+	},
+	{
+		uid: "45b28b3e",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "agricarnation"
+			}
+		}]
+	},
+	{
+		uid: "e20e6310",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "hopperhock"
+			}
+		}]
+	},
+	{
+		uid: "9180c8df",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "orechid"
+			}
+		}]
+	},
+	{
+		uid: "925f5cf6",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "fallenKanade"
+			}
+		}]
+	},
+	{
+		uid: "9cf405b7",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "jadedAmaranthus"
+			}
+		}]
+	},
+	{
+		uid: "1b3acba3",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "kekimurus"
+			}
+		}]
+	},
+	{
+		uid: "d6e05105",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "gourmaryllis"
+			}
+		}]
+	},
+	{
+		uid: "6f156d01",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "entropinnyum"
+			}
+		}]
+	},
+	{
+		uid: "a7670b14",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "ba_lightning_flower"
+			}
+		}]
+	},
+	{
+		uid: "7f234309",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "reikarlily"
+			}
+		}]
+	},
+	{
+		uid: "36d1ccc6",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "spectrolus"
+			}
+		}]
+	},
+	{
+		uid: "a01f4a60",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "narslimmus"
+			}
+		}]
+	},
+	{
+		uid: "6502c29e",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "ba_snow_flower"
+			}
+		}]
+	},
+	{
+		uid: "c8c989af",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "dandelifeon"
+			}
+		}]
+	},
+	{
+		uid: "c930be68",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "arcanerose"
+			}
+		}]
+	},
+	{
+		uid: "33eb93eb",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "ba_wither_flower"
+			}
+		}]
+	},
+	{
+		uid: "000606e8",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "marimorphosis"
+			}
+		}]
+	},
+	{
+		uid: "cc2274a5",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "loonium"
+			}
+		}]
+	},
+	{
+		uid: "65e0c5ab",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "bellethorn"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4b3c7f96",
+		type: "item",
+		item: {
+			id: "simpletools:lootbox_botania_flowers",
+			tag: {
+				UUID: "botania_flowers"
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "f69e6edd",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

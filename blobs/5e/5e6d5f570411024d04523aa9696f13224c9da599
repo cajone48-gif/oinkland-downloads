@@ -1,0 +1,29 @@
+{
+	x: 31.0d,
+	y: -11.0d,
+	description: "Амброзия",
+	text: [
+		"Надев &cЖивые доспехи&f, можно выпить &cПризыв Ангела&f для увеличения очков улучшений до &c200&f."
+	],
+	dependencies: [
+		"a9fcc79a",
+		"570ba080"
+	],
+	tasks: [{
+		uid: "b457e628",
+		type: "item",
+		items: [{
+			item: "bloodmagic:points_upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "db13bf7a",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "6c8d9f5a",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

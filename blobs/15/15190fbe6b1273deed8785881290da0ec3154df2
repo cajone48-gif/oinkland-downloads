@@ -1,0 +1,30 @@
+{
+	title: "Доисторическое измерение.",
+	x: -5.5d,
+	y: 2.5d,
+	text: [
+		"Чтобы создать портал в это измерение, объедините 6 саженцев &eобычного&f мира с пустым камнем царства.",
+		"",
+		"В Прекасии есть два босса. "
+	],
+	dependencies: [
+		"9d7f7084"
+	],
+	tasks: [{
+		uid: "cae3f6be",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "aoa3:precasia_realmstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b543c805",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

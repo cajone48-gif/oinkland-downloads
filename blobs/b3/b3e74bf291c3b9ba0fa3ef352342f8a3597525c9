@@ -1,0 +1,42 @@
+{
+	title: "Супчик из минотавра",
+	x: 2.0d,
+	y: 3.0d,
+	description: "Вкуснятина!",
+	text: [
+		"Получите и съешьте 2 супа из минотавра, чтобы завершить достижение \"Могучий строганов\".",
+		"",
+		"&7Суп накладывает на вас разные баффы, что может пригодиться в убийстве следующего босса."
+	],
+	dependencies: [
+		"25cb2e71"
+	],
+	tasks: [{
+		uid: "e971363a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:meef_stroganoff"
+		}],
+		count: 2L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c0d1aaf6",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "5cf07101",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:meef_stroganoff"
+		}
+	}]
+}

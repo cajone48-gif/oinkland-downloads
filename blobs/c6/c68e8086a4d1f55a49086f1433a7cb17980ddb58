@@ -1,0 +1,29 @@
+{
+	title: "Глаз стража.",
+	x: -2.5d,
+	y: 5.5d,
+	text: [
+		"Вернитесь назад и примените их к алтарю. Вам подсветится летающее существо, которое необходимо убить. После его убийства выпадет предмет \"Глаза стража\"."
+	],
+	dependencies: [
+		"ead7dc15"
+	],
+	tasks: [{
+		uid: "a4cb3569",
+		type: "kill",
+		title: "Глаз стража.",
+		icon: "aoa3:guardians_eye",
+		entity: "aoa3:flye",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "58a9d205",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "ee48cb25",
+		type: "item",
+		item: "aoa3:treasure_box"
+	}]
+}

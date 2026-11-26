@@ -1,0 +1,27 @@
+{
+	title: "&6Собачий язык",
+	x: -11.5d,
+	y: 5.5d,
+	description: "Как получить 4 уровень?",
+	text: [
+		"Для получения 4 уровня Вам нужно принести &e10 языков собаки&f волчьему алтарю.",
+		"",
+		"&7Язык собаки выпадает как с волка, так и с адской гончьей в аду."
+	],
+	dependencies: [
+		"7246e5bf"
+	],
+	tasks: [{
+		uid: "3e44c82d",
+		type: "item",
+		items: [{
+			item: "witchery:dog_tongue"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "e036b003",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

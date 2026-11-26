@@ -1,0 +1,32 @@
+{
+	title: "Импульсные отражения",
+	x: -13.0d,
+	y: -21.5d,
+	description: "Я ничего в них не вижу...",
+	text: [
+		"&eИмпульсные зеркала&f используются для беспроводной передачи импульса.",
+		"",
+		"Имеют довольно низкий лимит передачи."
+	],
+	dependencies: [
+		"ba291b54"
+	],
+	tasks: [{
+		uid: "f099f4be",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:impetus_mirror"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "2365c1d7",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "2da9fb94",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Сила.",
+	x: -10.0d,
+	y: -5.0d,
+	text: [
+		"Руна Баратоса. Создаётся с 59 уровня."
+	],
+	dependencies: [
+		"607b224d"
+	],
+	tasks: [{
+		uid: "6c4797ce",
+		type: "item",
+		items: [{
+			item: "aoa3:power_rune"
+		}]
+	}],
+	rewards: [{
+		uid: "ba308366",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "71c0e215",
+		type: "item",
+		item: "aoa3:rune_box"
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	title: "Сова",
+	icon: "witchery:owlets_wing",
+	x: -11.5d,
+	y: -4.5d,
+	description: "UwU",
+	text: [
+		"&eСову&f можно сделать своим фамильяром. ",
+		"",
+		"&7Приручаются сырой говядиной. Могут  переносить вещи. &f",
+		"",
+		"Призыв Сов осуществляется &eмутацией&f.",
+		"",
+		"В центре вода, над ней паутина, по сторонам света мухоловки с пойманными летучими мышами, по углам щипуны, с предметами: ",
+		"",
+		"3 мутандис экстремис, 1 заряженный камень.",
+		"",
+		"В паутину ловим волка и кликаем ПКМ мутировавшим суком."
+	],
+	dependencies: [
+		"07eebf2f"
+	],
+	tasks: [{
+		uid: "8474c7b5",
+		type: "kill",
+		title: "Убить сову",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:diamond_sword"
+		},
+		entity: "witchery:owl",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a18e81fc",
+		type: "item",
+		item: "simpletools:lootbox_witchery"
+	},
+	{
+		uid: "e804ec4e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Альфа-йети",
+	x: 0.0d,
+	y: 10.0d,
+	shape: "diamond",
+	description: "Так они существуют!",
+	text: [
+		"Альфа-йети обитает в подземелье снежного биома.",
+		"",
+		"Найдите горку и войдите внутрь, чтобы сразить йети!",
+		"",
+		"&7[&6!&f&7] Осторожно! Он толкается!"
+	],
+	dependencies: [
+		"d374be71"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "529ca44e",
+		type: "item",
+		items: [{
+			item: "twilightforest:alpha_fur"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "a0174794",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "354f047c",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

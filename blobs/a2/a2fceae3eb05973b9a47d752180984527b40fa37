@@ -1,0 +1,28 @@
+{
+	x: -5.5d,
+	y: -4.0d,
+	description: "Чарм 3.",
+	text: [
+		"Амулет инвентаря III сохранит все вещи в инвентаре игрока при смерти."
+	],
+	dependencies: [
+		"b63362cf"
+	],
+	tasks: [{
+		uid: "d1ce9f85",
+		type: "item",
+		items: [{
+			item: "twilightforest:charm_of_keeping_3"
+		}]
+	}],
+	rewards: [{
+		uid: "2a348e9b",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "5d3d63dd",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Что это за ремонт?",
+	x: -7.5d,
+	y: -20.5d,
+	description: "Он восстанавливает ваш разум, а не ваши инструменты",
+	text: [
+		"Повязка реликвий превращает половину вашего опыта во фрагменты знаний."
+	],
+	dependencies: [
+		"9e943e03"
+	],
+	tasks: [{
+		uid: "ef244371",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:curiosity_band"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a78a01ea",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "44d3a07e",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

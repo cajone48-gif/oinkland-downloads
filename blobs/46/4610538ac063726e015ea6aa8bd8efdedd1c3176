@@ -1,0 +1,40 @@
+{
+	title: "Эссенция Wi-Fi",
+	x: 14.0d,
+	y: -19.5d,
+	description: "Сэкономит вам на трубах",
+	text: [
+		"&eОпустошающий&f передатчик эссенции вбирает в себя эссенцию и передаёт в блок, на который он установлен.",
+		"",
+		"&eНаполняющий&f забирает эссенцию из блока, на котором он установлен, и наполняет этой эссенцией банки и т.д",
+		"",
+		"Радиус 16 блоков."
+	],
+	dependencies: [
+		"aa162004"
+	],
+	tasks: [{
+		uid: "83ff51ef",
+		type: "item",
+		items: [{
+			item: "thaumcraft:essentia_output"
+		}]
+	},
+	{
+		uid: "2af9af30",
+		type: "item",
+		items: [{
+			item: "thaumcraft:essentia_input"
+		}]
+	}],
+	rewards: [{
+		uid: "4f878317",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "8ad7d999",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

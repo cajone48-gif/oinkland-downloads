@@ -1,0 +1,44 @@
+{
+	x: -12.0d,
+	y: -10.0d,
+	shape: "hexagon",
+	description: "Водолазный шлем?",
+	text: [
+		"Работает как очки откровения, ",
+		"",
+		"Даёт &eподводное дыхание&f и &eзрение&f, ",
+		"",
+		"Увеличенная &eрегенерация&f здоровья."
+	],
+	dependencies: [
+		"49b2ee74"
+	],
+	tasks: [{
+		uid: "c196c5aa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplemagic:kami_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ab196ea0",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft",
+		count: 2
+	},
+	{
+		uid: "7506529b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "2c22f6f9",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

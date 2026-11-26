@@ -1,0 +1,31 @@
+{
+	title: "Вечно голодный",
+	x: -1.0d,
+	y: -13.0d,
+	description: "*жуй жуй*",
+	text: [
+		"Подбирает в себя все предметы, которые на него падают.",
+		"",
+		"Сундук и воронка в одном блоке, удобно!"
+	],
+	dependencies: [
+		"187ba0b2"
+	],
+	tasks: [{
+		uid: "c919ea64",
+		type: "item",
+		items: [{
+			item: "thaumcraft:hungry_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "c1d1c25b",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "423e10e3",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

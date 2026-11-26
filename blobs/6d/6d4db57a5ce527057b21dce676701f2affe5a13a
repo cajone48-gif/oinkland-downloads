@@ -1,0 +1,75 @@
+{
+	title: "Адаминитовая броня",
+	x: -15.0d,
+	y: -8.5d,
+	shape: "hexagon",
+	description: "Ещё чуть-чуть...",
+	text: [
+		"Это довольно хорошая броня.",
+		"",
+		"Имеет самостоятельные характеристики, пусть и во многом уступает мифминит Броне",
+		"",
+		"В полном комплекте довольно сильно &eуменьшает затраты вис&f."
+	],
+	dependencies: [
+		"cd95d149"
+	],
+	tasks: [{
+		uid: "be1ccf68",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumadditions:adaminite_hood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b64e56a5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumadditions:adaminite_robe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b27b73fe",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumadditions:adaminite_belt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "77da2564",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumadditions:adaminite_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9a6c2619",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "4338393e",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

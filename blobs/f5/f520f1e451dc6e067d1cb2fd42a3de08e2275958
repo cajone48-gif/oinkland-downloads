@@ -1,0 +1,32 @@
+{
+	title: "Чистоцвет",
+	x: -6.5d,
+	y: -10.5d,
+	description: "Цветочный Мистер Пропер",
+	text: [
+		"Очищает ауру от порчи.",
+		"",
+		"Хоть и медленно, но в большом количестве хорошо справляется с заражением."
+	],
+	dependencies: [
+		"58ed3c47"
+	],
+	tasks: [{
+		uid: "50e517fa",
+		type: "item",
+		items: [{
+			item: "thaumadditions:puriflower"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "fb28ac2b",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	},
+	{
+		uid: "0a46a422",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

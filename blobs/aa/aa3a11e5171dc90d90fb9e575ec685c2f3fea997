@@ -1,0 +1,45 @@
+{
+	x: 7.5d,
+	y: -15.0d,
+	description: "Как попасть в Древний мир?",
+	text: [
+		"&eВставьте&f проводник в перчатку.",
+		"",
+		"&eЗарядите&f импульсом - для этого жмите перчаткой с проводником ПКМ по разлому.",
+		"",
+		"Найдите &eизлом&f (он тоньше разлома, они отличаются), ткните заряженной перчаткой с проводником по излому для открытия портала.",
+		"",
+		"&l[&6!&f&l]&f Врата данжа древнего мира также открываются импульсом."
+	],
+	dependencies: [
+		"b8493fd1"
+	],
+	tasks: [{
+		uid: "18c15284",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					energy: {
+						energy: 0L
+					},
+					augment: {}
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicaugmentation:augment_caster_rift_energy_storage"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "354310fd",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	},
+	{
+		uid: "f8226740",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

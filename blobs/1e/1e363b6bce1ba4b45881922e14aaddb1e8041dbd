@@ -1,0 +1,30 @@
+{
+	title: "Волшебное зеркало, посылающее волшебный газ",
+	x: -1.5d,
+	y: -7.0d,
+	description: "Можем ли мы транспортировать природный газ, используя его?",
+	text: [
+		"Работает как волшебное зеркало, но вместо предметов оно транспортирует эссенцию."
+	],
+	dependencies: [
+		"422df795"
+	],
+	tasks: [{
+		uid: "b16b04fb",
+		type: "item",
+		items: [{
+			item: "thaumcraft:mirror_essentia"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "99ee4123",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "89c8dedf",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

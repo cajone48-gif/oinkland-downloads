@@ -1,0 +1,36 @@
+{
+	title: "Дополнитель искр: Изолирующий",
+	x: -1.0d,
+	y: 6.0d,
+	description: "Изоляция искры",
+	text: [
+		"Если повесить данный дополнитель на искру, то она будет в полной изоляции от всех других искр. ",
+		"",
+		"&l[&6!&f&l]&f Полезно для сложных схем."
+	],
+	dependencies: [
+		"86f8b1ae"
+	],
+	tasks: [{
+		uid: "c9a8cbef",
+		type: "item",
+		items: [{
+			item: "botania:sparkupgrade 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "2d7ac660",
+		type: "xp_levels",
+		xp_levels: 2
+	},
+	{
+		uid: "ff23adf9",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "55fc1ee1",
+		type: "item",
+		item: "botania:spark"
+	}]
+}

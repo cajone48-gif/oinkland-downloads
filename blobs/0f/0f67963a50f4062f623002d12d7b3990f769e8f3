@@ -1,0 +1,52 @@
+# --- xb1tnatorV for SIMPLEMINECRAFT
+
+# --- COMBAT ARMOR
+recipes.remove(<extrabotany:combatmaidhelm>);
+mods.botania.RuneAltar.addRecipe(<extrabotany:combatmaidhelm>, [
+	<thaumcraft:charm_undying>, <extrabotany:goblinslayerhelm>, <extrabotany:blockorichalcos>, <botanicadds:gaiasteel_ingot>, <botanicadds:gaiasteel_ingot>,
+	<botania:terrasteelhelm>, <extrabotany:material:7>, <extrabotany:material:7>, <botania:rune:14>, <botania:rune:14>, <extrabotany:shadowwarriorhelm>, <botania:manaresource:14>, <botania:manaresource:14>], 5000000);
+
+recipes.remove(<extrabotany:combatmaidchest>);
+mods.botania.RuneAltar.addRecipe(<extrabotany:combatmaidchest>, [
+	<thaumcraft:charm_undying>, <extrabotany:goblinslayerchest>, <extrabotany:blockorichalcos>, <botanicadds:gaiasteel_ingot>, <botanicadds:gaiasteel_ingot>,
+	<botania:terrasteelchest>, <extrabotany:material:7>, <extrabotany:material:7>, <botania:rune:10>, <botania:rune:10>, <extrabotany:shadowwarriorchest>, <botania:manaresource:14>, <botania:manaresource:14>], 5000000);
+
+recipes.remove(<extrabotany:combatmaidlegs>);
+mods.botania.RuneAltar.addRecipe(<extrabotany:combatmaidlegs>, [
+	<thaumcraft:charm_undying>, <extrabotany:goblinslayerlegs>, <extrabotany:blockorichalcos>, <botanicadds:gaiasteel_ingot>, <botanicadds:gaiasteel_ingot>,
+	<botania:terrasteellegs>, <extrabotany:material:7>, <extrabotany:material:7>, <botania:rune:9>, <botania:rune:9>, <extrabotany:shadowwarriorlegs>, <botania:manaresource:14>, <botania:manaresource:14>], 5000000);
+
+recipes.remove(<extrabotany:combatmaidboots>);
+mods.botania.RuneAltar.addRecipe(<extrabotany:combatmaidboots>, [
+	<thaumcraft:charm_undying>, <extrabotany:goblinslayerboots>, <extrabotany:blockorichalcos>, <botanicadds:gaiasteel_ingot>, <botanicadds:gaiasteel_ingot>,
+	<botania:terrasteelboots>, <extrabotany:material:7>, <extrabotany:material:7>, <botania:rune:13>, <botania:rune:13>, <extrabotany:shadowwarriorboots>, <botania:manaresource:14>, <botania:manaresource:14>], 5000000);
+
+mods.botania.Lexicon.removePage("botania.entry.combatmaid", 4);
+mods.botania.Lexicon.removePage("botania.entry.combatmaid", 3);
+mods.botania.Lexicon.removePage("botania.entry.combatmaid", 2);
+mods.botania.Lexicon.removePage("botania.entry.combatmaid", 1);
+
+mods.botania.Lexicon.addRunePage("botania.page.combatmaid1","botania.entry.combatmaid",1,[<extrabotany:combatmaidhelm>],[[<thaumcraft:charm_undying>, <extrabotany:goblinslayerhelm>, <extrabotany:blockorichalcos>, <botanicadds:gaiasteel_ingot>, <botanicadds:gaiasteel_ingot>,
+	<botania:terrasteelhelm>, <extrabotany:material:7>, <extrabotany:material:7>, <botania:rune:14>, <botania:rune:14>, <botania:manaresource:14>, <botania:manaresource:14>]],[5000000]);
+
+mods.botania.Lexicon.addRunePage("botania.page.combatmaid2","botania.entry.combatmaid",2,[<extrabotany:combatmaidchest>],[[<thaumcraft:charm_undying>, <extrabotany:goblinslayerchest>, <extrabotany:blockorichalcos>, <botanicadds:gaiasteel_ingot>, <botanicadds:gaiasteel_ingot>,
+	<botania:terrasteelchest>, <extrabotany:material:7>, <extrabotany:material:7>, <botania:rune:10>, <botania:rune:10>, <extrabotany:shadowwarriorchest>, <botania:manaresource:14>, <botania:manaresource:14>]],[5000000]);
+
+mods.botania.Lexicon.addRunePage("botania.page.combatmaid3","botania.entry.combatmaid",3,[<extrabotany:combatmaidlegs>],[[<thaumcraft:charm_undying>, <extrabotany:goblinslayerlegs>, <extrabotany:blockorichalcos>, <botanicadds:gaiasteel_ingot>, <botanicadds:gaiasteel_ingot>,
+	<botania:terrasteellegs>, <extrabotany:material:7>, <extrabotany:material:7>, <botania:rune:9>, <botania:rune:9>, <extrabotany:shadowwarriorlegs>, <botania:manaresource:14>, <botania:manaresource:14>]],[5000000]);
+
+mods.botania.Lexicon.addRunePage("botania.page.combatmaid4","botania.entry.combatmaid",4,[<extrabotany:combatmaidboots>],[[<thaumcraft:charm_undying>, <extrabotany:goblinslayerboots>, <extrabotany:blockorichalcos>, <botanicadds:gaiasteel_ingot>, <botanicadds:gaiasteel_ingot>,
+	<botania:terrasteelboots>, <extrabotany:material:7>, <extrabotany:material:7>, <botania:rune:13>, <botania:rune:13>, <extrabotany:shadowwarriorboots>, <botania:manaresource:14>, <botania:manaresource:14>]],[5000000]);
+
+# --- JUDAHOATH
+recipes.remove(<extrabotany:judahoath>);
+recipes.addShaped(<extrabotany:judahoath>, [
+	[null, <extrabotany:material:1>, null],
+	[<botanicadds:gaiasteel_ingot>, <extrabotany:spiritfuel>, <botanicadds:gaiasteel_ingot>],
+	[<botania:manaresource:14>, <botania:manaresource:14>, <botania:manaresource:14>]]);
+
+# --- ORICHALCOS
+mods.botania.RuneAltar.removeRecipe(<extrabotany:material:1>);
+mods.botania.RuneAltar.addRecipe(<extrabotany:material:1>, [
+	<extrabotany:gildedmashedpotato>, <extrabotany:material:3>, <botanicadds:gaiasteel_ingot>, <botanicadds:gaiasteel_ingot>,
+	<botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>, <extrabotany:material:5>, <extrabotany:material:8>], 300000);

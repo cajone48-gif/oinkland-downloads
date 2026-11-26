@@ -1,0 +1,35 @@
+{
+	x: 6.5d,
+	y: -7.0d,
+	description: "Кусь",
+	text: [
+		"Вы можете поместить этот &eремень&f в обычный верстак вместе с зельем, которое нужно выпить - максимум 2.",
+		"",
+		"При &eполучении урона&f в этом поясе, на вас сработают эффекты от зелья."
+	],
+	dependencies: [
+		"40e814cd"
+	],
+	tasks: [{
+		uid: "dd91d0ab",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "witchery:biting_belt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "46404ab6",
+		type: "item",
+		item: "simpletools:lootbox_witchery"
+	},
+	{
+		uid: "37805691",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

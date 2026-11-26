@@ -1,0 +1,77 @@
+{
+	title: "Живая броня",
+	x: 33.0d,
+	y: -0.5d,
+	description: "Они живые!",
+	text: [
+		"&cЖивая броня&f - это довольно уникальная броня, которая адаптируется к вашим действиям, &cулучшая&f ваши способности в зависимости от того, какие действия вы выполняете.",
+		"",
+		"Она имеет ограниченное количество &cочков обновления&f, которые расходуются при каждом улучшении брони.",
+		"",
+		"Уровень улучшения влияет на &cинтенсивность&f наложенного эффекта. Количество очков, затраченных на улучшение, так же растет, в зависимости от его уровня.",
+		"",
+		"&cДля активации способностей на владельце должен быть надет полный комплект брони&f."
+	],
+	dependencies: [
+		"c0235ace"
+	],
+	tasks: [{
+		uid: "a1e5f34c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:living_armour_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "57c47a91",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:living_armour_chest",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "784f2724",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:living_armour_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "28078a83",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:living_armour_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "56ca25df",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "da6b806e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

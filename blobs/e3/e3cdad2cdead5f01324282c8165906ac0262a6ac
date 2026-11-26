@@ -1,0 +1,40 @@
+{
+	title: "Мистическое ухо",
+	x: 0.5d,
+	y: -12.5d,
+	description: "Оно всё слышит?",
+	text: [
+		"&eМистическое ухо&f может улавливать звуки от соседних нотных блоков. ",
+		"",
+		"Испускает короткий импульс редстоуна, когда слышит ноту, на которую он настроен.",
+		"",
+		"&eПереключённое мистическое ухо&f  включается и выключается, когда слышит ноту, на которую он настроен."
+	],
+	dependencies: [
+		"9e146a1f"
+	],
+	tasks: [{
+		uid: "ead864f2",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_ear"
+		}]
+	},
+	{
+		uid: "000e2d4d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_ear_toggle"
+		}]
+	}],
+	rewards: [{
+		uid: "f241ad7f",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "9ad890ac",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

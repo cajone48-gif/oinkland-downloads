@@ -1,0 +1,35 @@
+{
+	x: 40.0d,
+	y: -1.0d,
+	description: "Большая кровавая батарейка",
+	text: [
+		"Больше хранилище, больше крафтов"
+	],
+	dependencies: [
+		"270fcb92"
+	],
+	tasks: [{
+		uid: "574ad2a7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:master"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1614d47d",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "d2011128",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

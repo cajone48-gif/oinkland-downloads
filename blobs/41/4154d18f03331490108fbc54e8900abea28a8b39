@@ -1,0 +1,24 @@
+{
+	title: "Стальной лист",
+	x: -4.0d,
+	y: -6.0d,
+	description: "Кажется, он редкий...",
+	text: [
+		"Стальной лист можно найти в одном из сундуков подземелий сумеречного леса."
+	],
+	dependencies: [
+		"b99ed617"
+	],
+	tasks: [{
+		uid: "cf1219bb",
+		type: "item",
+		items: [{
+			item: "twilightforest:steeleaf_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "3482b0f6",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

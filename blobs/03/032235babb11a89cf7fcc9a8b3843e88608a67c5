@@ -1,0 +1,84 @@
+# Configuration file
+
+blacklist {
+    # Чёрный список блоков для Фокуса 'Разрушение' [default: [minecraft:bedrock], [modid:block_name@meta]]
+    S:focusBreak <
+        minecraft:bedrock
+        modid:block_name@meta
+     >
+
+    # Чёрный список блоков и предметов для Печати контроля 'Использование' [default: [minecraft:bedrock], [modid:block_name@meta]]
+    S:golemSealUse <
+        minecraft:bedrock
+        modid:block_name@meta
+     >
+
+    # Чёрный список блоков и предметов для Рунической матрицы [default: [minecraft:bedrock], [modid:block_name@meta]]
+    S:runicMatrix <
+        minecraft:bedrock
+        modid:block_name@meta
+     >
+}
+
+
+other {
+    # Включить Бутылку с заражением [default: true]
+    B:enableBottleTaint=false
+
+    # Выдача изучения Fireball при контакте с огнем [default: false]
+    B:enableFireballKnowledgeSimplified=false
+
+    # Включить Разлом от Выбросов [default: true]
+    B:enableFluxRift=true
+
+    # Включить Семя заражения [default: true]
+    B:enableTaintSeed=true
+    B:paranoidDropProtection=false
+
+    liquiddeath {
+        # Шанс дропа аспектов при смерти моба от Жидкой смерти [range: 0.0 ~ 1.0, default: 1.0]
+        S:aspectDropChance=1.0
+
+        # Включить дроп аспектов при смерти игрока от Жидкой смерти [default: true]
+        B:playerAspectDrop=true
+    }
+
+}
+
+
+potion {
+    # Включить эффект 'Размытое зрение' [default: true]
+    B:potionBlurredVision=false
+
+    # Включить эффект 'Смертельный взгляд' [default: true]
+    B:potionDeathGaze=false
+
+    # Включить эффект 'Яд от заражения' [default: true]
+    B:potionFluxTaint=true
+
+    # Включить эффект 'Бактериальный вирус Выбросов' [default: true]
+    B:potionInfectiousVisExhaust=true
+
+    # Включить эффект 'Презирающий Солнце' [default: true]
+    B:potionSunScorned=false
+
+    # Включить эффект 'Таумория' [default: true]
+    B:potionThaumarhia=true
+
+    # Включить эффект 'Неестественный голод' [default: true]
+    B:potionUnhunger=false
+
+    # Включить эффект 'Вирус Выбросов' [default: true]
+    B:potionVisExhaust=true
+
+    # Включить эффект 'Защищённый от искажения' [default: true]
+    B:potionWarpWard=true
+}
+
+
+protection {
+    # Запрет взаимодействия Тигля с предметами посторонних игроков [default: false]
+    B:protectCrucible=true
+}
+
+

@@ -1,0 +1,30 @@
+{
+	title: "Мистериум.",
+	x: -1.0d,
+	y: -0.5d,
+	text: [
+		"&eОтравите&f Крипирда и получите Мистерианский камень царства. ",
+		"",
+		"&7Учтите, обычные зелья не работают."
+	],
+	dependencies: [
+		"5181dbeb"
+	],
+	tasks: [{
+		uid: "fe3c59c3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "aoa3:mysterium_realmstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "78cc94be",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

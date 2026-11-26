@@ -1,0 +1,26 @@
+{
+	title: "Перегонный куб",
+	x: 1.5d,
+	y: 1.0d,
+	description: "Похож на шляпу",
+	text: [
+		"&eПерегонный куб&f производит более сложные ароматические настойки и побочные материалы.",
+		"",
+		"&l[&6!&f&l]&f Работает от энергии алтаря."
+	],
+	dependencies: [
+		"f8d4641e"
+	],
+	tasks: [{
+		uid: "9ed444af",
+		type: "item",
+		items: [{
+			item: "witchery:distillery"
+		}]
+	}],
+	rewards: [{
+		uid: "6861aaeb",
+		type: "item",
+		item: "simpletools:lootbox_witchery_jars"
+	}]
+}

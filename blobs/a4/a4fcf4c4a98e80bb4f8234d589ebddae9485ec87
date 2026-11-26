@@ -1,0 +1,31 @@
+{
+	title: "Суп из редстоуна",
+	x: 0.0d,
+	y: 10.0d,
+	description: "А он вкусный?",
+	text: [
+		"Для создания &eСупа из Редстоуна&f требуется минимум 3000 энергии в алтаре. ",
+		"",
+		"&l[&6!&f&l]&f Суп варится в маленьком котелке, не перепутайте!"
+	],
+	dependencies: [
+		"c55c874c"
+	],
+	tasks: [{
+		uid: "bc282c32",
+		type: "item",
+		items: [{
+			item: "witchery:redstone_soup"
+		}]
+	}],
+	rewards: [{
+		uid: "2bf335b2",
+		type: "item",
+		item: "simpletools:lootbox_witchery_jars"
+	},
+	{
+		uid: "6c19829c",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

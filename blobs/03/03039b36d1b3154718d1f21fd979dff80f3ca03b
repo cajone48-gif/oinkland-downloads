@@ -1,0 +1,21 @@
+# xb1tnatorV for SIMPLEMINECRAFT
+
+# FIX CRAFT GLASS
+furnace.remove(<minecraft:glass>);
+furnace.addRecipe(<minecraft:glass> * 1, <minecraft:sand>, 10);
+
+# --- FIX TRAPDOOR
+val minecraftPlank = <ore:minecraftPlank>;
+
+minecraftPlank.add(<minecraft:planks>);
+minecraftPlank.add(<minecraft:planks:1>);
+minecraftPlank.add(<minecraft:planks:2>);
+minecraftPlank.add(<minecraft:planks:3>);
+minecraftPlank.add(<minecraft:planks:4>);
+minecraftPlank.add(<minecraft:planks:5>);
+
+recipes.remove(<minecraft:trapdoor>);
+recipes.addShaped(<minecraft:trapdoor> * 2,
+  [[null, null, null],
+  [<ore:minecraftPlank>, <ore:minecraftPlank>, <ore:minecraftPlank>],
+  [<ore:minecraftPlank>, <ore:minecraftPlank>, <ore:minecraftPlank>]]);

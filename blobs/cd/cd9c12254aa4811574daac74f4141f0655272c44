@@ -1,0 +1,29 @@
+{
+	x: -2.0d,
+	y: 7.5d,
+	text: [
+		"Для создания &eМасла неизбежности&f требуется энергия алтаря - минимум 1500.",
+		"",
+		"Масло используется в основном в ритуалах."
+	],
+	dependencies: [
+		"c55c874c"
+	],
+	tasks: [{
+		uid: "6287e1a3",
+		type: "item",
+		items: [{
+			item: "witchery:happenstance_oil"
+		}]
+	}],
+	rewards: [{
+		uid: "4387b49d",
+		type: "item",
+		item: "simpletools:lootbox_witchery"
+	},
+	{
+		uid: "5e72a54b",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

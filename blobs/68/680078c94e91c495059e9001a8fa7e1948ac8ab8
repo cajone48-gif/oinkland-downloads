@@ -1,0 +1,40 @@
+{
+	x: -12.0d,
+	y: -9.0d,
+	shape: "hexagon",
+	description: "Я летаю!",
+	text: [
+		"Роба обеспечит бесконечный &eполёт&f, при ношении отключает &eурон от падения&f."
+	],
+	dependencies: [
+		"49b2ee74"
+	],
+	tasks: [{
+		uid: "0b01f437",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplemagic:kami_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4ea91dff",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft",
+		count: 2
+	},
+	{
+		uid: "0c18cf27",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "94d2297f",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

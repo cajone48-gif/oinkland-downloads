@@ -1,0 +1,43 @@
+{
+	x: -5.5d,
+	y: -0.5d,
+	text: [
+		"Данные &eруны&f вы можете найти в &eруинах&f портала, в &eсундуках&f шахт и подземельях."
+	],
+	dependencies: [
+		"e31b9e7c"
+	],
+	tasks: [{
+		uid: "ae6b293b",
+		type: "item",
+		items: [{
+			item: "aoa3:carved_rune_direction"
+		}]
+	},
+	{
+		uid: "84a04406",
+		type: "item",
+		items: [{
+			item: "aoa3:carved_rune_reality"
+		}]
+	},
+	{
+		uid: "089b75cb",
+		type: "item",
+		items: [{
+			item: "aoa3:carved_rune_space"
+		}]
+	},
+	{
+		uid: "a8af6ae2",
+		type: "item",
+		items: [{
+			item: "aoa3:carved_rune_travel"
+		}]
+	}],
+	rewards: [{
+		uid: "7c11d940",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

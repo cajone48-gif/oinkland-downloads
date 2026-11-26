@@ -1,0 +1,36 @@
+{
+	title: "Гриботавр",
+	x: 0.0d,
+	y: 2.0d,
+	shape: "diamond",
+	description: "Король минотавров.",
+	text: [
+		"&eГриботавр&f обитает в лабиринте минотавра, спуск в который можно найти в небольшом холме.",
+		"",
+		"Лабиринт имеет 2 уровня и заселён разными монстрами, включая очень быстрых и сильных минотавров.",
+		"",
+		"&eГриботавр&f находится на нижнем уровне в небольшом помещении."
+	],
+	dependencies: [
+		"4f7f2a37"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "a1a16ce9",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "c35d9852",
+		type: "item",
+		item: "twilightforest:cooked_meef",
+		count: 6
+	},
+	{
+		uid: "58e8f8b1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

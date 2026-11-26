@@ -1,0 +1,8 @@
+# Configuration file
+
+general {
+    # Can Tinkers Construct tools be repaired in the repairer?
+    B:"Tinkers Construct Compatibility"=true
+}
+
+

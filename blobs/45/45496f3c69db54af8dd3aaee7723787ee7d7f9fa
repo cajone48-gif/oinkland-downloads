@@ -1,0 +1,243 @@
+{
+	title: "Дресс-код",
+	x: 5.0d,
+	y: -22.5d,
+	description: "Выглядишь отлично",
+	text: [
+		"Лучший вариант начальной экипировки тауматурга."
+	],
+	dependencies: [
+		"1ce5751a"
+	],
+	tasks: [{
+		uid: "35d827dd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumium_helm",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dca62e5e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumium_chest",
+			tag: {
+				Quality: {
+					Slots: [
+						"chest"
+					],
+					Color: "dark_gray",
+					AttributeModifiers: [{
+						UUIDLeast: -5261717500080406455L,
+						Amount: -1.0d,
+						AttributeName: "generic.armor",
+						Name: "qualitytools",
+						UUIDMost: 6212935799947742685L,
+						Operation: 0
+					}],
+					Name: "quality.dented.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c6fe9397",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumium_legs",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c645a38c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumium_boots",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cd7b6d9a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumium_pick",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDLeast: -8281140035000194100L,
+						Amount: -1.0d,
+						AttributeName: "generic.reachDistance",
+						Name: "qualitytools",
+						UUIDMost: -7079231881673291692L,
+						Operation: 0
+					}],
+					Name: "quality.short.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d85db8bc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumium_axe",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDLeast: -8433193047374927777L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Name: "qualitytools",
+						UUIDMost: 1399116163011201746L,
+						Operation: 2
+					},
+					{
+						UUIDLeast: -5204488095572171209L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Name: "qualitytools",
+						UUIDMost: -2097710227510113710L,
+						Operation: 2
+					}],
+					Name: "quality.graceful.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "10ef9acb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumium_shovel",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5a8ef24d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumium_sword",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDLeast: -5745774584714419559L,
+						Amount: 0.5d,
+						AttributeName: "generic.reachDistance",
+						Name: "qualitytools",
+						UUIDMost: 5978605647863762657L,
+						Operation: 0
+					}],
+					Name: "quality.long.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "855724a5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumium_hoe",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDLeast: -7633470886963889288L,
+						Amount: 0.20000000298023224d,
+						AttributeName: "generic.attackSpeed",
+						Name: "qualitytools",
+						UUIDMost: -6700331351024906883L,
+						Operation: 2
+					},
+					{
+						UUIDLeast: -5821777243726924598L,
+						Amount: 0.5d,
+						AttributeName: "generic.reachDistance",
+						Name: "qualitytools",
+						UUIDMost: -2655188325437718365L,
+						Operation: 0
+					}],
+					Name: "quality.sweeping.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ee6f581d",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "c18a48d4",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

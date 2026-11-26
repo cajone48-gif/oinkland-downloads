@@ -1,0 +1,34 @@
+{
+	title: "&6Баранья печень",
+	x: -11.5d,
+	y: 4.0d,
+	description: "Как получить 3 уровень?",
+	text: [
+		"Для получения 3 уровня нужно принести &e30 сырой бараньей печени&f волчьему алтарю.",
+		"",
+		"&eПеревоплотитесь в волка&f при помощи лунного очарования и убивайте овец.",
+		"",
+		"&l[&6!&f&l]&f Убивайте овец в форме волка!"
+	],
+	dependencies: [
+		"7ac6df90"
+	],
+	tasks: [{
+		uid: "64fc5811",
+		type: "item",
+		items: [{
+			item: "witchery:sheep_liver"
+		}],
+		count: 30L
+	}],
+	rewards: [{
+		uid: "b74d57b0",
+		type: "item",
+		item: "simpletools:lootbox_witchery"
+	},
+	{
+		uid: "df3df8d2",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

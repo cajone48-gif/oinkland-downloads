@@ -1,0 +1,81 @@
+{
+	title: "Сет из элементия",
+	x: -3.0d,
+	y: 3.0d,
+	description: "Безупречная защита",
+	text: [
+		"&eПолный комплект доспехов&f даёт бонус к набору \"Благословение великой феи\":",
+		"",
+		"Снижение затрат маны в 10% на инструменты и жезлы,",
+		"",
+		"Пикси, созданные владельцем, наносят случайный эффект зелья на 2 секунды: ",
+		"",
+		"&7Либо Слепоту, Увядание, Медлительность, либо Слабость."
+	],
+	dependencies: [
+		"86f8b1ae"
+	],
+	tasks: [{
+		uid: "4c4dbf34",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:elementiumhelm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e9f93d67",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:elementiumchest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8ad94a41",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:elementiumlegs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "801ca109",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:elementiumboots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "704c6976",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "971c0921",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "8edc1af4",
+		type: "item",
+		item: "simpletools:lootbox_botania"
+	}]
+}

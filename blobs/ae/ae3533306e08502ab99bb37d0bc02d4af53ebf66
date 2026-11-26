@@ -1,0 +1,44 @@
+{
+	title: "Семя разрастания",
+	x: -1.0d,
+	y: -1.5d,
+	description: "Своего рода удобрение",
+	text: [
+		"ПКМ по земле на которой растет цветок и твои пассивные цветы не будут высыхать.",
+		"",
+		"&l[&6!&f&l]&f Активные цветы будут работать на 50% быстрее, если стоят на такой земле.",
+		"",
+		"&l[&c!&f&l]&f Если сломать блок, после того, как почва была удобрена семенем разрастания выпадет обычная земля!"
+	],
+	dependencies: [
+		"984b8f88"
+	],
+	tasks: [{
+		uid: "47b2b2f7",
+		type: "item",
+		items: [{
+			item: "botania:overgrowthseed"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "7d901d69",
+		type: "xp_levels",
+		xp_levels: 2
+	},
+	{
+		uid: "a895a231",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "9ed63072",
+		type: "item",
+		item: {
+			id: "simpletools:lootbox_botania_runes",
+			tag: {
+				UUID: "botania_runes"
+			}
+		}
+	}]
+}

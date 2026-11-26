@@ -1,0 +1,65 @@
+{
+	title: "Сад королеввского закона",
+	x: 4.0d,
+	y: 4.5d,
+	description: "Богато",
+	text: [
+		"Дорогие, но лучшие игрушки, я полагаю."
+	],
+	dependencies: [
+		"21a864f0"
+	],
+	tasks: [{
+		uid: "3c1b7b5d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrabotany:kinggarden",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "93b2bca9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrabotany:failnaught"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7eb922b4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrabotany:achilleshield",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "10f4fdcd",
+		type: "xp_levels",
+		xp_levels: 2
+	},
+	{
+		uid: "76e01368",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "a191260e",
+		type: "item",
+		item: "simpletools:lootbox_botania"
+	}]
+}

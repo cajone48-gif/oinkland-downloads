@@ -1,0 +1,29 @@
+{
+	title: "Слиток орихалкос",
+	x: 4.0d,
+	y: 3.0d,
+	description: "Сила",
+	text: [
+		"Теперь тебе открыты все двери - вот он, совершенный материал. Можешь создать любую реликвию невиданной силы!"
+	],
+	dependencies: [
+		"a2b98e7f"
+	],
+	tasks: [{
+		uid: "adacc90c",
+		type: "item",
+		items: [{
+			item: "extrabotany:material 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "8904a3dc",
+		type: "item",
+		item: "simpletools:lootbox_botania"
+	},
+	{
+		uid: "3c4ab65c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

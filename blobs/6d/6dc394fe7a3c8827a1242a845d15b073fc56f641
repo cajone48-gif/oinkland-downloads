@@ -1,0 +1,71 @@
+{
+	title: "Меховая шубка",
+	x: 2.0d,
+	y: 9.0d,
+	description: "Тепло.",
+	text: [
+		"Арктический мех падает при убийстве Зимнего волка и Йети."
+	],
+	dependencies: [
+		"c714b35b"
+	],
+	tasks: [{
+		uid: "c33b95bc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:arctic_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fdf38aee",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:arctic_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9b9e624d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:arctic_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "42b1099b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:arctic_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "385b2b98",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "da87ac72",
+		type: "item",
+		item: "twilightforest:arctic_fur",
+		count: 5
+	}]
+}

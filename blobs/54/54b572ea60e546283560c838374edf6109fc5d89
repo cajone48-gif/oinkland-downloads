@@ -1,0 +1,29 @@
+{
+	title: "Я не сумасшедший",
+	x: 5.0d,
+	y: -18.5d,
+	description: "А ты?",
+	text: [
+		"Следите за своим рассудком и искажением."
+	],
+	dependencies: [
+		"204856d1"
+	],
+	tasks: [{
+		uid: "422f394a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:sanity_checker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7887c3a0",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

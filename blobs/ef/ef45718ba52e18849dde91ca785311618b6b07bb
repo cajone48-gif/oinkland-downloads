@@ -1,0 +1,43 @@
+{
+	title: "Жевательная роса",
+	x: -7.0d,
+	y: 11.0d,
+	description: "Генерация маны за листву",
+	text: [
+		"Цветок, генерирующий ману за листву. ",
+		"",
+		"Радиус работы: 17х17х17.",
+		"Генерация: 160 маны за одну листву.",
+		"Буфер: 10.000.",
+		"",
+		"&l[&6!&f&l]&f Если листвы рядом нет, цветок уходит в сон на 20 секунд."
+	],
+	dependencies: [
+		"b2308aba"
+	],
+	tasks: [{
+		uid: "dea70917",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "munchdew"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2d88feb5",
+		type: "xp_levels",
+		xp_levels: 2
+	},
+	{
+		uid: "88453214",
+		type: "item",
+		item: {
+			id: "simpletools:lootbox_botania_flowers",
+			tag: {
+				UUID: "botania_flowers"
+			}
+		}
+	}]
+}

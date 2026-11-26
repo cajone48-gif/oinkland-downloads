@@ -1,0 +1,40 @@
+{
+	x: -38.0d,
+	y: -6.0d,
+	description: "У нас появились подставки под напитки?",
+	text: [
+		"Второй уровень звёздного верстака, позволяющий крафтить более сложные вещи",
+		"",
+		"[&e!&f] &7Но для него, как и для последующих, нужна своя конструкция"
+	],
+	dependencies: [
+		"330f4619"
+	],
+	tasks: [{
+		uid: "15ed1d18",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockaltar",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9bdb04d1",
+		type: "item",
+		item: "simpletools:lootbox_astralsorcery"
+	},
+	{
+		uid: "c98148b9",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "8ca2c6f8",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

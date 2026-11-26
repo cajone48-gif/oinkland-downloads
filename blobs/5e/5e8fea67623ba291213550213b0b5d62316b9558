@@ -1,0 +1,12 @@
+{
+	title: "Пришествие вознесения",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "aoa3:emberstone_sword"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

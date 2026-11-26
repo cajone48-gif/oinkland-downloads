@@ -1,0 +1,40 @@
+{
+	title: "Гайя 3-го уровня",
+	x: 4.0d,
+	y: -0.5d,
+	description: "Мощь",
+	text: [
+		"Гайя 3-го уровня призывается билетом.",
+		"",
+		"&l[&6!&f&l]&f  Начиная с 3 уровня Гайи, инвентарь игрока имеет ограничение на предметы из других модов. ",
+		"",
+		"Гайа призовётся, если в вашем инвентаре есть &eтолько предметы из ботании и ванильного майнкрафта."
+	],
+	dependencies: [
+		"fc9bdc41"
+	],
+	tasks: [{
+		uid: "104686b4",
+		type: "item",
+		items: [{
+			item: "extrabotany:material 1 6"
+		}]
+	},
+	{
+		uid: "c8673b8e",
+		type: "kill",
+		icon: "botania:gaiahead",
+		entity: "extrabotany:gaiaiii",
+		value: 2L
+	}],
+	rewards: [{
+		uid: "3e24e4f4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "7f127b54",
+		type: "item",
+		item: "simpletools:lootbox_botania"
+	}]
+}

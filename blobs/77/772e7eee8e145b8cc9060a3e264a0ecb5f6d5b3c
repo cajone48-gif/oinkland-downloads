@@ -1,0 +1,33 @@
+{
+	title: "Топливо",
+	x: -13.5d,
+	y: 4.5d,
+	description: "Но не для машины",
+	text: [
+		"Элементы различных крафтов.",
+		"",
+		"&l[&6!&f&l]&f Топливо кошмаров может служить источником маны, необходимо бросить на пламя края."
+	],
+	dependencies: [
+		"02dcbdfc"
+	],
+	tasks: [{
+		uid: "f6dc8032",
+		type: "item",
+		items: [{
+			item: "extrabotany:nightmarefuel"
+		}]
+	},
+	{
+		uid: "7212c04e",
+		type: "item",
+		items: [{
+			item: "extrabotany:spiritfuel"
+		}]
+	}],
+	rewards: [{
+		uid: "0fb47f20",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

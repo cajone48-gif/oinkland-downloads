@@ -1,0 +1,79 @@
+import mods.thaumcraft.ArcaneWorkbench;
+import mods.thaumcraft.Infusion;
+
+# xb1tnatorV for SIMPLEMINECRAFT
+
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("simplemagic:ichor_helm", "ICHORARMOR", 150, [<aspect:aer> * 20, <aspect:terra> * 20, <aspect:ignis> * 20, <aspect:aqua> * 20, <aspect:ordo> * 20, <aspect:perditio> * 20], <simplemagic:ichor_helm>, [[
+<simplemagic:material:2>, <simplemagic:material:2>, <simplemagic:material:2>], [<simplemagic:material:2>, <thaumcraft:thaumium_helm>, <simplemagic:material:2>], [null, null, null]]);
+
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("simplemagic:ichor_chest", "ICHORARMOR", 150, [<aspect:aer> * 20, <aspect:terra> * 20, <aspect:ignis> * 20, <aspect:aqua> * 20, <aspect:ordo> * 20, <aspect:perditio> * 20], <simplemagic:ichor_chest>, [[
+<simplemagic:material:2>, null, <simplemagic:material:2>], [<simplemagic:material:2>, <thaumcraft:thaumium_chest>, <simplemagic:material:2>], [<simplemagic:material:2>, <simplemagic:material:2>, <simplemagic:material:2>]]);
+
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("simplemagic:ichor_legs", "ICHORARMOR", 150, [<aspect:aer> * 20, <aspect:terra> * 20, <aspect:ignis> * 20, <aspect:aqua> * 20, <aspect:ordo> * 20, <aspect:perditio> * 20], <simplemagic:ichor_legs>, [[
+<simplemagic:material:2>, <simplemagic:material:2>, <simplemagic:material:2>], [<simplemagic:material:2>, <thaumcraft:thaumium_legs>, <simplemagic:material:2>], [<simplemagic:material:2>, null, <simplemagic:material:2>]]);
+
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("simplemagic:ichor_boots", "ICHORARMOR", 150, [<aspect:aer> * 20, <aspect:terra> * 20, <aspect:ignis> * 20, <aspect:aqua> * 20, <aspect:ordo> * 20, <aspect:perditio> * 20], <simplemagic:ichor_boots>, [[
+null, null, null], [<simplemagic:material:2>, null, <simplemagic:material:2>], [<simplemagic:material:2>, <thaumcraft:thaumium_boots>, <simplemagic:material:2>]]);
+
+# --- PRIMAL WELL
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("simplemagic:primal_well", "PRIMAL_WELL", 200, [<aspect:aer> * 50, <aspect:terra> * 50, <aspect:ignis> * 50, <aspect:aqua> * 50, <aspect:ordo> * 50, <aspect:perditio> * 50], <simplemagic:primal_well>, [[
+<minecraft:feather>, <thaumcraft:primordial_pearl>, <minecraft:glass_bottle>], [null, null, null], [null, null, null]]);
+
+# --- SANITY RESET
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("simplemagic:sanity_reset", "PURE_TEAR", 100, [<aspect:aer> * 8, <aspect:terra> * 8, <aspect:ignis> * 8, <aspect:aqua> * 8, <aspect:ordo> * 8, <aspect:perditio> * 8], <simplemagic:sanity_reset>, [[
+<thaumcraft:bath_salts>, <witchery:purified_milk>, <thaumcraft:bath_salts>], [<thaumcraft:fabric>, <minecraft:paper>, <thaumcraft:fabric>], [<thaumcraft:sanity_soap>, <thaumcraft:spa>, <thaumcraft:sanity_soap>]]);
+
+# --- ANTI WARP AMULET
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("simplemagic:anti_warp_amulet", "ANTI_WARP_AMULET", 150, [<aspect:aer> * 16, <aspect:terra> * 16, <aspect:ignis> * 16, <aspect:aqua> * 16, <aspect:ordo> * 16, <aspect:perditio> * 16], <simplemagic:anti_warp_amulet>, [[
+<thaumcraft:salis_mundus>, <thaumcraft:mind:1>, <thaumcraft:salis_mundus>], [<thaumcraft:plate:3>, <thaumcraft:baubles:4>, <thaumcraft:plate:3>], [<thaumcraft:module>, <thaumcraft:bath_salts>, <thaumcraft:module>]]);
+
+# --- INFUSION ICHOR
+mods.thaumcraft.Infusion.removeRecipe(<simplemagic:kami_helm>);
+mods.thaumcraft.Infusion.removeRecipe(<simplemagic:kami_chest>);
+mods.thaumcraft.Infusion.removeRecipe(<simplemagic:kami_legs>);
+mods.thaumcraft.Infusion.removeRecipe(<simplemagic:kami_boots>);
+
+mods.thaumcraft.Infusion.registerRecipe("simplemagic:kami_helm", "KAMIHELM", <simplemagic:kami_helm>, 20, [
+<aspect:lux> * 768, <aspect:aqua> * 768, <aspect:auram> * 768, <aspect:praemunio> * 768, <aspect:cognitio> * 768, <aspect:victus> * 768], <simplemagic:ichor_helm>, [
+<minecraft:ender_eye>, <minecraft:diamond>, <simplemagic:material:1>, <simplemagic:material:1>,
+<thaumcraft:thaumonomicon>, <minecraft:chorus_fruit_popped>, <minecraft:golden_helmet>, <minecraft:potion>.withTag({Potion: "minecraft:long_night_vision"}),
+<thaumcraft:goggles>, <minecraft:ghast_tear>, <minecraft:fish>, <minecraft:cake>]);
+
+mods.thaumcraft.Infusion.registerRecipe("simplemagic:kami_chest", "KAMICHEST", <simplemagic:kami_chest>, 20, [
+<aspect:lux> * 768, <aspect:aer> * 768, <aspect:praemunio> * 768, <aspect:volatus> * 768, <aspect:ordo> * 768, <aspect:alienis> * 768], <simplemagic:ichor_chest>, [
+<minecraft:arrow>, <minecraft:diamond>, <simplemagic:material:1>, <simplemagic:material:1>,
+<thaumcraft:thaumonomicon>, <minecraft:chorus_fruit_popped>, <minecraft:golden_chestplate>, <thaumcraft:cloud_ring>,
+<minecraft:elytra>, <minecraft:shield>, <minecraft:feather>, <minecraft:ghast_tear>]);
+
+mods.thaumcraft.Infusion.registerRecipe("simplemagic:kami_legs", "KAMILEGS", <simplemagic:kami_legs>, 20, [
+<aspect:lux> * 768, <aspect:aer> * 768, <aspect:praemunio> * 768, <aspect:volatus> * 768, <aspect:ordo> * 768, <aspect:alienis> * 768], <simplemagic:ichor_legs>, [
+<minecraft:blaze_rod>, <minecraft:diamond>, <simplemagic:material:1>, <simplemagic:material:1>,
+<thaumcraft:thaumonomicon>, <minecraft:chorus_fruit_popped>, <minecraft:golden_leggings>, <minecraft:potion>.withTag({Potion: "minecraft:fire_resistance"}),
+<thaumcraft:module:1>, <thaumcraft:lamp_arcane>, <minecraft:lava_bucket>, <minecraft:fire_charge>]);
+
+mods.thaumcraft.Infusion.registerRecipe("simplemagic:kami_boots", "KAMIBOOTS", <simplemagic:kami_boots>, 20, [
+<aspect:lux> * 768, <aspect:terra> * 768, <aspect:praemunio> * 768, <aspect:instrumentum> * 768, <aspect:motus> * 768, <aspect:herba> * 768], <simplemagic:ichor_boots>, [
+<minecraft:blaze_rod>, <minecraft:diamond>, <simplemagic:material:1>, <simplemagic:material:1>,
+<thaumcraft:thaumonomicon>, <minecraft:chorus_fruit_popped>, <minecraft:golden_boots>, <thaumcraft:grass_ambient>,
+<minecraft:wheat_seeds>, <thaumcraft:lamp_growth>, <thaumcraft:turret:2>, <minecraft:wool>]);
+
+# --- ESSENTIA COMPRESSOR
+mods.thaumcraft.Infusion.registerRecipe("simplemagic:essentia_compressor", "ESSENTIA_COMPRESSOR", <simplemagic:essentia_compressor>, 20, [
+<aspect:aer> * 1024, <aspect:ignis> * 1024, <aspect:terra> * 1024, <aspect:ordo> * 1024, <aspect:aqua> * 1024, <aspect:perditio> * 1024], <thaumcraft:metal_alchemical_advanced>, [
+<thaumcraft:smelter_aux>, <thaumcraft:smelter_vent>, <thaumadditions:jar_mithrillium>, <simplemagic:material:1>,
+<thaumcraft:metal_void>, <thaumcraft:tube_buffer>, <thaumcraft:crucible>, <thaumcraft:tube_buffer>,
+<thaumcraft:metal_void>, <simplemagic:material:1>, <thaumadditions:jar_mithrillium>, <thaumcraft:smelter_vent>]);
+
+# --- SKULLAXE
+mods.thaumcraft.Infusion.removeRecipe(<simplemagic:skullaxe>);
+mods.thaumcraft.Infusion.registerRecipe("simplemagic:skullaxe", "SKULL_AXE", <simplemagic:skullaxe>, 20, [
+<aspect:victus> * 64, <aspect:aversio> * 64, <aspect:mortuus> * 64], <thaumcraft:thaumium_axe>, [
+<botania:manaresource:2>, <simplemagic:material:4>, <minecraft:diamond>, <botania:rune:13>, <botania:manaresource:2>,
+<simplemagic:material:4>, <minecraft:diamond>, <minecraft:skull:1>]);
+
+# --- MOB MAGNET
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("simplemagic:mob_magnet", "MOB_MAGNET", 50, 
+[<aspect:aer> * 3, <aspect:terra> * 3, <aspect:ordo> * 3], <simplemagic:mob_magnet>, 
+[[null, <aoa3:limonite_block>, null], 
+ [<thaumcraft:mechanism_simple>, <minecraft:iron_ingot>, <thaumcraft:mechanism_simple>], 
+ [<thaumcraft:stone_arcane>, <thaumcraft:focus_2>, <thaumcraft:stone_arcane>]]);

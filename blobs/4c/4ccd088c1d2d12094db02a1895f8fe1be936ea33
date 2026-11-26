@@ -1,0 +1,26 @@
+{
+	title: "Алхимический катализатор",
+	x: -12.0d,
+	y: 8.0d,
+	description: "Из одного в другое",
+	text: [
+		"Катализатор необходимо установить под бассейн с маной.",
+		"",
+		"Благодаря ему можно делать различные превращения одних предметов в другие, бросив их в бассейн."
+	],
+	dependencies: [
+		"02dcbdfc"
+	],
+	tasks: [{
+		uid: "69afaf05",
+		type: "item",
+		items: [{
+			item: "botania:alchemycatalyst"
+		}]
+	}],
+	rewards: [{
+		uid: "1c8e61a2",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

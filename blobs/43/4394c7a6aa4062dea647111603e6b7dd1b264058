@@ -1,0 +1,47 @@
+{
+	title: "Сборные кристаллы",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:blockcelestialcollectorcrystal",
+		tag: {
+			astralsorcery: {
+				constellationName: "astralsorcery.constellation.discidia",
+				collectorType: 1,
+				crystalProperties: {
+					size: 900,
+					purity: 100,
+					fract: 0,
+					collectiveCapability: 100,
+					sizeOverride: -1
+				}
+			}
+		}
+	},
+	x: -27.5d,
+	y: -4.0d,
+	description: "Наконец-то он стал переносным",
+	text: [
+		"Сборные кристаллы служат заменой летающих кристаллов, что вы уже видели в храме.",
+		"",
+		"&7Чем лучше кристалл с которого делается, тем лучше сборный."
+	],
+	dependencies: [
+		"4fafef9f"
+	],
+	tasks: [{
+		uid: "9137bfbd",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "c69d45eb",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "7716d312",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	description: "Контроль над мертвецами",
+	text: [
+		"Данный камень создаётся ночью с помощью &eритуала.&f",
+		"",
+		"Количество энергии и ингредиенты для создания описаны в книге Ведьмовство: Магия кругов - &eстр. 68.&f"
+	],
+	dependencies: [
+		"f8d4641e"
+	],
+	tasks: [{
+		uid: "35189d05",
+		type: "item",
+		items: [{
+			item: "witchery:necromantic_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "9aac7483",
+		type: "item",
+		item: "simpletools:lootbox_witchery"
+	},
+	{
+		uid: "a9026018",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

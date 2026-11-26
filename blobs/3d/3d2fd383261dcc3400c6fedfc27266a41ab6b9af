@@ -1,0 +1,31 @@
+{
+	title: "Игроман II",
+	x: 6.942857142857143d,
+	y: -3.535714285714299d,
+	shape: "square",
+	description: "Проведите на сервере 8 часов",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3381c281"
+	],
+	tasks: [{
+		uid: "f6ede1a6",
+		type: "stat",
+		icon: "minecraft:clock",
+		stat: "stat.playOneMinute",
+		value: 576000
+	}],
+	rewards: [{
+		uid: "b8b30acf",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "0cc12588",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

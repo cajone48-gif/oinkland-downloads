@@ -1,0 +1,31 @@
+{
+	title: "Игроман VIII",
+	x: 6.9387755102040956d,
+	y: 0.9846938775510239d,
+	shape: "square",
+	description: "Проведите на сервере 168 часов",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b1883f5d"
+	],
+	tasks: [{
+		uid: "f4594ea2",
+		type: "stat",
+		icon: "minecraft:clock",
+		stat: "stat.playOneMinute",
+		value: 12096000
+	}],
+	rewards: [{
+		uid: "20264d16",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "ea1a6091",
+		type: "ftbmoney:money",
+		ftb_money: 1600L
+	}]
+}

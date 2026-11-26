@@ -1,0 +1,39 @@
+{
+	title: "Это не воск",
+	icon: "thaumcraft:tallow",
+	x: 1.0d,
+	y: -22.5d,
+	description: "Ммм...романтика",
+	text: [
+		"&eСвечи&f не только освещают пространство, но и являются стабилизаторами матрицы."
+	],
+	dependencies: [
+		"7c204714"
+	],
+	tasks: [{
+		uid: "6ea2266b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tallow"
+		}],
+		count: 6L
+	},
+	{
+		uid: "31cadc3f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:candle_white"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "9560ebe7",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "d4299a30",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

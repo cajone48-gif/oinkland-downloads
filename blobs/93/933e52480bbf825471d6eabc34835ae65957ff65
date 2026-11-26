@@ -1,0 +1,30 @@
+{
+	title: "Маленький Бам.",
+	x: 0.5d,
+	y: 2.5d,
+	text: [
+		"Первый из них Король БамБамБам (АКА Барон взрывчатки), который призывается при помощи Идола взрыва. ",
+		"",
+		"&7Идол взрыва можно получить из Маленького бама."
+	],
+	dependencies: [
+		"a0ada766"
+	],
+	tasks: [{
+		uid: "46657ce9",
+		type: "item",
+		items: [{
+			item: "aoa3:explosive_idol"
+		}]
+	}],
+	rewards: [{
+		uid: "a9fe6ab7",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "1fc824b6",
+		type: "item",
+		item: "aoa3:treasure_box"
+	}]
+}

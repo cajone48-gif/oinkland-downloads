@@ -1,0 +1,22 @@
+{
+	x: 7.5d,
+	y: -18.5d,
+	text: [
+		"Позволяет находить изломы!"
+	],
+	dependencies: [
+		"a6f15fc8"
+	],
+	tasks: [{
+		uid: "d84fcb8f",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:fracture_locator"
+		}]
+	}],
+	rewards: [{
+		uid: "e5e31f53",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

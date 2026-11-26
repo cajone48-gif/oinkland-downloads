@@ -1,0 +1,67 @@
+{
+	title: "Адская печь",
+	icon: "minecraft:nether_brick",
+	x: -2.5d,
+	y: -16.5d,
+	description: "Пшшш..",
+	text: [
+		"Следуйте инструкциям из таумономикона для постройки конструкции.",
+		"",
+		"Кидайте предметы сверху, печь их плавит и выплевывает."
+	],
+	dependencies: [
+		"1af03bae"
+	],
+	tasks: [{
+		uid: "f94bca88",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_brick"
+		}],
+		count: 12L
+	},
+	{
+		uid: "74f0c6f7",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 12L
+	},
+	{
+		uid: "e2894bbf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:lava_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "28f9f06e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	},
+	{
+		uid: "dc5da2ea",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_bars"
+		}]
+	}],
+	rewards: [{
+		uid: "55c8b9db",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "a9db32cc",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

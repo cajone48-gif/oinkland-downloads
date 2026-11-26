@@ -1,0 +1,38 @@
+{
+	x: -50.5d,
+	y: -6.0d,
+	description: "Таумономикон?",
+	text: [
+		"На очереди идёт книга, которую можно назвать аналогом таумономикона с таумкрафта, так сказать \"путеводитель\" по моду"
+	],
+	dependencies: [
+		"3918babe"
+	],
+	tasks: [{
+		uid: "0ab475e2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemjournal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ff1e0044",
+		type: "item",
+		item: "simpletools:lootbox_astralsorcery"
+	},
+	{
+		uid: "99e39267",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "f8a70241",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

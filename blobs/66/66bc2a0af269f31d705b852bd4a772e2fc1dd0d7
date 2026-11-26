@@ -1,0 +1,34 @@
+{
+	title: "Лаящий ремень",
+	x: 5.5d,
+	y: -9.5d,
+	description: "Гав-гав",
+	text: [
+		"Если надеть ремень, элементы брони, сделанные из пропитанной кожи, будут получать двойную защиту."
+	],
+	dependencies: [
+		"40e814cd"
+	],
+	tasks: [{
+		uid: "182a3e5b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "witchery:bark_belt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e7343e60",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "82a713ba",
+		type: "item",
+		item: "simpletools:lootbox_witchery_jars"
+	}]
+}

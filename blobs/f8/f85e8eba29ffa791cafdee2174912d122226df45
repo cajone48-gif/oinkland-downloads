@@ -1,0 +1,31 @@
+{
+	title: "По костям.",
+	x: 18.5d,
+	y: 1.0d,
+	description: "Комната #4",
+	text: [
+		"Четвёртая комната. ",
+		"",
+		"Здесь вам предстоит убить &e25 скелетных духов&f, затем можете просто нажать на &eПрогрессор Имморталиса&f."
+	],
+	dependencies: [
+		"da291d82"
+	],
+	tasks: [{
+		uid: "f03f98d0",
+		type: "kill",
+		entity: "aoa3:skeledon",
+		value: 13L
+	},
+	{
+		uid: "3bb4567c",
+		type: "kill",
+		entity: "aoa3:skelekyte",
+		value: 12L
+	}],
+	rewards: [{
+		uid: "be96c28d",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+  "functionalFlowers": {
+    "serenitian": {
+      "workTick": 100,
+      "range": 12,
+      "manaPerTick": 100,
+      "maxMana": 10000,
+      "color": 1
+    }
+  },
+  "propertyEclipseFlower": {
+    "workTickBase": 60,
+    "maxMana": 10000,
+    "color": 8900346,
+    "items": [
+      {
+        "itemName": "minecraft:ender_eye",
+        "manaAmount": 1500
+      },
+      {
+        "itemName": "minecraft:ender_pearl",
+        "manaAmount": 1100
+      }
+    ]
+  }
+}

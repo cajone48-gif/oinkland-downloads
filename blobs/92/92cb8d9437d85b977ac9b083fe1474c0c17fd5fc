@@ -1,0 +1,30 @@
+{
+	title: "Страна самоцветов.",
+	x: 5.0d,
+	y: 1.0d,
+	text: [
+		"Чтобы попасть в этот мир, вам необходимо найти в Глубоких землях моба Корпусная конструкция и использовать на нём глубинный кристалл, который находится там же. ",
+		"",
+		"[&e!&f] &7Учтите, что в вашем инвентаре должен находится пустой камень царства"
+	],
+	dependencies: [
+		"2dc66769"
+	],
+	tasks: [{
+		uid: "168f2c2d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "aoa3:crystevia_realmstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ee9d0b08",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

@@ -1,0 +1,175 @@
+{
+	title: "Друзей много не бывает!",
+	x: -3.0d,
+	y: -7.0d,
+	shape: "octagon",
+	description: "Даже таких...",
+	text: [
+		"Собери все плитки, чтоб иметь в запасе много друзей, готовых подставить спину ради тебя.",
+		"",
+		"&Учтите, что их призыв в прямом смысле слова кушают ваши очки навыка \"создание\"."
+	],
+	dependencies: [
+		"62d25bd7"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "7e543eda",
+		type: "item",
+		items: [{
+			item: "aoa3:horntail_slab"
+		}]
+	},
+	{
+		uid: "83d3d839",
+		type: "item",
+		items: [{
+			item: "aoa3:mecha_skellox_slab"
+		}]
+	},
+	{
+		uid: "dbdcec54",
+		type: "item",
+		items: [{
+			item: "aoa3:waggy_slab"
+		}]
+	},
+	{
+		uid: "10da21f7",
+		type: "item",
+		items: [{
+			item: "aoa3:mecha_cyclops_slab"
+		}]
+	},
+	{
+		uid: "f3654eb6",
+		type: "item",
+		items: [{
+			item: "aoa3:penguin_slab"
+		}]
+	},
+	{
+		uid: "c3c9b7cc",
+		type: "item",
+		items: [{
+			item: "aoa3:plateosaur_slab"
+		}]
+	},
+	{
+		uid: "13188d59",
+		type: "item",
+		items: [{
+			item: "aoa3:rammerhorn_slab"
+		}]
+	},
+	{
+		uid: "1d0adf69",
+		type: "item",
+		items: [{
+			item: "aoa3:shaddy_slab"
+		}]
+	},
+	{
+		uid: "eeb8e074",
+		type: "item",
+		items: [{
+			item: "aoa3:blissard_slab"
+		}]
+	},
+	{
+		uid: "5327097c",
+		type: "item",
+		items: [{
+			item: "aoa3:alluricorn_slab"
+		}]
+	},
+	{
+		uid: "5ad6af87",
+		type: "item",
+		items: [{
+			item: "aoa3:spraggy_slab"
+		}]
+	},
+	{
+		uid: "40299d9b",
+		type: "item",
+		items: [{
+			item: "aoa3:spikeback_slab"
+		}]
+	},
+	{
+		uid: "43e83027",
+		type: "item",
+		items: [{
+			item: "aoa3:hellquin_slab"
+		}]
+	},
+	{
+		uid: "7ca6fbd4",
+		type: "item",
+		items: [{
+			item: "aoa3:compeer_slab"
+		}]
+	},
+	{
+		uid: "80594ce4",
+		type: "item",
+		items: [{
+			item: "aoa3:corby_slab"
+		}]
+	},
+	{
+		uid: "5f6773f1",
+		type: "item",
+		items: [{
+			item: "aoa3:construct_of_servility_slab"
+		}]
+	},
+	{
+		uid: "37229566",
+		type: "item",
+		items: [{
+			item: "aoa3:craggy_slab"
+		}]
+	},
+	{
+		uid: "084b92eb",
+		type: "item",
+		items: [{
+			item: "aoa3:draggy_slab"
+		}]
+	},
+	{
+		uid: "8cfeb3fa",
+		type: "item",
+		items: [{
+			item: "aoa3:ender_carrier_slab"
+		}]
+	},
+	{
+		uid: "66726131",
+		type: "item",
+		items: [{
+			item: "aoa3:gnawer_slab"
+		}]
+	},
+	{
+		uid: "c9bb321d",
+		type: "item",
+		items: [{
+			item: "aoa3:goofer_slab"
+		}]
+	},
+	{
+		uid: "223390a1",
+		type: "item",
+		items: [{
+			item: "aoa3:healing_golem_slab"
+		}]
+	}],
+	rewards: [{
+		uid: "7b387f71",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

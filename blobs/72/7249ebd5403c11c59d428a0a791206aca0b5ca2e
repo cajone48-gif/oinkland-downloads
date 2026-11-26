@@ -1,0 +1,139 @@
+{
+	title: "Карта путешествий",
+	x: -4.0d,
+	y: -5.5d,
+	shape: "gear",
+	description: "Отмечает, где ты был",
+	text: [
+		"Посети все измерения, дабы показать, кто тут настоящий исследователь!"
+	],
+	dependencies: [
+		"b1fecbca"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "dba6990f",
+		type: "dimension",
+		dim: 800
+	},
+	{
+		uid: "a6f2b928",
+		type: "dimension",
+		dim: 801
+	},
+	{
+		uid: "08959790",
+		type: "dimension",
+		dim: 802
+	},
+	{
+		uid: "c7271bb8",
+		type: "dimension",
+		dim: 803
+	},
+	{
+		uid: "4801de63",
+		type: "dimension",
+		dim: 804
+	},
+	{
+		uid: "0b2d20ed",
+		type: "dimension",
+		dim: 805
+	},
+	{
+		uid: "417ebef2",
+		type: "dimension",
+		dim: 806
+	},
+	{
+		uid: "0f60295c",
+		type: "dimension",
+		dim: 807
+	},
+	{
+		uid: "2deff35d",
+		type: "dimension",
+		dim: 808
+	},
+	{
+		uid: "b34a2116",
+		type: "dimension",
+		dim: 809
+	},
+	{
+		uid: "5de6beb7",
+		type: "dimension",
+		dim: 810
+	},
+	{
+		uid: "12347147",
+		type: "dimension",
+		dim: 811
+	},
+	{
+		uid: "73429e2e",
+		type: "dimension",
+		dim: 812
+	},
+	{
+		uid: "acc76156",
+		type: "dimension",
+		dim: 813
+	},
+	{
+		uid: "1f115a19",
+		type: "dimension",
+		dim: 814
+	},
+	{
+		uid: "c6503df3",
+		type: "dimension",
+		dim: 815
+	},
+	{
+		uid: "340cb13d",
+		type: "dimension",
+		dim: 816
+	},
+	{
+		uid: "8089c6b2",
+		type: "dimension",
+		dim: 817
+	},
+	{
+		uid: "ada255d6",
+		type: "dimension",
+		dim: 818
+	},
+	{
+		uid: "9bf5371b",
+		type: "dimension",
+		dim: 819
+	},
+	{
+		uid: "f5c8d317",
+		type: "dimension",
+		dim: 820
+	},
+	{
+		uid: "bef5ce66",
+		type: "dimension",
+		dim: 821
+	},
+	{
+		uid: "a3d50346",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "c7a89199",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "d99c6415",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

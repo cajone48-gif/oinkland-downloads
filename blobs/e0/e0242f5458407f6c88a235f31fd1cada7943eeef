@@ -1,0 +1,49 @@
+{
+	x: -29.5d,
+	y: -6.0d,
+	description: "Это что, обломок кометы?",
+	text: [
+		"Пришло время выростить лучше версию кристаллов, а именно небесные кристаллы",
+		"",
+		"&7Для этого сделайте ямку в которую направьте свет от летающего кристалла, влейте туда звёздный свет и вкиньте горный кристалл с пылью",
+		"",
+		"Через какое-то время эта \"парочка\" впитает в себя свет и начнёт расти небесный кристалл",
+		"",
+		"Когда тот станет достаточно большим и начнёт искриться его можно сломать "
+	],
+	dependencies: [
+		"8413f98e"
+	],
+	tasks: [{
+		uid: "ae88f85f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemcelestialcrystal",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						size: 900,
+						purity: 100,
+						fract: 0,
+						collectiveCapability: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "80a426de",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "44bfa044",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

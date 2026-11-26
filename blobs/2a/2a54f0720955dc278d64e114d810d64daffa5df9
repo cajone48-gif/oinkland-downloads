@@ -1,0 +1,64 @@
+{
+	title: "Кровавый алтарь Ур.3",
+	icon: "bloodmagic:altar",
+	x: 33.5d,
+	y: -11.0d,
+	shape: "square",
+	description: "Еще более кровавый алтарь",
+	text: [
+		"&fВторое улучшение вашего &cАлтаря&f.",
+		"",
+		"Отступив по 1 блоку вниз и в бок от вашего алтаря 2 уровня, создайте кольцо без углов из рун. ",
+		"",
+		"Отступив 1 блок вверх по углам необходимо установить друг на друга 2 любых твердых блока и уже поверх этих блоков поместить &cСветокамни/Морские фонари&f",
+		"",
+		"&cВам потребуется:",
+		"&620x&c Руны",
+		"&64x&c Светокамни, либо Морские фонари"
+	],
+	dependencies: [
+		"cf0b5399"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "525b5493",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate 1 2"
+		}]
+	},
+	{
+		uid: "968d6414",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune"
+		}],
+		count: 20L
+	}],
+	rewards: [{
+		uid: "34c51668",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "822fb87c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "4f6be513",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 4",
+		count: 4
+	},
+	{
+		uid: "1d56c265",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_regeneration"
+			}
+		}
+	}]
+}

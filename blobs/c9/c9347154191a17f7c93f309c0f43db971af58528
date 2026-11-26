@@ -1,0 +1,40 @@
+{
+	x: -37.0d,
+	y: -4.0d,
+	description: "Помогатор",
+	text: [
+		"Секстант - предмет который тебе поможет увидеть поэтапно нужную тебе конструкцию.",
+		"",
+		"&7Для того чтобы увидеть, ПКМ по главному блоку, например звёздному алтарю.",
+		"",
+		"Так же помогает найти храмы."
+	],
+	dependencies: [
+		"35f6675d"
+	],
+	tasks: [{
+		uid: "f886a14c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemsextant",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "455c0677",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "43922f2c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

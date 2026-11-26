@@ -1,0 +1,30 @@
+{
+	title: "Сезон урожая.",
+	x: -8.5d,
+	y: 7.0d,
+	text: [
+		"Чтобы попасть в Гарденсию необходимо посадить и вырастить в Прекрасии морковку, и кинуть туда пустой камень царства(урожай собирать не нужно).",
+		"",
+		"Перед вами появится Примитивный рыжик, которого нужно будет убить. "
+	],
+	dependencies: [
+		"701d57d1"
+	],
+	tasks: [{
+		uid: "d799a38a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "aoa3:gardencia_realmstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "afd616ec",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

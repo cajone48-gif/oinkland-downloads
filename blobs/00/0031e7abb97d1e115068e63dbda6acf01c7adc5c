@@ -1,0 +1,51 @@
+{
+	x: -13.5d,
+	y: -9.0d,
+	shape: "hexagon",
+	description: "Божественный нагрудник!",
+	text: [
+		"&eРоба даёт следующие эффекты:&f",
+		"",
+		"Полёт",
+		"",
+		"Дополнительное здоровье (+20 единиц HP)",
+		"",
+		"Увеличение скорости передвижения",
+		"",
+		"Огнестойкость",
+		"",
+		"Уменьшение затрат вис 20%"
+	],
+	dependencies: [
+		"62306631",
+		"684714c4"
+	],
+	tasks: [{
+		uid: "c5ab314d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumadditions:mithminite_robe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "12678b87",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft",
+		count: 3
+	},
+	{
+		uid: "89e3144e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "e9862a0e",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

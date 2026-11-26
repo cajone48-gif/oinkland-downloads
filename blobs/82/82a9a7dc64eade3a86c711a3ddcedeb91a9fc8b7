@@ -1,0 +1,25 @@
+{
+	title: "Чешуя Наги",
+	x: 2.0d,
+	y: -2.0d,
+	description: "Прочная...",
+	text: [
+		"Чешуя Наги является одним из трофеев Наги."
+	],
+	dependencies: [
+		"18f0d9bb"
+	],
+	tasks: [{
+		uid: "4c189e84",
+		type: "item",
+		items: [{
+			item: "twilightforest:naga_scale"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "850a8883",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

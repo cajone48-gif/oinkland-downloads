@@ -1,0 +1,63 @@
+{
+	title: "Фокус!",
+	x: 1.5d,
+	y: -14.5d,
+	description: "Меня так легко отвлечь..",
+	text: [
+		"Создайте два вида ненастроенных линз, а так же сумочку для их хранения."
+	],
+	dependencies: [
+		"8e7bca3c"
+	],
+	tasks: [{
+		uid: "2b8603aa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:focus_pouch"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0aeb2f41",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:focus_2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4e1bd942",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:focus_3"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a6b93583",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "9ed79ae8",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "a2f025c4",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

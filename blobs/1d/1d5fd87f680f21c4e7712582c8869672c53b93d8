@@ -1,0 +1,31 @@
+{
+	x: 0.0d,
+	y: -8.5d,
+	description: "Микро кинжалик",
+	text: [
+		"&eАртана&f увеличивает радиус действия Алтаря в 2 раза.",
+		"",
+		"Артаной с небольшим шансом можно выбить из мобов &eспектральную пыль&f. ",
+		"Наибольший шанс выпадения при убийстве скелетов."
+	],
+	dependencies: [
+		"e85025de"
+	],
+	tasks: [{
+		uid: "28d2e33b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "witchery:arthana"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2f5f3a3e",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

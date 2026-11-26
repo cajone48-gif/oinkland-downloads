@@ -1,0 +1,37 @@
+{
+	x: 2.0d,
+	y: 16.0d,
+	description: "Он слишком твёрдый!",
+	text: [
+		"Гигантский обсидиан можно найти в шахте дождливого биома.",
+		"",
+		"&7[&6!&f&7] Его можно сломать только гигантской каменной киркой.",
+		"",
+		"&fСломайте его, чтобы открыть вход в сокровищницу."
+	],
+	dependencies: [
+		"a340292e"
+	],
+	tasks: [{
+		uid: "b157d796",
+		type: "item",
+		items: [{
+			item: "twilightforest:giant_obsidian"
+		}]
+	}],
+	rewards: [{
+		uid: "6d7111cd",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "aad45bdb",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:strong_strength"
+			}
+		}
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	x: -2.0d,
+	y: 9.0d,
+	description: "Я выжил!",
+	text: [
+		"Держите амулет жизни в инвентаре, он спасёт вашу жизнь при получении смертельного урона."
+	],
+	dependencies: [
+		"d374be71"
+	],
+	tasks: [{
+		uid: "a3f0af3e",
+		type: "item",
+		items: [{
+			item: "twilightforest:charm_of_life_1"
+		}]
+	}],
+	rewards: [{
+		uid: "ffef0cca",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "6eab63d6",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:strong_regeneration"
+			}
+		}
+	}]
+}

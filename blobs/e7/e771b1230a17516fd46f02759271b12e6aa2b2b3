@@ -1,0 +1,39 @@
+{
+	title: "Древняя реликвия.",
+	x: 5.0d,
+	y: 14.5d,
+	text: [
+		"Найдите под землёй, а затем вскопайте Ширкаменную руду и Руду из самоцвета шир. ",
+		"",
+		"Переплавьте Ширкаменную руду в слиток и купите кольцо у Лучника."
+	],
+	dependencies: [
+		"aad43b3b"
+	],
+	tasks: [{
+		uid: "a38d8d77",
+		type: "item",
+		items: [{
+			item: "aoa3:shyrestone_ingot"
+		}],
+		count: 2L
+	},
+	{
+		uid: "41875758",
+		type: "item",
+		items: [{
+			item: "aoa3:shyregem"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "d95e6ec6",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "3d61eb94",
+		type: "item",
+		item: "aoa3:treasure_box"
+	}]
+}

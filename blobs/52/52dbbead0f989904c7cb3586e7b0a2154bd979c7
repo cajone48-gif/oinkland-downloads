@@ -1,0 +1,22 @@
+{
+	title: "&6Лечение от ликантропии",
+	icon: "thaumcraft:sanity_soap",
+	x: -10.0d,
+	y: 1.0d,
+	text: [
+		"&l[&6!&f&l]&f Избавление от ликантропии проводится с помощью обряда снятия проклятия - Ведьмовство: Магия кругов - &eстр. 87&f."
+	],
+	dependencies: [
+		"7eabf7d9"
+	],
+	tasks: [{
+		uid: "072a58a4",
+		type: "checkmark",
+		title: "Я больше не хочу быть оборотнем!"
+	}],
+	rewards: [{
+		uid: "b7d1f9f9",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

@@ -1,0 +1,47 @@
+{
+	title: "Доспехи Фантома",
+	x: 4.0d,
+	y: 6.0d,
+	description: "Наверное, потому что у призраков нет ног...",
+	text: [
+		"После убийства призраков рыцаря в появившемся сундуке могут оказаться доспехи Фантома."
+	],
+	can_repeat: true,
+	dependencies: [
+		"90e61ba2"
+	],
+	tasks: [{
+		uid: "af0c073b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:phantom_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c2d86f46",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:phantom_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8463bdcc",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "e029d080",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

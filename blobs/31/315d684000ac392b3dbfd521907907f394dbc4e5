@@ -1,0 +1,43 @@
+{
+	title: "&cНаблюдения бессмертного",
+	icon: "witchery:immortals_observations_book",
+	x: -14.5d,
+	y: 4.0d,
+	description: "Как получить 4 уровень?",
+	text: [
+		"Для получения 4 уровня нам понадобится книжка &eObservations of an Immortal&f с девятью порванными страницами.",
+		"",
+		"&7Страницы для книги можно найти в подземельях.&f",
+		"",
+		"Пролистайте полную книгу до конца и проживите сутки, не получив урона от солнца."
+	],
+	dependencies: [
+		"ef6a3a79"
+	],
+	tasks: [{
+		uid: "6a198228",
+		type: "item",
+		items: [{
+			item: "witchery:torn_page"
+		}],
+		count: 9L
+	},
+	{
+		uid: "189aca61",
+		type: "item",
+		items: [{
+			item: "witchery:immortals_observations_book"
+		}]
+	}],
+	rewards: [{
+		uid: "2ae5f5fb",
+		type: "item",
+		item: "witchery:warm_blood",
+		count: 6
+	},
+	{
+		uid: "76d1b58b",
+		type: "item",
+		item: "simpletools:lootbox_witchery_jars"
+	}]
+}

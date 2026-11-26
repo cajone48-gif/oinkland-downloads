@@ -1,0 +1,29 @@
+{
+	title: "Семя пустоты",
+	x: -15.0d,
+	y: -18.5d,
+	shape: "diamond",
+	description: "Тёмный, мрачный",
+	text: [
+		"Важный ингредиент для любого таумтурга, стремящегося к большей силе. ",
+		"",
+		"Используется для изготовления &eПустотного металла&f и многих других полезных приспособлений."
+	],
+	dependencies: [
+		"8d3a3dc6"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "fd86fa68",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_seed"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "47085c9a",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

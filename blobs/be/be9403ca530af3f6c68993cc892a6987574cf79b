@@ -1,0 +1,30 @@
+{
+	title: "Энергия разлома",
+	x: -17.0d,
+	y: -18.5d,
+	text: [
+		"&eПустотный сифон&f извлекает энергию из ближайших разломов и трансформирует её в Семена пустоты, при этом, разлом уменьшается до крошечных размеров.",
+		"",
+		"&l[&6!&f&l]&f Его можно деактивировать с помощью сигнала редстоуна."
+	],
+	dependencies: [
+		"76b9c888"
+	],
+	tasks: [{
+		uid: "ec2af4d9",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_siphon"
+		}]
+	}],
+	rewards: [{
+		uid: "5520fbe0",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "bb39bf8d",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

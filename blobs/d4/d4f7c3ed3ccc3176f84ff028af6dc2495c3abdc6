@@ -1,0 +1,62 @@
+{
+	title: "Настроенные кристаллы",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:itemtunedcelestialcrystal",
+		tag: {
+			astralsorcery: {
+				constellationName: "astralsorcery.constellation.discidia",
+				crystalProperties: {
+					size: 900,
+					purity: 100,
+					fract: 0,
+					collectiveCapability: 100,
+					sizeOverride: -1
+				}
+			}
+		}
+	},
+	x: -38.0d,
+	y: -10.0d,
+	description: "А они что, гитара?",
+	text: [
+		"Кристаллы можно настроить на алтаре настройки"
+	],
+	dependencies: [
+		"9b76ed49"
+	],
+	tasks: [{
+		uid: "e768f057",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemtunedcelestialcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.discidia",
+					crystalProperties: {
+						size: 900,
+						purity: 100,
+						fract: 0,
+						collectiveCapability: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}
+	}],
+	rewards: [{
+		uid: "3df461af",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "261d1b50",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

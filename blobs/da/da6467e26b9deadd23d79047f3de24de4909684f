@@ -1,0 +1,30 @@
+# xb1tnatorV for SIMPLEMINECRAFT
+
+# --- LIVINGWOOD
+recipes.remove(<botania:livingwood:5>);
+recipes.addShaped(<botania:livingwood:5>, [
+	[null, <astralsorcery:itemusabledust>, null],
+	[<astralsorcery:itemusabledust>, <botania:livingwood>, <astralsorcery:itemusabledust>],
+	[null, <astralsorcery:itemusabledust>, null]]);
+
+# --- ALFHEIMPORTAL
+recipes.remove(<botania:alfheimportal>);
+recipes.addShaped(<botania:alfheimportal>, [
+	[<botania:livingwood>, <botania:manaresource:18>, <botania:livingwood>],
+	[<botania:livingwood:5>, <botania:manaresource:18>, <botania:livingwood:5>],
+	[<botania:livingwood>, <botania:manaresource:18>, <botania:livingwood>]]);
+
+# --- POOL #3
+recipes.remove(<botania:pool:3>);
+recipes.addShaped(<botania:pool:3>, [
+	[<botania:shimmerrock>, <botania:shimmerrock>, <botania:shimmerrock>],
+	[<botania:shimmerrock>, <botanicadds:pool_dreaming>, <botania:shimmerrock>],
+	[<botania:manaresource:14>, <botania:manaresource:14>, <botania:manaresource:14>]]);
+
+# --- BELLETHORN
+mods.botania.Apothecary.removeRecipe("bellethorn");
+mods.botania.Apothecary.addRecipe("bellethorn", [<ore:petalRed>, <ore:petalRed>, <ore:petalRed>, <botania:petal:9>, <botania:petal:9>, <twilightforest:thorn_rose>]);
+
+# --- DREADTHORN
+mods.botania.Apothecary.removeRecipe("dreadthorn");
+mods.botania.Apothecary.addRecipe("dreadthorn", [<ore:petalBlack>, <ore:petalBlack>, <ore:petalBlack>, <botania:petal:9>, <botania:petal:9>, <twilightforest:thorn_rose>]);

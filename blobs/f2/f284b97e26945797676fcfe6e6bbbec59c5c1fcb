@@ -1,0 +1,25 @@
+{
+	title: "Шестая комната.",
+	x: 21.5d,
+	y: 1.0d,
+	description: "Комната #6",
+	text: [
+		"В этой комнате вы должны собрать &eчистое золото с Голдусов&f и положить его в аккумулятор. "
+	],
+	dependencies: [
+		"40015907"
+	],
+	tasks: [{
+		uid: "0169b49c",
+		type: "item",
+		items: [{
+			item: "aoa3:pure_gold"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "882a1a33",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Капля удачи",
+	x: 0.0d,
+	y: 7.5d,
+	description: "Сколько нужно энергии?",
+	text: [
+		"Для создания &eКапли удачи&f требуется минимум &e10.000&f энергии в алтаре."
+	],
+	dependencies: [
+		"9d537209",
+		"d4508b2e"
+	],
+	tasks: [{
+		uid: "db3794ca",
+		type: "item",
+		items: [{
+			item: "witchery:luck_drop"
+		}]
+	}],
+	rewards: [{
+		uid: "f1d78c6b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "ff19190a",
+		type: "item",
+		item: "simpletools:lootbox_witchery_jars"
+	}]
+}

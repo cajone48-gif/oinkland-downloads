@@ -1,0 +1,43 @@
+{
+	title: "&aВедьмина лаборатория",
+	icon: "extrawitchery:block_witch_lab",
+	x: 9.5d,
+	y: 1.0d,
+	description: "Эксперименты!",
+	text: [
+		"&eВедьмина лаборатория&f производит предметы, расходуя &eоснову тела&f и &eэнергию алтаря&f.",
+		"",
+		"&l[&6!&f&l]&f Предметы, вырабатываемые лабораторией:",
+		"",
+		"Крыло совы, сердце крипера, язык собаки, шерсть летучей мыши, жабий коготь."
+	],
+	dependencies: [
+		"f838a15c"
+	],
+	tasks: [{
+		uid: "a1ea6715",
+		type: "item",
+		items: [{
+			item: "extrawitchery:block_witch_lab"
+		}]
+	},
+	{
+		uid: "af2cfd80",
+		type: "item",
+		items: [{
+			item: "extrawitchery:ingredient 1 9"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "30b1a4f6",
+		type: "item",
+		item: "simpletools:lootbox_witchery_jars",
+		count: 2
+	},
+	{
+		uid: "d602ff4a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

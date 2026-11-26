@@ -1,0 +1,28 @@
+{
+	title: "Добро пожаловать в Грекон.",
+	x: 3.0d,
+	y: 5.0d,
+	text: [
+		"Чтобы попасть сюда, используйте &eКошмарные чешуйки&f на &eНеуловимом&f, пока в вашем инвентаре находится пустой камень царства."
+	],
+	dependencies: [
+		"3b9ec5a4"
+	],
+	tasks: [{
+		uid: "017a5d34",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "aoa3:greckon_realmstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "00acaadf",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

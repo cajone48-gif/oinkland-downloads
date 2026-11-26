@@ -1,0 +1,28 @@
+{
+	title: "Мечта шахтёра.",
+	x: -1.0d,
+	y: 1.0d,
+	text: [
+		"Вскопайте блок руды, который находится &eпод бедроком&f и получите Камень царства Глубоких земель."
+	],
+	dependencies: [
+		"9d7f7084"
+	],
+	tasks: [{
+		uid: "890319ce",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "aoa3:deeplands_realmstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2dadba40",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

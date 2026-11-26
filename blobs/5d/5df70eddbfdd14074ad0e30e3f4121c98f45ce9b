@@ -1,0 +1,33 @@
+{
+	x: -40.5d,
+	y: -2.0d,
+	description: "О, у нас появился штатив",
+	text: [
+		"Более удобный аналог предыдущего, так как теперь не надо крутиться как сумашедший в поисках созвездий, а можно аккуратно \"пролистывать страницы\" неба."
+	],
+	dependencies: [
+		"43233d96"
+	],
+	tasks: [{
+		uid: "af648a96",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmachine"
+		}]
+	}],
+	rewards: [{
+		uid: "c2c0cd53",
+		type: "item",
+		item: "simpletools:lootbox_astralsorcery"
+	},
+	{
+		uid: "cfe8c794",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "56d1dad6",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

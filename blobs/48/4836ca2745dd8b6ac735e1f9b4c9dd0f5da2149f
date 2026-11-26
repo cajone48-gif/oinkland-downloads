@@ -1,0 +1,50 @@
+{
+	x: -12.0d,
+	y: -7.0d,
+	shape: "hexagon",
+	description: "Я как на батуте!",
+	text: [
+		"Щитовые сапоги имеют:",
+		"",
+		"&eАвтопрыжок&f, как у сапогов путешественника, ",
+		"",
+		"Увеличивается &eскорость&f передвижения, ",
+		"",
+		"&eВысота прыжка&f достигает трёх блоков,",
+		"",
+		"Нет урона от падения,",
+		"",
+		"Земля под вами будет зарастать травой."
+	],
+	dependencies: [
+		"49b2ee74"
+	],
+	tasks: [{
+		uid: "116ec312",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplemagic:kami_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7a0daf16",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft",
+		count: 2
+	},
+	{
+		uid: "b0d9dca4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "8d9ffb8f",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

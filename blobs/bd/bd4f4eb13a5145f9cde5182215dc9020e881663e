@@ -1,0 +1,99 @@
+{
+	title: "Доспехи Йети",
+	x: 4.0d,
+	y: 10.0d,
+	description: "Я похож на Йети!",
+	text: [
+		""
+	],
+	dependencies: [
+		"c714b35b"
+	],
+	tasks: [{
+		uid: "ad8d2116",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:yeti_helmet",
+			tag: {
+				ench: [{
+					id: 0s,
+					lvl: 2s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4456a61b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:yeti_chestplate",
+			tag: {
+				ench: [{
+					id: 0s,
+					lvl: 2s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "09a9719e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:yeti_leggings",
+			tag: {
+				ench: [{
+					id: 0s,
+					lvl: 2s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ae67bb97",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:yeti_boots",
+			tag: {
+				ench: [{
+					id: 0s,
+					lvl: 2s
+				},
+				{
+					id: 2s,
+					lvl: 4s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "571da705",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	},
+	{
+		uid: "7c26701d",
+		type: "item",
+		item: "twilightforest:alpha_fur",
+		count: 6
+	}]
+}

@@ -1,0 +1,51 @@
+{
+	title: "&c&lБонус!",
+	x: -8.0d,
+	y: 1.0d,
+	description: "Иногда все же можно и подарить.",
+	text: [
+		"Держи бонус за успешное прохождение множества квестов."
+	],
+	dependencies: [
+		"55ecc079",
+		"d8a0f093",
+		"fa875a4c"
+	],
+	tasks: [{
+		uid: "d9cfd39f",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "d65d4627",
+		type: "item",
+		item: {
+			id: "simpletools:lootbox_botania",
+			tag: {
+				UUID: "botania"
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "dc4d022d",
+		type: "item",
+		item: {
+			id: "simpletools:lootbox_botania_flowers",
+			tag: {
+				UUID: "botania_flowers"
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "787848aa",
+		type: "item",
+		item: {
+			id: "simpletools:lootbox_botania_runes",
+			tag: {
+				UUID: "botania_runes"
+			}
+		},
+		count: 2
+	}]
+}

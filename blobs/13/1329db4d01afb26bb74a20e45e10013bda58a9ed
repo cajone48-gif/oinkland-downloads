@@ -1,0 +1,41 @@
+{
+	title: "Перчатка есть, а где камни?",
+	x: 1.5d,
+	y: -18.5d,
+	description: "Часть вашего комплекта",
+	text: [
+		"Эта Перчатка поможет вам контролировать Вис, действует как &eактиватор&f для некоторых механизмов (матрица, теневой стол зачарований и т.д)"
+	],
+	dependencies: [
+		"747a9b8b"
+	],
+	tasks: [{
+		uid: "0560601a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:caster_basic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1f9037ed",
+		type: "item",
+		items: [{
+			item: "thaumcraft:vis_resonator"
+		}]
+	}],
+	rewards: [{
+		uid: "74e30eb2",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "06a5a134",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

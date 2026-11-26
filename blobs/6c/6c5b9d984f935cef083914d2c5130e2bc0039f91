@@ -1,0 +1,27 @@
+# xb1tnatorV for SIMPLEMINECRAFT
+
+# --- THAUMONOMICON
+<thaumcraft:thaumonomicon>.addTooltip(format.gold("Для создания кликните Salis Mundus по книжной полке"));
+
+# --- JEI
+mods.jei.JEI.addDescription(<thaumcraft:salis_mundus>,"Для создания Salis Mundus возьмите 3 разных вис-кристалла и объедините их с редстоуном, кремнием и миской в сетке верстака.");
+mods.jei.JEI.addDescription(<thaumcraft:triple_meat_treat>,"Для приготовления Лакомства из тройного мяса необходимо взять 3 разных вида мясных кусочков (полученных путем приготовления мяса в Адской печи) и смешать их с сахаром в сетке верстака.");
+mods.jei.JEI.addDescription(<bloodmagic:monster_soul>,"Часть демонической сущности, получаемая с убитых существ. Можно получить убив сущность разумным оружием, либо бросив в него простую ловушку, дождаться появления белых частиц и убить его любым оружием.");
+
+# --- BOTANIA
+<extrabotany:manabarrel>.addTooltip(format.gray("Вместительность:") + format.aqua(" 64.000.000 маны"));
+<extrabotany:quantummanabuffer>.addTooltip(format.gray("Вместительность:") + format.aqua(" 1.240.000.000 маны"));
+<botania:pool>.addTooltip(format.gray("Вместительность:") + format.aqua(" 10.000.000 маны"));
+<botania:pool:2>.addTooltip(format.gray("Вместительность:") + format.aqua(" 10.000 маны"));
+<botania:pool:3>.addTooltip(format.gray("Вместительность:") + format.aqua(" 10.000.000 маны"));
+<botanicadds:pool_dreaming>.addTooltip(format.gray("Вместительность:") + format.aqua(" 2.000.000 маны"));
+
+# --- EXTRAWITCHERY
+<extrawitchery:ingredient:2>.addTooltip(format.gray("С некоторым шансом можно получить из"));
+<extrawitchery:ingredient:2>.addTooltip(format.gray("Саженца великого дерева в Улучшенной ведьминой печи"));
+
+<extrawitchery:ingredient>.addTooltip(format.gray("С некоторым шансом можно получить из"));
+<extrawitchery:ingredient>.addTooltip(format.gray("Саженца серебряного дерева в Улучшенной ведьминой печи"));
+
+<extrawitchery:ingredient:1>.addTooltip(format.gray("С некоторым шансом можно получить из"));
+<extrawitchery:ingredient:1>.addTooltip(format.gray("Саженца сумеречной сосны в Улучшенной ведьминой печи"));

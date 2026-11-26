@@ -1,0 +1,44 @@
+{
+	title: "Искра",
+	x: -4.0d,
+	y: 9.5d,
+	description: "Передача маны в радиусе",
+	text: [
+		"Искра требуется для передачи маны. Может быть размещена на бассейне, плитках наполнения, а так же мана-чарователей.",
+		"",
+		"Радиус работы: 25x25x25.",
+		"",
+		"&l[&6!&f&l]&f Shift + ПКМ посохом леса уберет искру."
+	],
+	dependencies: [
+		"b2308aba"
+	],
+	tasks: [{
+		uid: "9465b0a0",
+		type: "item",
+		items: [{
+			item: "botania:spark"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "ad580829",
+		type: "xp_levels",
+		xp_levels: 2
+	},
+	{
+		uid: "fef0f126",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "53030874",
+		type: "item",
+		item: {
+			id: "simpletools:lootbox_botania",
+			tag: {
+				UUID: "botania"
+			}
+		}
+	}]
+}

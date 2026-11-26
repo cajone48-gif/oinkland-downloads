@@ -1,0 +1,30 @@
+{
+	title: "Бум!",
+	x: -2.5d,
+	y: -0.5d,
+	text: [
+		"&eКрипония&f - измерение криперов.",
+		"",
+		"Чтобы получить камень царства этого измерения, вам необходимо &eпережить взрыв&f от крипера с заженным поблизости динамитом."
+	],
+	dependencies: [
+		"9d7f7084"
+	],
+	tasks: [{
+		uid: "078210a6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "aoa3:creeponia_realmstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c56d1c13",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

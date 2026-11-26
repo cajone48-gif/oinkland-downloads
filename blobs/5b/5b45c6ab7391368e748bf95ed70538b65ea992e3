@@ -1,0 +1,31 @@
+{
+	title: "Игроман VI",
+	x: 9.085714285714289d,
+	y: -1.250000000000007d,
+	shape: "square",
+	description: "Проведите на сервере 48 часов",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e5a22a69"
+	],
+	tasks: [{
+		uid: "547b95ba",
+		type: "stat",
+		icon: "minecraft:clock",
+		stat: "stat.playOneMinute",
+		value: 3456000
+	}],
+	rewards: [{
+		uid: "66aa074c",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "d6f65b16",
+		type: "ftbmoney:money",
+		ftb_money: 1200L
+	}]
+}

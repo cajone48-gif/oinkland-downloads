@@ -1,0 +1,36 @@
+{
+	title: "Зелья кровавого мага",
+	x: 31.0d,
+	y: -12.0d,
+	description: "Пивоваренная кровь",
+	text: [
+		"В &f&cАлхимическом столе&f можно создать &cФляжку для зелий&f, которая, по сути, являются многоцелевым зельем.",
+		"",
+		"Эти фляжки, как и обычные зелья, могут быть улучшены с помощью &cреагентов&f о которых вы сможете подробнее узнать в &cJEI&f."
+	],
+	dependencies: [
+		"a9fcc79a"
+	],
+	tasks: [{
+		uid: "f9d47992",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:potion_flask"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9a523295",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "4e6dfd6f",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

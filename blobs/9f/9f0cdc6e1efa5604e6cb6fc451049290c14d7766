@@ -1,0 +1,29 @@
+{
+	title: "Эффективность - второе имя",
+	x: 12.5d,
+	y: -23.0d,
+	description: "Безопасно",
+	text: [
+		"&eПлавильня эссенции из таумиума&f имеет на 10% большую эффективность и более высокую скорость обработки предметов, чем обычная плавильня."
+	],
+	dependencies: [
+		"f8a63da8"
+	],
+	tasks: [{
+		uid: "a9906cb5",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_thaumium"
+		}]
+	}],
+	rewards: [{
+		uid: "bf17d7ee",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "507202cb",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

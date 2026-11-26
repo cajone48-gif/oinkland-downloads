@@ -1,0 +1,27 @@
+{
+	title: "Мутандис",
+	x: 1.5d,
+	y: -3.5d,
+	description: "Мутации, колдовство!",
+	text: [
+		"&eМутандис&f - это мутаген, который используется для мутации растений, а так же для некоторых крафтов.",
+		"",
+		"&7Мутандис не работает на кактусах, тростнике.&f"
+	],
+	dependencies: [
+		"d543c49d"
+	],
+	tasks: [{
+		uid: "498a41b6",
+		type: "item",
+		items: [{
+			item: "witchery:mutandis"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "1200f291",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

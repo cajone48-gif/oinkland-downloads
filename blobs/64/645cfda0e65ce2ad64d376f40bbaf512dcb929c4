@@ -1,0 +1,95 @@
+{
+	title: "Лиственные доспехи",
+	x: -5.5d,
+	y: -5.5d,
+	description: "Лесная конспирация.",
+	text: [
+		""
+	],
+	dependencies: [
+		"5085467a"
+	],
+	tasks: [{
+		uid: "6f736860",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:steeleaf_helmet",
+			tag: {
+				ench: [{
+					id: 4s,
+					lvl: 2s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "edbb8e4f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:steeleaf_chestplate",
+			tag: {
+				ench: [{
+					id: 3s,
+					lvl: 2s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dfac9dde",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:steeleaf_leggings",
+			tag: {
+				ench: [{
+					id: 1s,
+					lvl: 2s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f2952757",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:steeleaf_boots",
+			tag: {
+				ench: [{
+					id: 2s,
+					lvl: 2s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5fd04b92",
+		type: "item",
+		item: "twilightforest:steeleaf_ingot",
+		count: 5
+	},
+	{
+		uid: "7f777f46",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	}]
+}

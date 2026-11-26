@@ -1,0 +1,51 @@
+{
+	title: "Камень Чернокнижника.",
+	x: -5.5d,
+	y: 1.0d,
+	text: [
+		"Вам придётся собрать кристалл воедино и призвать Чернокнижницу.",
+		"Найдите 4 кусочка Руния, Сапфир и Баронайтовский слиток."
+	],
+	dependencies: [
+		"16fb405d"
+	],
+	tasks: [{
+		uid: "c7dd5f4b",
+		type: "item",
+		items: [{
+			item: "aoa3:warlock_gem"
+		}]
+	},
+	{
+		uid: "096cec9c",
+		type: "item",
+		items: [{
+			item: "aoa3:baronyte_ingot"
+		}]
+	},
+	{
+		uid: "99ea1d2c",
+		type: "item",
+		items: [{
+			item: "aoa3:sapphire"
+		}]
+	},
+	{
+		uid: "dd478ffb",
+		type: "item",
+		items: [{
+			item: "aoa3:runium_chunk"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "d71ba52d",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "19ba00cd",
+		type: "item",
+		item: "aoa3:treasure_box"
+	}]
+}

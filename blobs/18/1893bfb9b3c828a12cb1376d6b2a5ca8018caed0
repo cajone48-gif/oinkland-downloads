@@ -1,0 +1,29 @@
+{
+	title: "Зарядное устройство",
+	x: 1.5d,
+	y: -16.5d,
+	description: "Тесла?",
+	text: [
+		"&eПьедестал подзарядки&f способен перезарядить безделушки, для работы которых требуется &eэнергия/вис&f."
+	],
+	dependencies: [
+		"dc3395c7"
+	],
+	tasks: [{
+		uid: "d342441e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:recharge_pedestal"
+		}]
+	}],
+	rewards: [{
+		uid: "29538faf",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "03738263",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

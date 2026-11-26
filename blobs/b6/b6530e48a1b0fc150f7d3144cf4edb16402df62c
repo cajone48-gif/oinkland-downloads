@@ -1,0 +1,80 @@
+{
+	title: "Бойз-бэнд труб",
+	x: 6.5d,
+	y: -24.0d,
+	description: "Все они довольно похожи",
+	text: [
+		"&eРезонатор&f эссенции показывает тип эссенции, которая передаётся по трубе.",
+		"",
+		"&eТрубы&f позволяют передавать эссенцию в банки.",
+		"",
+		"&l[&6!&f&l]&f Трубы могут забиваться остатками эссенции. В этом случае сломайте трубу и поставьте заново."
+	],
+	dependencies: [
+		"f8a63da8"
+	],
+	tasks: [{
+		uid: "2f2c5597",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tube"
+		}]
+	},
+	{
+		uid: "15f190a9",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tube_valve"
+		}]
+	},
+	{
+		uid: "8de8fa30",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tube_restrict"
+		}]
+	},
+	{
+		uid: "b719d069",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tube_oneway"
+		}]
+	},
+	{
+		uid: "2647e4be",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tube_filter"
+		}]
+	},
+	{
+		uid: "2edeeba7",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tube_buffer"
+		}]
+	},
+	{
+		uid: "cb89f7c5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:resonator"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eb3568f8",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "0e7928b4",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

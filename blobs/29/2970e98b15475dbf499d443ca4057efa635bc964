@@ -1,0 +1,36 @@
+{
+	title: "Заряженный камень силы",
+	x: 3.0d,
+	y: 1.0d,
+	description: "Как его зарядить?",
+	text: [
+		"&eЗаряженный камень силы&f используется во многих ритуалах.",
+		"",
+		"Камень силы можно зарядить &eритуалом заряда&f. ",
+		"",
+		"&l[&6!&f&l]&f Условия ритуала описаны в книге Ведьмовство: Магия кругов на странице 24.",
+		"",
+		"Требуемая сила алтаря: 2000"
+	],
+	dependencies: [
+		"2d6f948d",
+		"69dd09cf"
+	],
+	tasks: [{
+		uid: "2e946a77",
+		type: "item",
+		items: [{
+			item: "witchery:charged_attuned_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "89162d00",
+		type: "item",
+		item: "simpletools:lootbox_witchery_jars"
+	},
+	{
+		uid: "c04678b2",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

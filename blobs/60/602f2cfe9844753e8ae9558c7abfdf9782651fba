@@ -1,0 +1,35 @@
+{
+	title: "Защитник.",
+	x: 20.0d,
+	y: 1.0d,
+	description: "Комната #5",
+	text: [
+		"В пятой комнате вы должны убить &eПрошилда&f. Будет преследовать вас в радиусе 16 блоков.",
+		"",
+		"Как и &eКлоббер&f, после смерти он уронит монету развития.",
+		" ",
+		"Если Прошилд будет атакован в ближнем бою, то вы получите урон, равный половине урона, который вы нанесли Бессмертному."
+	],
+	dependencies: [
+		"35ab54ce"
+	],
+	tasks: [{
+		uid: "c19b858d",
+		type: "kill",
+		icon: "aoa3:proshield_statue",
+		entity: "aoa3:proshield",
+		value: 1L
+	},
+	{
+		uid: "f58e0502",
+		type: "item",
+		items: [{
+			item: "aoa3:progress_coin2"
+		}]
+	}],
+	rewards: [{
+		uid: "a42204ee",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

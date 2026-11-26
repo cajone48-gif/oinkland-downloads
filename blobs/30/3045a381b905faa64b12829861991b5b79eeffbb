@@ -1,0 +1,32 @@
+{
+	title: "Адаминитовый слиток",
+	x: -15.0d,
+	y: -12.5d,
+	shape: "hexagon",
+	description: "Лучше мифриллиума",
+	text: [
+		"Теперь нам доступны новые крафты.",
+		"",
+		"Для создания будущей брони пригодится много адаминита."
+	],
+	dependencies: [
+		"9e292992"
+	],
+	tasks: [{
+		uid: "16608dba",
+		type: "item",
+		items: [{
+			item: "thaumadditions:adaminite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "1c860fa8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "77fec348",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

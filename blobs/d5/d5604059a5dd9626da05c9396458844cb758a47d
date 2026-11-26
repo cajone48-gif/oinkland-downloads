@@ -1,0 +1,28 @@
+{
+	title: "Вода.",
+	x: -11.5d,
+	y: -7.0d,
+	text: [
+		"Руна Л'Бореана. Создаётся с 15 уровня руноделия."
+	],
+	dependencies: [
+		"607b224d"
+	],
+	tasks: [{
+		uid: "0415bdc9",
+		type: "item",
+		items: [{
+			item: "aoa3:water_rune"
+		}]
+	}],
+	rewards: [{
+		uid: "59149336",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "752540c7",
+		type: "item",
+		item: "aoa3:rune_box"
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "&cСигил Вампира",
+	x: -17.5d,
+	y: 4.0d,
+	description: "Нет кровавому голоду!",
+	text: [
+		"Если вы устали от постоянного кровавого голода, &eСигил Вампира&f - ваш спаситель!",
+		"",
+		"&l[&6!&f&l]&f Сигил привязывается к владельцу и за счёт потребления LP из сети &eвосполняет кровь&f вампиру.",
+		"",
+		"Игрок, не являющийся вампиром, после ипользования сигила получит временный эффект голода."
+	],
+	dependencies: [
+		"e66afb78"
+	],
+	tasks: [{
+		uid: "f61893c9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrawitchery:vampire_sigil"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b8e89d58",
+		type: "item",
+		item: "simpletools:lootbox_witchery"
+	},
+	{
+		uid: "f1af0ea4",
+		type: "item",
+		item: "simpletools:lootbox_witchery_jars"
+	},
+	{
+		uid: "7a86a67e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

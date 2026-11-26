@@ -1,0 +1,35 @@
+{
+	x: 44.0d,
+	y: -3.5d,
+	description: "Максимальная кровавая батарейка",
+	text: [
+		"Максимальное хранилище, максимальное количество крафтов"
+	],
+	dependencies: [
+		"62583172"
+	],
+	tasks: [{
+		uid: "559225a1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:archmage"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a7546949",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "2d5fd631",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

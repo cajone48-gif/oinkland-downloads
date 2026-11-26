@@ -1,0 +1,23 @@
+{
+	title: "Кошмарный завтрак.",
+	x: 5.0d,
+	y: 8.5d,
+	text: [
+		"Выбейте с мобов Бездны &eкошмарные чешуйки&f, чтобы усилить &eПаутинного жнеца&f."
+	],
+	dependencies: [
+		"ff10c469"
+	],
+	tasks: [{
+		uid: "64ab149a",
+		type: "item",
+		items: [{
+			item: "aoa3:nightmare_flakes"
+		}]
+	}],
+	rewards: [{
+		uid: "40d5d3bf",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Игроман IX",
+	x: 9.102040816326543d,
+	y: 0.9846938775510239d,
+	shape: "square",
+	description: "Проведите на сервере 336 часа",
+	hide_dependency_lines: true,
+	dependencies: [
+		"8eff475c"
+	],
+	tasks: [{
+		uid: "629e99ab",
+		type: "stat",
+		icon: "minecraft:clock",
+		stat: "stat.playOneMinute",
+		value: 24192000
+	}],
+	rewards: [{
+		uid: "ef98f136",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "14816727",
+		type: "ftbmoney:money",
+		ftb_money: 1800L
+	}]
+}

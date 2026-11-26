@@ -1,0 +1,249 @@
+{
+	title: "Всемирный шахтёр",
+	x: -1.0d,
+	y: -5.5d,
+	shape: "octagon",
+	description: "Добудь все руды в их первобытном виде!",
+	text: [
+		"Это будет сложное и долгое приключение в поиске всех материалов."
+	],
+	dependencies: [
+		"62d25bd7"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "2ce89727",
+		type: "item",
+		items: [{
+			item: "aoa3:bloodstone_ore"
+		}]
+	},
+	{
+		uid: "5a1a8760",
+		type: "item",
+		items: [{
+			item: "aoa3:runium_ore"
+		}]
+	},
+	{
+		uid: "64514f3f",
+		type: "item",
+		items: [{
+			item: "aoa3:ghastly_ore"
+		}]
+	},
+	{
+		uid: "c44591e1",
+		type: "item",
+		items: [{
+			item: "aoa3:purple_crystal_ore"
+		}]
+	},
+	{
+		uid: "8d7d818b",
+		type: "item",
+		items: [{
+			item: "aoa3:lyon_ore"
+		}]
+	},
+	{
+		uid: "1468ea86",
+		type: "item",
+		items: [{
+			item: "aoa3:red_crystal_ore"
+		}]
+	},
+	{
+		uid: "9b0c2dcb",
+		type: "item",
+		items: [{
+			item: "aoa3:gemenyte_ore"
+		}]
+	},
+	{
+		uid: "8850c627",
+		type: "item",
+		items: [{
+			item: "aoa3:blue_crystal_ore"
+		}]
+	},
+	{
+		uid: "cd1bf962",
+		type: "item",
+		items: [{
+			item: "aoa3:rosite_ore"
+		}]
+	},
+	{
+		uid: "8ba5a3f5",
+		type: "item",
+		items: [{
+			item: "aoa3:jade_ore"
+		}]
+	},
+	{
+		uid: "1ea244d9",
+		type: "item",
+		items: [{
+			item: "aoa3:shyrestone_ore"
+		}]
+	},
+	{
+		uid: "6bcf91ec",
+		type: "item",
+		items: [{
+			item: "aoa3:limonite_ore"
+		}]
+	},
+	{
+		uid: "72d59072",
+		type: "item",
+		items: [{
+			item: "aoa3:skullbone_fragments_ore"
+		}]
+	},
+	{
+		uid: "d686fc45",
+		type: "item",
+		items: [{
+			item: "aoa3:varsium_ore"
+		}]
+	},
+	{
+		uid: "3f3dab0c",
+		type: "item",
+		items: [{
+			item: "aoa3:baronyte_ore"
+		}]
+	},
+	{
+		uid: "d40fd7d0",
+		type: "item",
+		items: [{
+			item: "aoa3:ornamyte_ore"
+		}]
+	},
+	{
+		uid: "a5aa525e",
+		type: "item",
+		items: [{
+			item: "aoa3:crystallite_ore"
+		}]
+	},
+	{
+		uid: "dead0dcc",
+		type: "item",
+		items: [{
+			item: "aoa3:green_crystal_ore"
+		}]
+	},
+	{
+		uid: "a20403c8",
+		type: "item",
+		items: [{
+			item: "aoa3:chestbone_fragments_ore"
+		}]
+	},
+	{
+		uid: "65aff4c5",
+		type: "item",
+		items: [{
+			item: "aoa3:charged_runium_ore"
+		}]
+	},
+	{
+		uid: "1797655e",
+		type: "item",
+		items: [{
+			item: "aoa3:emberstone_ore"
+		}]
+	},
+	{
+		uid: "965539df",
+		type: "item",
+		items: [{
+			item: "aoa3:elecanium_ore"
+		}]
+	},
+	{
+		uid: "92624111",
+		type: "item",
+		items: [{
+			item: "aoa3:jewelyte_ore"
+		}]
+	},
+	{
+		uid: "33196a92",
+		type: "item",
+		items: [{
+			item: "aoa3:legbone_fragments_ore"
+		}]
+	},
+	{
+		uid: "22b2483e",
+		type: "item",
+		items: [{
+			item: "aoa3:sapphire_ore"
+		}]
+	},
+	{
+		uid: "f152f5ba",
+		type: "item",
+		items: [{
+			item: "aoa3:yellow_crystal_ore"
+		}]
+	},
+	{
+		uid: "8e82d105",
+		type: "item",
+		items: [{
+			item: "aoa3:mystite_ore"
+		}]
+	},
+	{
+		uid: "80d31d39",
+		type: "item",
+		items: [{
+			item: "aoa3:footbone_fragments_ore"
+		}]
+	},
+	{
+		uid: "2350e112",
+		type: "item",
+		items: [{
+			item: "aoa3:amethyst_ore"
+		}]
+	},
+	{
+		uid: "91a566b5",
+		type: "item",
+		items: [{
+			item: "aoa3:blazium_ore"
+		}]
+	},
+	{
+		uid: "75db65b9",
+		type: "item",
+		items: [{
+			item: "aoa3:shyregem_ore"
+		}]
+	},
+	{
+		uid: "5428513d",
+		type: "item",
+		items: [{
+			item: "aoa3:white_crystal_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "3365dc46",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "bba91fb6",
+		type: "item",
+		item: "aoa3:shiny_box",
+		count: 3
+	}]
+}

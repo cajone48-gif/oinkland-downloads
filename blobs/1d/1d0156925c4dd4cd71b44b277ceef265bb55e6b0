@@ -1,0 +1,38 @@
+{
+	title: "Кости судьбы",
+	x: 1.0d,
+	y: -2.0d,
+	description: "Реликвии",
+	text: [
+		"Берете кости судьбы в руки и нажмаете ПКМ, выпает реликвия.",
+		"",
+		"&l[&6!&f&l]&f Всего реликвий 6, выпадают 1 раз.",
+		"",
+		"&l[&6!&f&l]&f Описание каждой реликвии можно посмотреть в лексиконе ботании."
+	],
+	dependencies: [
+		"fc9bdc41"
+	],
+	tasks: [{
+		uid: "90937652",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:dice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1f627244",
+		type: "xp_levels",
+		xp_levels: 2
+	},
+	{
+		uid: "b02aa3c9",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

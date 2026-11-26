@@ -1,0 +1,26 @@
+# Configuration file
+
+other {
+    # Включить модификатор 'Палач' [default: true]
+    B:enableBeheading=true
+
+    # Игнорирование брони рапирами и болтами [default: true]
+    B:enableRapierBoltBypassArmor=false
+
+    # Фикс уязвимостей с пакетами [default: true]
+    B:networkFix=true
+}
+
+
+performance {
+    # Кэширование рецептов Плавильни [default: false]
+    B:cacheMeltingRecipes=false
+
+    # Оптимизация рецептов Стола отливок и Резервуара отливок [default: false]
+    B:optimizeCastingRecipes=false
+
+    # Оптимизация рецептов Плавильни [default: false]
+    B:optimizeMeltingRecipes=false
+}
+
+

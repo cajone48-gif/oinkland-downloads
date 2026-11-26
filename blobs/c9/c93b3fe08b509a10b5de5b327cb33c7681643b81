@@ -1,0 +1,40 @@
+{
+	title: "Катализаторы",
+	x: -12.0d,
+	y: 6.0d,
+	description: "Легальный дюп",
+	text: [
+		"Катализатор необходимо установить под бассейн с маной.",
+		"",
+		"Колдовской катализатор позволяет за ману удваивать предметы, своего рода легальны дюп.",
+		"",
+		"Терра катализатор позволяет делать всего один крафт."
+	],
+	dependencies: [
+		"371f1dea"
+	],
+	tasks: [{
+		uid: "44b4cdfd",
+		type: "item",
+		items: [{
+			item: "botania:conjurationcatalyst"
+		}]
+	},
+	{
+		uid: "7b98389c",
+		type: "item",
+		items: [{
+			item: "botanicadds:terra_catalyst"
+		}]
+	}],
+	rewards: [{
+		uid: "49527c8d",
+		type: "item",
+		item: "simpletools:lootbox_botania"
+	},
+	{
+		uid: "cde7eeab",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

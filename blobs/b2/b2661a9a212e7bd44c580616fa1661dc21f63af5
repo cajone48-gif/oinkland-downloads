@@ -1,0 +1,62 @@
+{
+	title: "Эльфхейм",
+	x: -2.0d,
+	y: 4.5d,
+	description: "Обменник ресурсов",
+	text: [
+		"Портал в эльфхейм служит обменником одних ресурсов на другие. ",
+		"",
+		"Для активации нажать по ядру посохом леса, но при этом бассейны маны должны быть наполнены на 1/4.",
+		"",
+		"&l[&6!&f&l]&f Чтобы понять как его правильно построить, необходимо в лексиконе ботании нажать на кнопку \"Vizualize\"."
+	],
+	dependencies: [
+		"a48329d6"
+	],
+	tasks: [{
+		uid: "aaf06883",
+		type: "item",
+		items: [{
+			item: "botania:alfheimportal"
+		}]
+	},
+	{
+		uid: "13500f76",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 1"
+		}],
+		count: 2L
+	},
+	{
+		uid: "3ca818b4",
+		type: "item",
+		items: [{
+			item: "botania:livingwood 1 5"
+		}],
+		count: 3L
+	},
+	{
+		uid: "5fcf1b82",
+		type: "item",
+		items: [{
+			item: "botania:livingwood"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "1a287019",
+		type: "xp_levels",
+		xp_levels: 2
+	},
+	{
+		uid: "ee14042d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d85f397f",
+		type: "item",
+		item: "simpletools:lootbox_botania"
+	}]
+}

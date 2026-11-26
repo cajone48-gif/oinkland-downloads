@@ -1,0 +1,39 @@
+{
+	title: "Стабилизатор",
+	x: -9.0d,
+	y: -17.5d,
+	description: "От него исходят странные частицы",
+	text: [
+		"Стабилизаторы дают +1 к стабилизации, но дают &eвыбросы в атмосферу.&f",
+		"",
+		"&l[&6!&f&l]&f Не ставьте их в большом количестве, если не хотите сильных загрязнений местной ауры."
+	],
+	dependencies: [
+		"d61d7f87"
+	],
+	tasks: [{
+		uid: "45011948",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stabilizer"
+		}]
+	},
+	{
+		uid: "9dc8305f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:inlay"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "0c4d1b62",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "264127ca",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

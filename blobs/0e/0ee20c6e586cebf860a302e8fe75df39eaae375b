@@ -1,0 +1,39 @@
+{
+	title: "&cВсполох!",
+	icon: "minecraft:blaze_rod",
+	x: -14.5d,
+	y: 7.0d,
+	description: "Как получить 6 уровень?",
+	text: [
+		"Чтобы получить 6 уровень - &eубейте 20 ифритов&f (всполохов).",
+		"",
+		"&7На 6 уровне Вы получаете способность Ускорение - 3 активации."
+	],
+	dependencies: [
+		"2bab5b5c"
+	],
+	tasks: [{
+		uid: "15013a27",
+		type: "kill",
+		title: "Убить 20 ифритов",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:diamond_sword"
+		},
+		entity: "minecraft:blaze",
+		value: 20L
+	}],
+	rewards: [{
+		uid: "b2b9d6f9",
+		type: "item",
+		item: "witchery:warm_blood",
+		count: 8
+	},
+	{
+		uid: "e6d3ef00",
+		type: "item",
+		item: "simpletools:lootbox_witchery_jars"
+	}]
+}

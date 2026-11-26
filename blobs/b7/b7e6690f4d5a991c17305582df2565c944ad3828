@@ -1,0 +1,44 @@
+{
+	icon: "minecraft:dye 1 3",
+	x: -11.5d,
+	y: -2.5d,
+	text: [
+		"Призыв обезьяны осуществляется &eмутацией&f.",
+		"",
+		"В центр воду, над ней паутина, по сторонам света какао бобы, по углам щипуны, с предметами: ",
+		"",
+		"2 мутандис экстремис, 1 мак, 1 заряженный камень.",
+		"",
+		"Ловим в паутину сову и волка и кликаем ПКМ мутировавшим суком.",
+		"",
+		"&7Обезьяну можно приручить сырой свининой или говядиной.  ",
+		"",
+		"Обезьяна способна переносить вещи и даже мелких животных."
+	],
+	dependencies: [
+		"93cee182"
+	],
+	tasks: [{
+		uid: "e8bd336a",
+		type: "kill",
+		title: "Убить крылатую обезьяну",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:diamond_sword"
+		},
+		entity: "witchery:winged_monkey",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "61af15c4",
+		type: "item",
+		item: "simpletools:lootbox_witchery"
+	},
+	{
+		uid: "8826bb42",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

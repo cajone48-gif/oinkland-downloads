@@ -1,0 +1,48 @@
+{
+	title: "&cВампиризм",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "witchery:full_glass_goblet"
+	},
+	x: -14.5d,
+	y: 1.0d,
+	text: [
+		"&l[&6!&f&l]&f Есть 2 способа стать вампиром.",
+		"",
+		"&e1 способ&f - Призвать Лилит и выпить её кровь.",
+		"",
+		"&e2 способ&f - Выпить кровь вампира-игрока 9-10 уровня. ",
+		"",
+		"&7Вампиры горят под солнцем, при этом тратится не только кровь, но и жизнь игрока. &f",
+		"",
+		"&l[&6!&f&l]&f Следите за шкалой крови, восполняйте её, выпивая кровь из жителей или игроков.",
+		"",
+		"Шкала крови будет увеличиваться по мере повышения вашего уровня."
+	],
+	dependencies: [
+		"7eabf7d9"
+	],
+	tasks: [{
+		uid: "e1ab840b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -7617088457840465527L,
+					AS_Amulet_HolderMost: -922684094154721859L
+				}
+			},
+			id: "witchery:full_glass_goblet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "01398403",
+		type: "item",
+		item: "witchery:warm_blood",
+		count: 3
+	}]
+}

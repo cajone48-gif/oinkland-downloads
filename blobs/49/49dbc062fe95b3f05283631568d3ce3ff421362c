@@ -1,0 +1,47 @@
+{
+	title: "Гидра",
+	icon: "twilightforest:trophy 1 2",
+	x: 0.0d,
+	y: 4.0d,
+	shape: "diamond",
+	description: "Сколько у неё голов?!",
+	text: [
+		"&eГидра&f обитает в огненных землях в огромной круглой горе.",
+		"",
+		"Чтобы убить Гидру вам нужен лук, когда головы Гидры будут открывать рот, нужно стрелять прямо в рот.",
+		"",
+		"&7После того, как вы уничтожили голову, она заново вырастет.",
+		"",
+		"Урон Гидре можно наносить, отбивая в нее её же огненные шары."
+	],
+	dependencies: [
+		"25cb2e71"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "e429f876",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 2"
+		}]
+	},
+	{
+		uid: "783befa8",
+		type: "item",
+		items: [{
+			item: "twilightforest:fiery_blood"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "eb2ae3bf",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0c5acc79",
+		type: "item",
+		item: "twilightforest:fiery_blood",
+		count: 5
+	}]
+}

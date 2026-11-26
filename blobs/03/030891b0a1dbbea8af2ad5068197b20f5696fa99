@@ -1,0 +1,31 @@
+{
+	title: "Всплеск зелья",
+	x: 12.5d,
+	y: -18.5d,
+	description: "Все стало гораздо сложнее",
+	text: [
+		"Вставьте в разбрызгиватель необходимое зелье, залейте требуемую эссенцию.",
+		"",
+		"При подаче сигнала редстоуна зелье разбрызгается в области 3х3х3 перед собой."
+	],
+	dependencies: [
+		"aa162004"
+	],
+	tasks: [{
+		uid: "ef3ffcd8",
+		type: "item",
+		items: [{
+			item: "thaumcraft:potion_sprayer"
+		}]
+	}],
+	rewards: [{
+		uid: "24237fcb",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "2f1b6fcf",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

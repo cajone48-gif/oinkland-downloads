@@ -1,0 +1,47 @@
+{
+	title: "Основные сигилы",
+	x: 27.0d,
+	y: -11.0d,
+	description: "Жидкие",
+	text: [
+		"&fСигилы &cВоды&f и &cЛава&f размещают соответствующие жидкости при использовании, потребляя LP из &cсети&f владельца."
+	],
+	dependencies: [
+		"744443b2",
+		"0cf12ab2"
+	],
+	tasks: [{
+		uid: "15fd425a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sigil_water"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e36972d8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sigil_lava"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4279a398",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "43a3131a",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

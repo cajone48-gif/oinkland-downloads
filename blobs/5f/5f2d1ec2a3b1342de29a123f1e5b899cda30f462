@@ -1,0 +1,24 @@
+{
+	x: -6.5d,
+	y: -12.5d,
+	description: "Он не контролирует время суток.",
+	text: [
+		"Медленно восстанавливает вис в ауре."
+	],
+	dependencies: [
+		"30bcdd09"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "c1b5374c",
+		type: "item",
+		items: [{
+			item: "thaumadditions:dawn_totem"
+		}]
+	}],
+	rewards: [{
+		uid: "85e69565",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Дополнитель искр: Рассеивающий",
+	x: -0.5d,
+	y: 5.0d,
+	description: "Зарядка маной",
+	text: [
+		"Данный дополнитель позволяет заряжать маной все предметы в инвентаре игроков, которые стоят рядом. ",
+		"",
+		"&l[&6!&f&l]&f Будьте бдительны, другие игроки тоже смогут заряжаться вашей маной."
+	],
+	dependencies: [
+		"86f8b1ae"
+	],
+	tasks: [{
+		uid: "f8149137",
+		type: "item",
+		items: [{
+			item: "botania:sparkupgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "5058e172",
+		type: "xp_levels",
+		xp_levels: 2
+	},
+	{
+		uid: "0a9b8636",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "bd0de22f",
+		type: "item",
+		item: "botania:spark"
+	}]
+}

@@ -1,0 +1,185 @@
+{
+	title: "Много материала",
+	x: 0.5d,
+	y: -5.5d,
+	shape: "octagon",
+	description: "Запасы на потом",
+	text: [
+		"Теперь предстоит собрать все-все ресурсы в достаточном количестве."
+	],
+	dependencies: [
+		"c91321a3"
+	],
+	tasks: [{
+		uid: "39c43768",
+		type: "item",
+		items: [{
+			item: "aoa3:rosite_block"
+		}]
+	},
+	{
+		uid: "fbe23aa2",
+		type: "item",
+		items: [{
+			item: "aoa3:ghastly_block"
+		}]
+	},
+	{
+		uid: "97b01d28",
+		type: "item",
+		items: [{
+			item: "aoa3:ghoulish_block"
+		}]
+	},
+	{
+		uid: "bf3d0908",
+		type: "item",
+		items: [{
+			item: "aoa3:jade_block"
+		}]
+	},
+	{
+		uid: "9e99e20e",
+		type: "item",
+		items: [{
+			item: "aoa3:shyregem_block"
+		}]
+	},
+	{
+		uid: "9b222b06",
+		type: "item",
+		items: [{
+			item: "aoa3:jewelyte_block"
+		}]
+	},
+	{
+		uid: "41edf3c6",
+		type: "item",
+		items: [{
+			item: "aoa3:varsium_block"
+		}]
+	},
+	{
+		uid: "6d335b78",
+		type: "item",
+		items: [{
+			item: "aoa3:amethyst_block"
+		}]
+	},
+	{
+		uid: "2f966a68",
+		type: "item",
+		items: [{
+			item: "aoa3:baronyte_block"
+		}]
+	},
+	{
+		uid: "a5ea7dad",
+		type: "item",
+		items: [{
+			item: "aoa3:blazium_block"
+		}]
+	},
+	{
+		uid: "b07e17d8",
+		type: "item",
+		items: [{
+			item: "aoa3:crystallite_block"
+		}]
+	},
+	{
+		uid: "7e7e12be",
+		type: "item",
+		items: [{
+			item: "aoa3:bloodstone_block"
+		}]
+	},
+	{
+		uid: "57675e2d",
+		type: "item",
+		items: [{
+			item: "aoa3:elecanium_block"
+		}]
+	},
+	{
+		uid: "8ef6b721",
+		type: "item",
+		items: [{
+			item: "aoa3:emberstone_block"
+		}]
+	},
+	{
+		uid: "30465619",
+		type: "item",
+		items: [{
+			item: "aoa3:gemenyte_block"
+		}]
+	},
+	{
+		uid: "bd936340",
+		type: "item",
+		items: [{
+			item: "aoa3:sapphire_block"
+		}]
+	},
+	{
+		uid: "d7f67c6c",
+		type: "item",
+		items: [{
+			item: "aoa3:shyrestone_block"
+		}]
+	},
+	{
+		uid: "88f9db22",
+		type: "item",
+		items: [{
+			item: "aoa3:skeletal_ingot_block"
+		}]
+	},
+	{
+		uid: "55221624",
+		type: "item",
+		items: [{
+			item: "aoa3:limonite_block"
+		}]
+	},
+	{
+		uid: "52dcec60",
+		type: "item",
+		items: [{
+			item: "aoa3:lunar_block"
+		}]
+	},
+	{
+		uid: "e70eccac",
+		type: "item",
+		items: [{
+			item: "aoa3:lyon_block"
+		}]
+	},
+	{
+		uid: "98e39f01",
+		type: "item",
+		items: [{
+			item: "aoa3:mystite_block"
+		}]
+	},
+	{
+		uid: "2a004037",
+		type: "item",
+		items: [{
+			item: "aoa3:ornamyte_block"
+		}]
+	}],
+	rewards: [{
+		uid: "555cf3e3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "54bde54b",
+		type: "item",
+		item: "aoa3:shiny_box",
+		count: 3
+	}]
+}

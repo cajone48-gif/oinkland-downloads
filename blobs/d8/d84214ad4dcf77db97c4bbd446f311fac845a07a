@@ -1,0 +1,345 @@
+{
+  "propertyHologram": [
+    {
+      "hologramName": "Приветствие на спавн",
+      "enableModel": true,
+      "enableRotation": false,
+      "textSize": 2,
+      "shiftPosX": 0,
+      "shiftPosY": 3,
+      "hologramText": [
+        "\u0026o\u0026lДобро пожаловать на сервер \u0026a\u0026o\u0026lFantasy",
+        "",
+        "Информацию о сервере можно найти на нашем сайте",
+        "Голосуя за наш проект Вы получите щедрые бонусы",
+        "Приобрести донат-услуги можно на нашем сайте",
+        "В личном кабинетей можно сменить скин и плащ",
+        "Нашли баг или даже дюп? Сообщите о нем администрации",
+        "Заметили нарушителя? Напишите жалобу на наш форум",
+        "",
+        "\u0026uЖелаем приятной игры на сервере!"
+      ]
+    },
+    {
+      "hologramName": "Серверные варпы",
+      "enableModel": true,
+      "enableRotation": false,
+      "textSize": 2,
+      "shiftPosX": 0,
+      "shiftPosY": 3,
+      "hologramText": [
+        "Варпы сервера:",
+        "",
+        "Информация о сервере - \u0026l/warp info",
+        "Магазин сервера - \u0026l/warp shop",
+        "Порталы в другие миры - \u0026l/warp portals",
+        "Чаровальня и наковальни - \u0026l/warp enchant",
+        "",
+        "Рандомная телепортация - \u0026u\u0026l/rtp",
+        "",
+        ""
+      ]
+    },
+    {
+      "hologramName": "info",
+      "enableModel": true,
+      "enableRotation": false,
+      "textSize": 4,
+      "shiftPosX": 0,
+      "shiftPosY": 4,
+      "hologramText": [
+        "\u0026lОсновная информация \u0026lо сервере \u00263\u0026lFantasy",
+        "\u00266Текущая версия: \u002671.12.2",
+        "\u00266Дата последнего вайпа: \u0026723.03.2024",
+        "\u00266Частота вайпов: \u0026aраз в сезон",
+        "\u00266Частота вайпов в доп. мирах: \u002671 раз в месяц",
+        "\u00266Размер миров: \u002675000 на 5000 блоков (радиус)",
+        "\u00266Режим PvP: \u00267включается по команде /pvp on",
+        "\u00266Установка варпов: \u00267команда /warp create \u003cname\u003e",
+        "\u00267Cтоимость: 300.000 эконов",
+        ""
+      ]
+    },
+    {
+      "hologramName": "admins",
+      "enableModel": false,
+      "enableRotation": true,
+      "textSize": 2,
+      "shiftPosX": 0,
+      "shiftPosY": 2,
+      "hologramText": [
+        "\u0026lКоманда администрации \u0026lпроекта \u00266\u0026lSimpleMinecraft",
+        "\u00268[\u00264Admin\u00268] \u00266Goodvise \u00268| \u00267Discord: @.goodvise",
+        "\u00268[\u00264Admin\u00268] \u00266aesic \u00268| \u00267Discord: Aesic#2250",
+        "\u00268[\u0026cAdminHelper\u00268] \u00266xb1tnatorV \u00268| \u00267Discord: @xb1tnatorv",
+        "\u00268[\u0026cAdminHelper\u00268] \u00266igorek181 \u00268| \u00267Discord: @igorek181",
+        "\u00268[\u0026cAdminHelper\u00268] \u00266NBH \u00268| \u00267Discord: @nbh.smc",
+        "\u00268[\u0026cAdminHelper\u00268] \u00266yarikDOTA \u00268| \u00267Discord: @yarikdota",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "hologramName": "/warp shop",
+      "enableModel": true,
+      "enableRotation": false,
+      "textSize": 2,
+      "shiftPosX": 0,
+      "shiftPosY": 3,
+      "hologramText": [
+        "\u0026e\u0026lДобро пожаловать в магазин сервера!",
+        "",
+        "Все покупки осуществляются за серверную валюту - эконы.",
+        "Получить эконы можно, голосуя за наш проект.",
+        "",
+        "\u0026b\u0026lПриятных покупок!",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "hologramName": "events",
+      "enableModel": true,
+      "enableRotation": false,
+      "textSize": 3,
+      "shiftPosX": 0,
+      "shiftPosY": 3,
+      "hologramText": [
+        "\u0026lРасписание ивентов \u00263\u0026lFantasy ",
+        "\u0026lПервая неделя ивентов",
+        "\u00267Пятница \u00268| \u00266/warp Spleef \u00268| \u0026718:00 МСК",
+        "\u00267Суббота \u00268| \u00266/warp Spleef \u00268| \u0026718:00 МСК",
+        "\u00267Воскресенье \u00268| \u00266/warp Spleef \u00268| \u0026718:00 МСК",
+        "\u0026lВторая неделя ивентов",
+        "\u00267Пятница \u00268| \u00266/warp Spleef \u00268| \u0026718:00 МСК",
+        "\u00267Суббота \u00268| \u00266/warp Spleef \u00268| \u0026718:00 МСК",
+        "\u00267Воскресенье \u00268| \u00266/warp Spleef \u00268| \u0026718:00 МСК",
+        ""
+      ]
+    },
+    {
+      "hologramName": "headmoder",
+      "enableModel": false,
+      "enableRotation": true,
+      "textSize": 2,
+      "shiftPosX": 0,
+      "shiftPosY": 2,
+      "hologramText": [
+        "\u0026lСтарший состав \u00263\u0026lFantasy",
+        "\u00268[\u00262Curator\u00268] \u00266De1ka \u0026f| \u00267Аделия \u0026f| \u00267Discord: @de1k0",
+        "\u00268[\u00269HeadModer\u00268] \u0026eNastusha555 \u0026f| \u00267Ася \u0026f| \u00267Discord: @asyafoxyofficial",
+        "",
+        "\u0026lМодерация сервера",
+        "\u00268[\u00269Moder\u00268] \u0026eIceDAKA \u0026f| \u00267Даня",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "hologramName": "moders",
+      "enableModel": true,
+      "enableRotation": false,
+      "textSize": 4,
+      "shiftPosX": 0,
+      "shiftPosY": 3,
+      "hologramText": [
+        "\u0026lСтарший состав \u00263\u0026lFantasy",
+        "\u00268[\u00262Curator\u00268] \u00266De1ka \u0026f: \u00267Аделия \u0026f: \u00267Discord: @de1k0",
+        "",
+        "",
+        "\u0026lМодерация сервера",
+        "\u00268[\u00269 \u00268] \u0026e \u0026f: \u00267",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "hologramName": "case25k",
+      "enableModel": true,
+      "enableRotation": false,
+      "textSize": 3,
+      "shiftPosX": 0,
+      "shiftPosY": 2,
+      "hologramText": [
+        "Испытай свою удачу",
+        "в \u0026eуникальных кейсах",
+        "\u0026u25.000 эконов",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "hologramName": "case50k",
+      "enableModel": true,
+      "enableRotation": false,
+      "textSize": 3,
+      "shiftPosX": 0,
+      "shiftPosY": 2,
+      "hologramText": [
+        "Испытай свою удачу",
+        "в \u0026eуникальных кейсах",
+        "\u0026u50.000 эконов",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "hologramName": "case100k",
+      "enableModel": true,
+      "enableRotation": false,
+      "textSize": 3,
+      "shiftPosX": 0,
+      "shiftPosY": 2,
+      "hologramText": [
+        "Испытай свою удачу",
+        "в \u0026eуникальных кейсах",
+        "\u0026u100.000 эконов",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "hologramName": "event_parkour",
+      "enableModel": false,
+      "enableRotation": false,
+      "textSize": 3,
+      "shiftPosX": 0,
+      "shiftPosY": 2,
+      "hologramText": [
+        "\u0026u\u0026lДобро пожаловать на Parkour!",
+        "Ивент полностью автоматический.",
+        "Призы можно получить раз в 12 часов!",
+        "\u00266\u0026lПриз за прохождение:",
+        "Обычные игроки: 10.000 эконов",
+        "\u00266VIP: \u0026f15.000 эконов",
+        "\u0026bPremium: \u0026f20.000 эконов",
+        "\u00262Grand: \u0026f25.000 эконов",
+        "\u00265Ultra: \u0026f40.000 эконов",
+        ""
+      ]
+    },
+    {
+      "hologramName": "Event complex",
+      "enableModel": true,
+      "enableRotation": false,
+      "textSize": 3,
+      "shiftPosX": 0,
+      "shiftPosY": 4,
+      "hologramText": [
+        "\u00266\u0026lДобро пожаловать на /warp Complex!",
+        "\u0026eЦель ивента:",
+        "Быстрее всех добраться до финиша.",
+        "\u00266\u0026lПризы:",
+        "\u0026e1 место\u0026f - 40.000 эконов",
+        "\u0026e2 место\u0026f - 35.000 эконов",
+        "\u0026e3 место\u0026f - 30.000 эконов",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "hologramName": "event rules",
+      "enableModel": true,
+      "enableRotation": false,
+      "textSize": 3,
+      "shiftPosX": -1,
+      "shiftPosY": 2,
+      "hologramText": [
+        "\u0026c\u0026lЗапрещено:",
+        "\u0026e1.\u0026f Иметь в инвентаре любые предметы.",
+        "Исключения: еда, лунное очарование",
+        "\u0026e2.\u0026f Любые перевоплощения.",
+        "\u0026e3.\u0026f Всё, что даёт полёт\u0026f (включая /fly).",
+        "\u0026e4.\u0026f Любые активные эффекты\u0026f (Кроме защиты от искажения).",
+        "\u0026e5.\u0026f /speed.",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "hologramName": "rules",
+      "enableModel": true,
+      "enableRotation": false,
+      "textSize": 3,
+      "shiftPosX": -1,
+      "shiftPosY": 2,
+      "hologramText": [
+        "\u0026c\u0026lЗапрещено:",
+        "\u0026e1.\u0026f Иметь в инвентаре любые предметы.",
+        "Исключения: еда, лунное очарование",
+        "\u0026e2.\u0026f Любые перевоплощения.",
+        "\u0026e3.\u0026f Всё, что даёт полёт\u0026f (включая /fly).",
+        "\u0026e4.\u0026f Любые активные эффекты\u0026f (Кроме защиты от искажения).",
+        "\u0026e5.\u0026f /speed.",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "hologramName": "jail",
+      "enableModel": true,
+      "enableRotation": false,
+      "textSize": 2,
+      "shiftPosX": 0,
+      "shiftPosY": 1,
+      "hologramText": [
+        "Вы попали в тюрьму за \u0026cнарушение\u0026f правил!",
+        "",
+        "\u0026e/timeleft\u0026f - сколько осталось сидеть.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "hologramName": "shop",
+      "enableModel": true,
+      "enableRotation": false,
+      "textSize": 3,
+      "shiftPosX": 0,
+      "shiftPosY": 3,
+      "hologramText": [
+        "\u0026e\u0026lДобро пожаловать в магазин сервера!",
+        "",
+        "Все покупки осуществляются за серверную валюту - эконы.",
+        "Получить эконы можно, голосуя за наш проект.",
+        "",
+        "\u0026b\u0026lПриятных покупок!",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ]
+}

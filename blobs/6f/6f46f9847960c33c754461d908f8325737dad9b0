@@ -1,0 +1,42 @@
+{
+	x: -23.5d,
+	y: -6.0d,
+	description: "Своей красотой радует глаз",
+	text: [
+		"Ну и максимальный уровень алтаря и снова усовершенствие всего",
+		"",
+		"[&e!&f] &7Учтите, что секстант не показывает реле, вам понадобится на угольном мраморе поставить 6 реле",
+		"",
+		"Лучше ставить близко, чтобы при крафтах видеть все реле и положить на него нужный предмет"
+	],
+	dependencies: [
+		"2a200de9"
+	],
+	tasks: [{
+		uid: "6f616175",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockaltar",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "792effbf",
+		type: "item",
+		item: "simpletools:lootbox_astralsorcery"
+	},
+	{
+		uid: "fa08bb7d",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "40dff068",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

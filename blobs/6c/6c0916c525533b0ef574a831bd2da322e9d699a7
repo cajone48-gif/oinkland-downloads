@@ -1,0 +1,35 @@
+{
+	x: 28.5d,
+	y: -2.25d,
+	description: "Больше душ!",
+	text: [
+		"&c256&f воли в одном адском камне!"
+	],
+	dependencies: [
+		"c2cf28e8"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "66413362",
+		type: "item",
+		items: [{
+			id: "bloodmagic:soul_gem",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			Damage: 1s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8fc97406",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "e1947c13",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

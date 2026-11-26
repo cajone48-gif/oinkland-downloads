@@ -1,0 +1,29 @@
+{
+	title: "Гайя 4-го уровня",
+	x: 5.5d,
+	y: 1.0d,
+	description: "Сильнейший босс",
+	text: [
+		"Гайя 4-го уровня призывается зовом пустоты."
+	],
+	dependencies: [
+		"a2b98e7f"
+	],
+	tasks: [{
+		uid: "77849f0a",
+		type: "item",
+		items: [{
+			item: "extrabotany:material 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "cac111a5",
+		type: "item",
+		item: "simpletools:lootbox_botania"
+	},
+	{
+		uid: "21867188",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

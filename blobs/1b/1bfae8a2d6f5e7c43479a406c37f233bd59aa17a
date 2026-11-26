@@ -1,0 +1,35 @@
+{
+	x: -6.5d,
+	y: 8.0d,
+	description: "Я хочу себе этот спавнер!",
+	text: [
+		"&eАгрегатор жизни&f - это единоразовый предмет, позволяющий перенести спавнер в любое место.",
+		"",
+		"&7[&6!&f&7] Не работает на спавнерах из модификации Advent Of Ascention."
+	],
+	dependencies: [
+		"b08a09d9"
+	],
+	tasks: [{
+		uid: "ed2007e7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:spawnermover"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c9c71b83",
+		type: "item",
+		item: "simpletools:lootbox_botania"
+	},
+	{
+		uid: "2a9cf236",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

@@ -1,0 +1,41 @@
+# xb1tnatorV for SIMPLEMINECRAFT
+
+# --- CRYSTAL
+mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:decorative_brick:2>, <bloodmagic:decorative_brick>, 4, 200000,30,40);
+
+recipes.addShapeless(<bloodmagic:decorative_brick:3> * 4, [<bloodmagic:decorative_brick:2>, <bloodmagic:decorative_brick:2>, <bloodmagic:decorative_brick:2>, <bloodmagic:decorative_brick:2>]);
+
+# --- DEMON PYLON
+mods.bloodmagic.TartaricForge.removeRecipe([<minecraft:iron_block>, <minecraft:stone>, <bloodmagic:item_demon_crystal>, <minecraft:dye:4>]);
+mods.bloodmagic.TartaricForge.addRecipe(<bloodmagic:demon_pylon>,[<minecraft:iron_block>, <ore:stone>, <bloodmagic:item_demon_crystal>, <botanicadds:mana_lapis>], 400,50);
+
+# --- DEMON CRUCIBLE
+mods.bloodmagic.TartaricForge.removeRecipe([<minecraft:cauldron>, <minecraft:stone>, <minecraft:diamond>, <minecraft:dye:4>]);
+mods.bloodmagic.TartaricForge.addRecipe(<bloodmagic:demon_crucible>,[<minecraft:cauldron>, <ore:stone>, <minecraft:diamond>, <botanicadds:mana_lapis>], 400,100);
+
+# --- DEMON CRYSTALLIZER
+mods.bloodmagic.TartaricForge.removeRecipe([<bloodmagic:soul_forge>, <minecraft:stone>, <minecraft:glass>, <minecraft:dye:4>]);
+mods.bloodmagic.TartaricForge.addRecipe(<bloodmagic:demon_crystallizer>,[<bloodmagic:soul_forge>, <ore:stone>, <minecraft:glass>, <botanicadds:mana_lapis>], 500,100);
+
+# --- VAMPIRE RING
+recipes.remove(<bloodarsenal:vampire_ring>);
+recipes.addShaped(<bloodarsenal:vampire_ring>, [
+[<bloodarsenal:blood_diamond>, <bloodmagic:slate:3>, <bloodmagic:slate:3>],
+[<bloodmagic:slate:3>, <thaumcraft:cloud_ring>, <bloodmagic:slate:3>],
+[<bloodmagic:slate:3>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:master"}), <bloodmagic:slate:3>]]);
+
+# --- DECORATIVE BRICK
+recipes.remove(<bloodmagic:decorative_brick>);
+recipes.addShapeless(<bloodmagic:decorative_brick>, [<ore:stone>, <bloodmagic:blood_shard>]);
+
+# --- REAGENT
+mods.bloodmagic.TartaricForge.removeRecipe([<bloodarsenal:base_item:8>, <bloodmagic:decorative_brick:2>, <minecraft:golden_apple:1>, <minecraft:nether_star>]);
+mods.bloodmagic.TartaricForge.addRecipe(<bloodarsenal:base_item:9>,[<bloodarsenal:sigil_lightning>, <bloodmagic:sigil_elemental_affinity>, <astralsorcery:itemshiftingstar>, <bloodarsenal:blood_diamond:2>], 16384,16384);
+mods.bloodmagic.TartaricForge.addRecipe(<bloodarsenal:base_item:8>,[<bloodmagic:component:8>, <botanicadds:rune_energy>, <minecraft:blaze_powder>, <minecraft:redstone_block>], 1024,300);
+
+# --- DECORATIVE BLOCK
+recipes.remove(<bloodarsenal:slate>);
+recipes.remove(<bloodarsenal:slate:1>);
+recipes.remove(<bloodarsenal:slate:2>);
+recipes.remove(<bloodarsenal:slate:3>);
+recipes.remove(<bloodarsenal:slate:4>);

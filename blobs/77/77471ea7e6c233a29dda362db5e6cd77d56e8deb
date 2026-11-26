@@ -1,0 +1,34 @@
+{
+	title: "Алмазный топор минотавра",
+	x: 3.0d,
+	y: 2.0d,
+	description: "Вот это сила!",
+	text: [
+		"Получите Алмазный топор минотавра, убив Гриботавра - короля минотавров."
+	],
+	dependencies: [
+		"25cb2e71"
+	],
+	tasks: [{
+		uid: "e20d9948",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:minotaur_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4cd86395",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "53078a40",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

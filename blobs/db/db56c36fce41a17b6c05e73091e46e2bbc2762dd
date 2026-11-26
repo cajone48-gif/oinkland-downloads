@@ -1,0 +1,28 @@
+{
+	title: "Шторм.",
+	x: -14.0d,
+	y: -5.5d,
+	text: [
+		"Руна Грекона. Создаётся с 49 уровня."
+	],
+	dependencies: [
+		"607b224d"
+	],
+	tasks: [{
+		uid: "a74c02fd",
+		type: "item",
+		items: [{
+			item: "aoa3:storm_rune"
+		}]
+	}],
+	rewards: [{
+		uid: "ec950f51",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "1058fe93",
+		type: "item",
+		item: "aoa3:rune_box"
+	}]
+}

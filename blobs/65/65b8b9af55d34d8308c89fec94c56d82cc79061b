@@ -1,0 +1,72 @@
+{
+	title: "Манатканные одеяния",
+	x: -9.5d,
+	y: 6.0d,
+	description: "Это стиль такой?",
+	text: [
+		"Полный комплект одеяний даёт уменьшение затрат маны в 35% для инструментов.",
+		"",
+		"Повышает уровень владения магическими жезлами."
+	],
+	dependencies: [
+		"f40f63d5"
+	],
+	tasks: [{
+		uid: "37cb0f7a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:manaweavehelm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "92e58cc3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:manaweavechest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8be4caff",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:manaweavelegs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cbdf2780",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:manaweaveboots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5ad1d675",
+		type: "item",
+		item: "simpletools:lootbox_botania"
+	},
+	{
+		uid: "75f3d467",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

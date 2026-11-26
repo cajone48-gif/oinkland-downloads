@@ -1,0 +1,35 @@
+{
+	title: "Рай сладкоежки.",
+	x: -5.5d,
+	y: 7.0d,
+	text: [
+		"Купите у Натуралиста в мире Прекасия фрукт сердца и съешьте его."
+	],
+	dependencies: [
+		"701d57d1"
+	],
+	tasks: [{
+		uid: "0ce632c7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "aoa3:candyland_realmstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3f508984",
+		type: "item",
+		items: [{
+			item: "aoa3:heart_fruit"
+		}]
+	}],
+	rewards: [{
+		uid: "1d263dac",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

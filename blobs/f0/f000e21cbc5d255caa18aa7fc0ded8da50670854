@@ -1,0 +1,31 @@
+{
+	title: "Ихоровая ткань",
+	x: -10.5d,
+	y: -10.5d,
+	shape: "hexagon",
+	description: "Такая прочная!",
+	text: [
+		" Используется для крафтов и не имеет никаких собственных свойств."
+	],
+	dependencies: [
+		"d82cb175"
+	],
+	tasks: [{
+		uid: "afcd0501",
+		type: "item",
+		items: [{
+			item: "simplemagic:material 1 2"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "a87052f7",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	},
+	{
+		uid: "058e88da",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

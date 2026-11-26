@@ -1,0 +1,40 @@
+{
+	title: "Шелк",
+	x: -4.0d,
+	y: 2.5d,
+	description: "Где его найти?",
+	text: [
+		"&eТонкий шелк&f можно сорвать в хорошем сне, а &eпорванный&f в сне-кошмаре.",
+		"",
+		"Ломается как рукой, так и ножницами."
+	],
+	dependencies: [
+		"ac0f0fb1"
+	],
+	tasks: [{
+		uid: "897c6ca4",
+		type: "item",
+		items: [{
+			item: "witchery:wispy_cotton"
+		}],
+		count: 16L
+	},
+	{
+		uid: "4fa70ed9",
+		type: "item",
+		items: [{
+			item: "witchery:disturbed_cotton"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "31cf3a1e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "54e80f06",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

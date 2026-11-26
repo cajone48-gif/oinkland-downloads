@@ -1,0 +1,59 @@
+{
+	title: "Камни инфузии",
+	x: -9.5d,
+	y: -16.5d,
+	description: "Довольно интересные свойства",
+	text: [
+		"&eКамень скорости&f, помещенный под колонны матрицы, ускоряет процесс наполнения.",
+		"",
+		"&eКамень затрат&f снижает стоимость наполнения.",
+		"",
+		"&eБрусчатка путешественника&f увеличивает скорость игрока.",
+		"",
+		"&eКамень-барьер&f не позволяет сущностям перешагнуть через блок.",
+		"",
+		"&l[&6!&f&l]&f Расположение камней скорости и затрат должно быть симметричным! ",
+		"Устанавливается сразу 4 камня."
+	],
+	dependencies: [
+		"d61d7f87"
+	],
+	tasks: [{
+		uid: "60fe8b6a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:matrix_speed"
+		}]
+	},
+	{
+		uid: "890f4bc6",
+		type: "item",
+		items: [{
+			item: "thaumcraft:matrix_cost"
+		}]
+	},
+	{
+		uid: "46c53066",
+		type: "item",
+		items: [{
+			item: "thaumcraft:paving_stone_travel"
+		}]
+	},
+	{
+		uid: "fc1ec1b4",
+		type: "item",
+		items: [{
+			item: "thaumcraft:paving_stone_barrier"
+		}]
+	}],
+	rewards: [{
+		uid: "1149c335",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "3d341ebf",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

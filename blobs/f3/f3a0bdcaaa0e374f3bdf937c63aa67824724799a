@@ -1,0 +1,30 @@
+{
+	title: "Воздух эндера",
+	x: -8.0d,
+	y: 8.0d,
+	description: "Кажется он ничем не пахнет...",
+	text: [
+		"Чтобы получить Пузырёк с воздухом Эндера, скрафтите &eПузырьки&f, войдите в мир Эндера - Край - и кликните ПКМ пузырьком по любому блоку."
+	],
+	dependencies: [
+		"85dfb8a4"
+	],
+	tasks: [{
+		uid: "d157708b",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 15"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "fe75dd02",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "270645be",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

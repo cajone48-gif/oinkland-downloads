@@ -1,0 +1,35 @@
+{
+	x: 8.0d,
+	y: -8.5d,
+	description: "Фигурное катание?",
+	text: [
+		"&eКоньки&f позволяют ходить по воде и лаве, при этом обращая воду в лёд, а лаву в обсидиан.",
+		"",
+		"При хождении по лаве прочность коньков будет значительно уменьшаться."
+	],
+	dependencies: [
+		"40e814cd"
+	],
+	tasks: [{
+		uid: "0835b552",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "witchery:icy_slippers"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0b843cc4",
+		type: "item",
+		item: "simpletools:lootbox_witchery"
+	},
+	{
+		uid: "8a37f39a",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

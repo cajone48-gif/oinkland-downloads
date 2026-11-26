@@ -1,0 +1,27 @@
+{
+	x: 11.228571428571428d,
+	y: -3.507142857142867d,
+	shape: "square",
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "7440cb4c",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 1"
+		}],
+		count: 3L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "b36e43af",
+		type: "command",
+		title: "Сброс",
+		icon: "minecraft:clock",
+		command: "/ftbquests change_progress reset_deps @p 07525bee"
+	},
+	{
+		uid: "d9506271",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

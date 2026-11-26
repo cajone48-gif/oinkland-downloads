@@ -1,0 +1,40 @@
+{
+	title: "Распространитель маны Гайи",
+	x: -10.5d,
+	y: 12.5d,
+	description: "Совершенная передача маны",
+	text: [
+		"Распространитель вмещает в себя 32.000 маны и передает 3.200 за один выстрел."
+	],
+	dependencies: [
+		"9b8d0b59"
+	],
+	tasks: [{
+		uid: "e97adae9",
+		type: "item",
+		items: [{
+			item: "botania:spreader 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "c32c805e",
+		type: "xp_levels",
+		xp_levels: 2
+	},
+	{
+		uid: "8f7caffa",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "0d98d05e",
+		type: "item",
+		item: {
+			id: "simpletools:lootbox_botania",
+			tag: {
+				UUID: "botania"
+			}
+		},
+		count: 2
+	}]
+}

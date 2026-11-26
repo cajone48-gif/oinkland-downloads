@@ -1,0 +1,37 @@
+{
+	title: "&6Адские свиньи",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:golden_sword"
+	},
+	x: -11.5d,
+	y: 13.0d,
+	description: "Как получить 9 уровень?",
+	text: [
+		"Для получения 9 уровня Вам нужно в форме вервольфа &eубить 30 свинозомби.&f",
+		"",
+		"&l[&6!&f&l]&f Убивать рукой в прыжке!"
+	],
+	dependencies: [
+		"a2ea4bae"
+	],
+	tasks: [{
+		uid: "ffb0ef21",
+		type: "kill",
+		title: "Убить 30 свинозомби",
+		entity: "minecraft:zombie_pigman",
+		value: 30L
+	}],
+	rewards: [{
+		uid: "7a6797d1",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "2580cc98",
+		type: "item",
+		item: "simpletools:lootbox_witchery_jars"
+	}]
+}

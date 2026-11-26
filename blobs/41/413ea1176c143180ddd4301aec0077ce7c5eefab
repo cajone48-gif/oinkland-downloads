@@ -1,0 +1,127 @@
+# Configuration file
+
+##########################################################################################################
+# abilities
+#--------------------------------------------------------------------------------------------------------#
+# Эти настройки связаны с Morph способностями.
+##########################################################################################################
+
+abilities {
+    # Включить способности форм? [range: 0 ~ 1, default: 1]
+    I:abilities=1
+
+    # Какие способности отключать?
+    # Выберите тип способности (fly, witherResistance)
+    # Разделяйте способности запятыми
+    # Пример: fly,swim,sink [default: ]
+    S:disabledAbilities <
+     >
+    I:enableFlight=1
+    I:hostileAbilityDistanceCheck=6
+    I:hostileAbilityMode=0
+    I:showAbilitiesInGui=1
+}
+
+
+##########################################################################################################
+# clientonly
+#--------------------------------------------------------------------------------------------------------#
+# Эти настройки влияют только на клиент, который использует модификации.
+##########################################################################################################
+
+clientonly {
+    # Abilities to be hidden in the selector GUI. [default: ]
+    S:abilitiesToHideInGui <
+     >
+
+    # Disable the animation when you acquire a new morph. [range: 0 ~ 1, default: 0]
+    I:disableMorphAcquisitionAnimation=0
+
+    # Разрешить моду перерисовывать руку? [range: 0 ~ 1, default: 1]
+    I:handRenderOverride=1
+}
+
+
+##########################################################################################################
+# gameplay
+#--------------------------------------------------------------------------------------------------------#
+# Эти настройки влияют на игровой процесс, при использовании модификаций.
+##########################################################################################################
+
+gameplay {
+    # A blacklist or whitelist of mobs disallowed/allowed to be acquired. [default: ]
+    S:blackwhiteListedMobs <
+        botania:magic_landmine
+        botania:falling_star
+     >
+
+    # A blacklist or whitelist of players disallowed/allowed to be morph. [default: ]
+    S:blackwhiteListedPlayers <
+     >
+
+    # Можно ли приобретать формы боссов? Изначально выключено из-за проблем с трансформацией в дракона Края, Гидру/Нагу из Twilight Forest и пр. [range: 0 ~ 1, default: 0]
+    I:bossMorphs=0
+
+    # Можите ли Вы спать в форме? [range: 0 ~ 1, default: 0]
+    I:canSleepMorphed=0
+
+    # Можно ли приобретать формы детёнышей?
+    # Изначально выключено из-за неправильного перехода. [range: 0 ~ 1, default: 0]
+    I:childMorphs=0
+
+    # Enable Classic Mode for Morph?
+    # Classic Mode aka Morph 0.9.2 style morph. [range: 0 ~ 1, default: 0]
+    I:classicMode=1
+
+    # Перенаправить мод на другой JSON с патчем вместо патча на GitHub.
+    # Если хотите оставить всё как было - ничего тут не пишите.
+    # Так же влияет на NBTStripper.json.
+    # Если ссылка на файл "https://raw.github.com/iChun/Morph/master/src/main/resources/assets/morph/mod/AbilitySupport.json", поставьте "https://raw.github.com/iChun/Morph/master/src/main/resources/assets/morph/mod/". Вы не можете изменять имя файла (пример: AbilitySupport.json). [default: ]
+    S:customPatchLink=
+
+    # Будете ли Вы сразу превращаться при получении новой формы? [range: 0 ~ 1, default: 0]
+    I:instaMorph=0
+
+    # Is the list a blacklist or whitelist? (Yes = Blacklist, No = Whitelist) [range: 0 ~ 1, default: 1]
+    I:listIsBlacklistMobs=1
+
+    # Is the list a blacklist or whitelist? (Yes = Blacklist, No = Whitelist) [range: 0 ~ 1, default: 1]
+    I:listIsBlacklistPlayers=0
+
+    # Будете ли Вы терять формы при смерти?
+    # 0 = Нет
+    # 1 = Да, все
+    # 2 = Да, но только ту, в которой Вы были в момент смерти. [range: 0 ~ 1, default: 0]
+    I:loseMorphsOnDeath=0
+
+    # Maximum health when in Morph. [range: 1 ~ 1000, default: 20]
+    I:maxMorphHealth=20
+
+    # Can morphing affect your health? [range: 0 ~ 1, default: 1]
+    I:morphHealthBalancing=1
+
+    # Time to complete a morph (in ticks) [range: 30 ~ 2147483647, default: 80]
+    I:morphTime=0
+
+    # Можно ли приобретать формы игроков? [range: 0 ~ 1, default: 1]
+    I:playerMorphs=0
+
+    # Показывать ник игрока, в чей форме Вы? [range: 0 ~ 1, default: 0]
+    I:showPlayerLabel=0
+
+    # Использовать дополнительные ресурсы из папки конфигурации?
+    # Опция для откладки/NBT чистки. [range: 0 ~ 1, default: 0]
+    I:useLocalResources=0
+}
+
+
+##########################################################################################################
+# keybind
+#--------------------------------------------------------------------------------------------------------#
+# Если Вы читаете это, я бы настоятельно рекомендовал изменить настройки клавиш в игре.\niChunUtil использует нестандартные настройки. Нажмите в настройках клавишу O, чтобы увидеть другие настройки.\n\nЕсли вам действительно нужно отредактировать файл конфигурации, формат <key code>, и добавьте ":SHIFT", ":CTRL", или ":ALT", для назначения кнопок, которые Вы хотите удерживать.\nДля уточнения кодов клавиш перейдите на : http://minecraft.gamepedia.com/Key_codes \nПример: 48:SHIFT:ALT привяжется к клавише B при нажатии Shift и Alt.
+##########################################################################################################
+
+keybind {
+}
+
+

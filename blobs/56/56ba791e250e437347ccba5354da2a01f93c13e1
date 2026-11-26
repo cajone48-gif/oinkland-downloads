@@ -1,0 +1,31 @@
+{
+	title: "Игроман IV",
+	x: 4.800000000000004d,
+	y: -1.250000000000007d,
+	shape: "square",
+	description: "Проведите на сервере 24 часа",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8313cbdc"
+	],
+	tasks: [{
+		uid: "150624eb",
+		type: "stat",
+		icon: "minecraft:clock",
+		stat: "stat.playOneMinute",
+		value: 1728000
+	}],
+	rewards: [{
+		uid: "38754740",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "cef72382",
+		type: "ftbmoney:money",
+		ftb_money: 800L
+	}]
+}

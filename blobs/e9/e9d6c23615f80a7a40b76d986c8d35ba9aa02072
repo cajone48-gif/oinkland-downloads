@@ -1,0 +1,33 @@
+{
+	title: "Железное дерево",
+	x: -4.0d,
+	y: -9.0d,
+	description: "Крепкое, но всё же дерево...",
+	text: [
+		"Замшелые корни можно найти в шахтах сумеречного леса.",
+		"",
+		"Объедините материалы из двух разных миров вместе и создайте железное дерево."
+	],
+	dependencies: [
+		"b99ed617"
+	],
+	tasks: [{
+		uid: "4fbe00f0",
+		type: "item",
+		items: [{
+			item: "twilightforest:ironwood_raw"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "ab359d69",
+		type: "item",
+		item: "twilightforest:ironwood_ingot",
+		count: 6
+	},
+	{
+		uid: "beb7b795",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Жизнь.",
+	x: -13.0d,
+	y: -6.0d,
+	text: [
+		"Создаётся в Прекасии с 72 уровня."
+	],
+	dependencies: [
+		"607b224d"
+	],
+	tasks: [{
+		uid: "c9c16ad4",
+		type: "item",
+		items: [{
+			item: "aoa3:life_rune"
+		}]
+	}],
+	rewards: [{
+		uid: "44a3dca0",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "c680b433",
+		type: "item",
+		item: "aoa3:rune_box"
+	}]
+}

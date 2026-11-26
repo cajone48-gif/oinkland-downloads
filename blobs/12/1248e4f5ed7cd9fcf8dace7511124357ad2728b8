@@ -1,0 +1,87 @@
+{
+	title: "Объединяя всё.",
+	x: 5.0d,
+	y: 13.0d,
+	text: [
+		"Чтобы получить камень царства, обьедените тёмный порошок, светокамень, призрачный цветок и раствор магической починки.",
+		"",
+		"&7Кровавый камень, можно добыть в Безде из Кроваво-каменной руды или из такого моба, как Джейл",
+		"",
+		"&7Для создания раствора положите на верстак металлическое ведро, ведро лавы и три магических пыли починки.",
+		"",
+		"&7Магическую пыль починки можно найти в данжах, извлечь из лавы на 95 уровне навыка \"Добыча\", получить из всех боссов Невермайна, кроме Грау, Крор, Скелетной армии, Смэша, Бессмертных, Тирозавра и Винокорна."
+	],
+	dependencies: [
+		"796fbdd6",
+		"ab4cc302"
+	],
+	tasks: [{
+		uid: "a9fc9732",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "aoa3:shyrelands_realmstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "65575ee4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "aoa3:magic_mending_solution"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "993159a8",
+		type: "item",
+		items: [{
+			item: "aoa3:darkly_powder"
+		}]
+	},
+	{
+		uid: "d4b8d5d4",
+		type: "item",
+		items: [{
+			item: "aoa3:bloodstone"
+		}]
+	},
+	{
+		uid: "6b0bffa6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:lava_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "25989371",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone"
+		}]
+	},
+	{
+		uid: "00d9b5fe",
+		type: "item",
+		items: [{
+			item: "aoa3:haunted_flower"
+		}]
+	}],
+	rewards: [{
+		uid: "95e1a266",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Мини-картошка",
+	x: -13.5d,
+	y: 7.0d,
+	description: "Пасхалка.",
+	text: [
+		"При размещении в мире на ней можно щелкнуть ПКМ, он будет испускать сердечки.",
+		"",
+		"&7Если его переименовать на Vazkii с ошибкой, он будет декламировать измененную версию текста песни That's Not My Name от The Ting Tings в чате игрока.",
+		"",
+		"Если переименовать в  Shia LaBeouf, картошка будет издавать мотивирующие звуки \"DO IT!\"."
+	],
+	dependencies: [
+		"02dcbdfc"
+	],
+	tasks: [{
+		uid: "53829479",
+		type: "item",
+		items: [{
+			item: "botania:tinypotato"
+		}]
+	}],
+	rewards: [{
+		uid: "cb2b011f",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

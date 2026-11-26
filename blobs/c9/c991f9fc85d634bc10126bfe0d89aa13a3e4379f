@@ -1,0 +1,28 @@
+{
+	x: -25.5d,
+	y: -8.0d,
+	description: "Так блестит, вот бы колечко с ним...",
+	text: [
+		"Чтобы его сделать вам надо поместить аквамарин на разливщик и ПКМ резонирующим жезлом"
+	],
+	dependencies: [
+		"2a200de9"
+	],
+	tasks: [{
+		uid: "f0f4445b",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "7eb1c903",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "19f7a9dd",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

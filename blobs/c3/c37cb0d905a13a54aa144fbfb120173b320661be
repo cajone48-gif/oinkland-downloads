@@ -1,0 +1,29 @@
+{
+	title: "Кинетика.",
+	x: -10.5d,
+	y: -4.0d,
+	text: [
+		"Создаётся в Гарденсии с 54 уровня."
+	],
+	dependencies: [
+		"607b224d"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "33a7f042",
+		type: "item",
+		items: [{
+			item: "aoa3:kinetic_rune"
+		}]
+	}],
+	rewards: [{
+		uid: "5048f802",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "f35f29bd",
+		type: "item",
+		item: "aoa3:rune_box"
+	}]
+}

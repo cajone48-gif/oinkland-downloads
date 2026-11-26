@@ -1,0 +1,34 @@
+{
+	title: "Бесплотный резчик",
+	x: -9.0d,
+	y: 11.0d,
+	description: "Быстрая добыча жемчуга",
+	text: [
+		"Меч, благодаря которому можно быстро убивать эндерменов."
+	],
+	dependencies: [
+		"85dfb8a4"
+	],
+	tasks: [{
+		uid: "8649c508",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:enderdagger"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6516b312",
+		type: "xp_levels",
+		xp_levels: 2
+	},
+	{
+		uid: "dcb2cd5e",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Слиток фотониума",
+	x: -10.5d,
+	y: 1.0d,
+	description: "Ух ты!",
+	text: [
+		"Слиток, являющийся элементом крафтов."
+	],
+	dependencies: [
+		"918d4ddb"
+	],
+	tasks: [{
+		uid: "fc06992f",
+		type: "item",
+		items: [{
+			item: "extrabotany:material 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "fcaba5ac",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "2cb6bfc1",
+		type: "item",
+		item: "simpletools:lootbox_botania"
+	}]
+}

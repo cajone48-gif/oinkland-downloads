@@ -1,0 +1,40 @@
+{
+	title: "&aДемон",
+	x: 3.0d,
+	y: 4.0d,
+	shape: "hexagon",
+	description: "Я вырву твоё сердце!",
+	text: [
+		"Сердце демона можно &eвыкупить&f у демона.",
+		"",
+		"Призвать демона можно с помощью &eритуала призыва&f. Книга Ведьмовство: Магия кругов - стр. 59, 60.",
+		"",
+		"&l[&6!&f&l]&f Демон будет вас атаковать, будьте осторожны!"
+	],
+	dependencies: [
+		"19a8713c"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "940d6a7e",
+		type: "item",
+		items: [{
+			item: "witchery:demon_heart"
+		}]
+	}],
+	rewards: [{
+		uid: "adfdadbf",
+		type: "item",
+		item: "simpletools:lootbox_witchery"
+	},
+	{
+		uid: "3b088da5",
+		type: "item",
+		item: "simpletools:lootbox_witchery_jars"
+	},
+	{
+		uid: "d789e6a3",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

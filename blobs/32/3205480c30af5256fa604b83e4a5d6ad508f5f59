@@ -1,0 +1,37 @@
+{
+	x: 37.0d,
+	y: -9.5d,
+	description: "Книга опыта",
+	text: [
+		"&f&cТом исследований&f – это книга, в которой можно хранить ваш &cопыт&f.",
+		"",
+		"&cShift+ПКМ&f, чтобы сохранить опыт, &cПКМ&f, чтобы выдать себе накопленный опыт.",
+		"",
+		"&cСферы опыта&f, которые вы подбираете, будут автоматически сохранены в Томе исследований, при условии, что он находится у вас в инвентаре."
+	],
+	dependencies: [
+		"a4ffa6b2"
+	],
+	tasks: [{
+		uid: "8e6734d8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:experience_tome"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c3d80ce2",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "8d859b8a",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

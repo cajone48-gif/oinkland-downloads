@@ -1,0 +1,37 @@
+{
+	x: 27.5d,
+	y: -8.0d,
+	description: "Главный помощник в постройке алтаря",
+	text: [
+		"&fИнспектор блоков&f — полезная книга для тех, кто не знаком с кровавым искусством.",
+		"",
+		"Книга позволяет предварительно ознакомиться со структурой для каждого уровня &cКровавого алтаря&f.",
+		"",
+		"Просто &cЩелкните ПКМ&f по воздуху, чтобы изменить уровень, и &cShift+ПКМ по алтарю&f, чтобы настроить предварительный просмотр вокруг него."
+	],
+	dependencies: [
+		"744443b2"
+	],
+	tasks: [{
+		uid: "ec2562cc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sanguine_book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "83b16391",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "e890ebb4",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

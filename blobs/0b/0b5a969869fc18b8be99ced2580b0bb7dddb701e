@@ -1,0 +1,30 @@
+{
+	title: "Таумиум",
+	x: 5.0d,
+	y: -21.0d,
+	description: "Пропитанное магией железо",
+	text: [
+		"Слитки таумиума используется во многих крафтах."
+	],
+	dependencies: [
+		"7c204714"
+	],
+	tasks: [{
+		uid: "a9be890c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "b70a56a2",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "e5b5895b",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

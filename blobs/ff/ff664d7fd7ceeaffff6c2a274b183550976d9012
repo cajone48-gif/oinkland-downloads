@@ -1,0 +1,80 @@
+{
+	title: "Книжный червь",
+	x: 4.5d,
+	y: -5.0d,
+	description: "Библиотека знаний",
+	text: [
+		"Создайте для себя все &eкниги ведьмовства&f. ",
+		"",
+		"В них вы найдёте практически &eвсю информацию&f по зельеварению, ритуалам, дистилляции и т.д. "
+	],
+	dependencies: [
+		"d543c49d"
+	],
+	tasks: [{
+		uid: "242f78b6",
+		type: "item",
+		items: [{
+			item: "witchery:collecting_fumes_book"
+		}]
+	},
+	{
+		uid: "69c85dd7",
+		type: "item",
+		items: [{
+			item: "witchery:brews_and_infusions_book"
+		}]
+	},
+	{
+		uid: "3ed64eb6",
+		type: "item",
+		items: [{
+			item: "witchery:distilling_book"
+		}]
+	},
+	{
+		uid: "e65968d9",
+		type: "item",
+		items: [{
+			item: "witchery:witches_brews_book"
+		}]
+	},
+	{
+		uid: "10a79a14",
+		type: "item",
+		items: [{
+			item: "witchery:circle_magic_book"
+		}]
+	},
+	{
+		uid: "4e239023",
+		type: "item",
+		items: [{
+			item: "witchery:herbology_book"
+		}]
+	},
+	{
+		uid: "99f49f8a",
+		type: "item",
+		items: [{
+			item: "witchery:conjuration_and_fetishes_book"
+		}]
+	},
+	{
+		uid: "e7a6b2eb",
+		type: "item",
+		items: [{
+			item: "witchery:symbology_book"
+		}]
+	}],
+	rewards: [{
+		uid: "bab45787",
+		type: "item",
+		item: "simpletools:lootbox_witchery_jars"
+	},
+	{
+		uid: "2c78b6c7",
+		type: "item",
+		item: "simpletools:lootbox_witchery"
+	}]
+}

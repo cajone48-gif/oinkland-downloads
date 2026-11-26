@@ -1,0 +1,84 @@
+{
+	title: "Луки",
+	x: -2.0d,
+	y: 12.0d,
+	text: [
+		"&eТройной лук&f - Лук стреляет тремя стрелами, используя одну. ",
+		"",
+		"&7Получение после убийства Снежной королевы. ",
+		"",
+		"&eЛук искателя&f - стрелы, выпущенные из него, будут сканировать окружающую местность в поисках объектов прицеливания и попадут в них.",
+		"",
+		"&7Получение после убийства Снежной королевы - 50%.",
+		"",
+		"&eЛедяной лук&f - наносит объектам замедление III на 10 секунд, помещая в глыбу льда.",
+		"",
+		"&7Получение в качестве добычи из сундуков в Сумеречном лесу.",
+		"",
+		"&eЭндер-лук&f - стреляет как обычный лук, но если стрела попадает в существо, игрок телепортируется к этому существу.",
+		"",
+		"&7Получение в качестве добычи из сундуков во дворце Авроры."
+	],
+	dependencies: [
+		"f72e31c3"
+	],
+	tasks: [{
+		uid: "b284498a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:triple_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2b8c4d84",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:seeker_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "603f3e12",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:ice_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9e41b812",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:ender_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7b072a60",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "6c1ebf08",
+		type: "item",
+		item: "minecraft:arrow",
+		count: 64
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "&cТеперь я Дракула",
+	x: -14.5d,
+	y: 14.5d,
+	description: "10 уровень!!!",
+	text: [
+		"Для получения 10 уровня нужно набрать в стеклянный кубок свою кровь.",
+		"",
+		"Необходимо выпить у жителя всю кровь, наложить &eпаралич&f и дать ему &eстеклянный кубок со своей кровью&f.",
+		"",
+		"&7На 10 уровне Вам даётся способность Ускорение - 5 активаций.&f"
+	],
+	dependencies: [
+		"049384f4"
+	],
+	tasks: [{
+		uid: "bb95ecfd",
+		type: "observation",
+		title: "Встретить вампира",
+		match_type: "entity_id",
+		match: "witchery:vampire",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "baba2a73",
+		type: "item",
+		item: "witchery:warm_blood",
+		count: 10
+	},
+	{
+		uid: "e6751860",
+		type: "item",
+		item: "simpletools:lootbox_witchery_jars"
+	}]
+}

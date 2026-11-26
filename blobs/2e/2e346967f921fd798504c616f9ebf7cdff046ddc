@@ -1,0 +1,26 @@
+{
+	icon: "witchery:wolf_head",
+	x: 11.244897959183689d,
+	y: 0.9846938775510239d,
+	shape: "square",
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "b5e306a8",
+		type: "kill",
+		icon: "witchery:wolf_head",
+		entity: "twilightforest:winter_wolf",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "1e4ad201",
+		type: "command",
+		title: "Сброс",
+		icon: "minecraft:clock",
+		command: "/ftbquests change_progress reset_deps @p 7fd73f16"
+	},
+	{
+		uid: "3934f2e5",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

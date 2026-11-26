@@ -1,0 +1,33 @@
+{
+	x: 28.0d,
+	y: -14.0d,
+	description: "Всего один укольчик",
+	text: [
+		"&f&cКинжал жертвоприношения&f используется для &cжертвоприношения&f сущностей, находившихся около вашего &cКровавого алтаря&f, их убийства будут поставлять алтарю заветную &cжизненную эссенцию LP&f."
+	],
+	dependencies: [
+		"cf0b5399"
+	],
+	tasks: [{
+		uid: "57542145",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:dagger_of_sacrifice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2ef72587",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "9804899b",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

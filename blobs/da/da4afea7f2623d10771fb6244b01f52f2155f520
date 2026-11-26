@@ -1,0 +1,34 @@
+{
+	title: "Более крутой крючок",
+	x: -4.0d,
+	y: -13.0d,
+	description: "Требуется Вис",
+	text: [
+		"Работает как крюк."
+	],
+	dependencies: [
+		"187ba0b2"
+	],
+	tasks: [{
+		uid: "00a32138",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:grapple_gun"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4ed806e8",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "8dc7c444",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

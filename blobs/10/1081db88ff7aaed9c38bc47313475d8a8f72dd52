@@ -1,0 +1,30 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	text: [
+		"Возьмите &eВокс лампу&f и разместите её в измерении &eМистериум&f, поместите пустой камень царств и руну &eэнергии&f поверх неё.",
+		"",
+		"Затем активируйте её с помощью &eактивированного рунного камня&f."
+	],
+	dependencies: [
+		"bdb36291",
+		"00a27829"
+	],
+	tasks: [{
+		uid: "4556b41f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "aoa3:runandor_realmstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "63f3308f",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

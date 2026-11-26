@@ -1,0 +1,39 @@
+{
+	title: "Слезы гаста",
+	x: -2.0d,
+	y: 7.5d,
+	description: "Он плачет кровавыми слезами.",
+	text: [
+		""
+	],
+	dependencies: [
+		"d374be71"
+	],
+	tasks: [{
+		uid: "dbf63223",
+		type: "item",
+		items: [{
+			item: "twilightforest:fiery_tears"
+		}],
+		count: 10L
+	},
+	{
+		uid: "5a93d6e8",
+		type: "item",
+		items: [{
+			item: "twilightforest:carminite"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "053c484e",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "4cbc832f",
+		type: "item",
+		item: "twilightforest:carminite",
+		count: 6
+	}]
+}

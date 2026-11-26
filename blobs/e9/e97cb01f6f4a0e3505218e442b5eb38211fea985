@@ -1,0 +1,25 @@
+{
+	title: "Камень силы",
+	x: 0.0d,
+	y: 1.0d,
+	description: "В нём заключена сила!",
+	text: [
+		"&eКамень силы&f необходим для многих крафтов и ритуалов, он вам пригодится!"
+	],
+	dependencies: [
+		"64e7d304"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "0b1cab7e",
+		type: "item",
+		items: [{
+			item: "witchery:attuned_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "99d90d0e",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

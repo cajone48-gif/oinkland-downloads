@@ -1,0 +1,39 @@
+{
+	title: "Швея",
+	x: -4.0d,
+	y: 1.0d,
+	description: "Нитки и пряжа для будущего свитера",
+	text: [
+		"Нить, пряжа из тонкого и порванного шёлка нам понадобятся в дальнейшем для зелий и крафтов."
+	],
+	dependencies: [
+		"52c66bae",
+		"94cc1d57"
+	],
+	tasks: [{
+		uid: "3e00fae1",
+		type: "item",
+		items: [{
+			item: "witchery:fanciful_thread"
+		}],
+		count: 4L
+	},
+	{
+		uid: "74a8ff47",
+		type: "item",
+		items: [{
+			item: "witchery:tormented_twine"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "e8440e0a",
+		type: "item",
+		item: "simpletools:lootbox_witchery"
+	},
+	{
+		uid: "366fcbfb",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

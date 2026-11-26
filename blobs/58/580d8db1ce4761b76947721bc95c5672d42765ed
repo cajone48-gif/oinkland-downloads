@@ -1,0 +1,38 @@
+{
+	title: "Четырёхглазый",
+	x: -2.5d,
+	y: -11.5d,
+	shape: "diamond",
+	description: "Два таумометра лучше, чем один",
+	text: [
+		"Теперь вы можете увидеть &eэссенцию&f в банках и перегонных кубах, узнать стабилизацию матрицы &eбез использования таумометра.&f",
+		"",
+		"Не выбрасывайте таумометр, он ещё пригодится."
+	],
+	dependencies: [
+		"cbbc2be8"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "9d91a6cc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:goggles"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0be08a1d",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "695bd320",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

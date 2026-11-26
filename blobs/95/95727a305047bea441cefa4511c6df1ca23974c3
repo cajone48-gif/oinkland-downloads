@@ -1,0 +1,37 @@
+{
+	title: "Нага",
+	icon: "twilightforest:trophy",
+	x: 0.0d,
+	y: -2.0d,
+	shape: "diamond",
+	description: "Гигантская змея!",
+	text: [
+		"Нага - первый босс, которого вам нужно найти и убить.",
+		"",
+		"Нага спавнится на большой арене, как только вы приближаетесь к её центру.",
+		"",
+		"&7[&6!&f&7] Бейте по голове Наги, чтобы убить её."
+	],
+	dependencies: [
+		"49fc503d"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "77ab356c",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy"
+		}]
+	}],
+	rewards: [{
+		uid: "ffb548c2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "6f9c0b69",
+		type: "item",
+		item: "twilightforest:naga_scale",
+		count: 8
+	}]
+}

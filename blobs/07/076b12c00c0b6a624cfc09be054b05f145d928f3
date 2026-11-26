@@ -1,0 +1,31 @@
+{
+	title: "Мистическая мазь",
+	x: 4.5d,
+	y: 5.5d,
+	description: "Не пей, отравишься",
+	text: [
+		"&eМистическая мазь&f участвует в ритуалах и крафтах.",
+		"",
+		"Для создания требуется &eсила алтаря минимум 3000&f."
+	],
+	dependencies: [
+		"b3c49ccf"
+	],
+	tasks: [{
+		uid: "52b1b685",
+		type: "item",
+		items: [{
+			item: "witchery:mystic_unguent"
+		}]
+	}],
+	rewards: [{
+		uid: "e9f3635b",
+		type: "item",
+		item: "simpletools:lootbox_witchery"
+	},
+	{
+		uid: "130e0a82",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

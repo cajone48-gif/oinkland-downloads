@@ -1,0 +1,49 @@
+{
+	x: -42.5d,
+	y: -6.0d,
+	description: "Ещё кристаллы? О нет...",
+	text: [
+		"Горный кристалл можно найти у бедрока, выпадает он с кристальной руды",
+		"",
+		"&7Но её видеть ты сможешь только держа во второй руке резонирующий жезл",
+		"",
+		"Легче всего искать ночью, так как на поверхности появляются белые испарения",
+		"",
+		"Учавствует в множестве крафтов"
+	],
+	dependencies: [
+		"c9bbc1f5"
+	],
+	tasks: [{
+		uid: "8f536159",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemrockcrystalsimple",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						size: 400,
+						purity: 100,
+						fract: 0,
+						collectiveCapability: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "25b14403",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "d6b4812e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -1.5d,
+	y: -5.0d,
+	description: "Романтика...",
+	text: [
+		"&eКанделябр&f даёт +x2 к скорости перезарядки алтаря."
+	],
+	dependencies: [
+		"e85025de"
+	],
+	tasks: [{
+		uid: "a64cd021",
+		type: "item",
+		items: [{
+			item: "witchery:candelabra"
+		}]
+	}],
+	rewards: [{
+		uid: "2d4303ca",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	x: 35.0d,
+	y: -3.0d,
+	description: "Аура истинной злобы",
+	text: [
+		"Позволяет владельцу увидеть уровень &cволи&f в чанке, в котором вы находитесь.",
+		"",
+		"Работает пока находится в инвентаре"
+	],
+	dependencies: [
+		"5c3381ee"
+	],
+	tasks: [{
+		uid: "5cc845f1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:demon_will_gauge"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ac70353a",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "7941fc03",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

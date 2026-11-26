@@ -1,0 +1,47 @@
+{
+	x: -13.5d,
+	y: -8.0d,
+	shape: "hexagon",
+	description: "Божественные штаны!",
+	text: [
+		"&eПояс даёт следующие эффекты:&f",
+		"",
+		"Увеличение скорости передвижения +100%",
+		"",
+		"Увеличение скорости полёта +100%",
+		"",
+		"Уменьшение затрат Вис 15%"
+	],
+	dependencies: [
+		"8e3497be",
+		"684714c4"
+	],
+	tasks: [{
+		uid: "76353739",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumadditions:mithminite_belt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0c16895c",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft",
+		count: 3
+	},
+	{
+		uid: "f480f372",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f8fa7fb4",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

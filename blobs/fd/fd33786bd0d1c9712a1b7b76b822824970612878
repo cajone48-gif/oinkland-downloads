@@ -1,0 +1,30 @@
+{
+	x: 7.5d,
+	y: -16.5d,
+	text: [
+		"Служит для соединения механизмов."
+	],
+	dependencies: [
+		"78e4b4ac"
+	],
+	tasks: [{
+		uid: "5f6ecdb1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {}
+			},
+			id: "thaumicaugmentation:impetus_linker"
+		}]
+	}],
+	rewards: [{
+		uid: "30b1787b",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "bd989652",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

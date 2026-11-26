@@ -1,0 +1,87 @@
+{
+	title: "Призыв Леонардо",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "witchery:witches_hat"
+	},
+	x: -8.0d,
+	y: 5.5d,
+	text: [
+		"Для призыва &eЛеонардо&f требуется: ",
+		"",
+		"Минимум 15,000 энергии в алтаре.",
+		"",
+		"Кидаем в ведьмин котёл предметы, &eшляпа ведьмы&f должна быть &eпоследней&f:",
+		"",
+		"Цветок мандрагоры, нарост, слеза богини, алмазное испарение, алмаз, звезда из незера, шляпа ведьмы."
+	],
+	dependencies: [
+		"d8ef7f30"
+	],
+	tasks: [{
+		uid: "a6d6aa1b",
+		type: "item",
+		items: [{
+			item: "witchery:mandrake_root"
+		}]
+	},
+	{
+		uid: "f22694b7",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_wart"
+		}]
+	},
+	{
+		uid: "f2ba6e9f",
+		type: "item",
+		items: [{
+			item: "witchery:goddess_tear"
+		}]
+	},
+	{
+		uid: "4982bcee",
+		type: "item",
+		items: [{
+			item: "witchery:diamond_vapor"
+		}]
+	},
+	{
+		uid: "7d453517",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	},
+	{
+		uid: "6db1e89e",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}]
+	},
+	{
+		uid: "4ae4bfd9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "witchery:witches_hat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "07f1997d",
+		type: "item",
+		item: "simpletools:lootbox_witchery"
+	},
+	{
+		uid: "cc4d57e0",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

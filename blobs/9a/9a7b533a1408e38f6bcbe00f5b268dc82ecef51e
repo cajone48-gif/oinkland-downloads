@@ -1,0 +1,68 @@
+{
+	title: "Семена",
+	x: 3.0d,
+	y: -8.5d,
+	description: "Семки есть? А если найду!",
+	text: [
+		"Соберите &eсемена&f, ломая траву. ",
+		"",
+		"Позже эти семена необходимо посадить и вырастить. ",
+		"",
+		"Урожай необходим для многих крафтов и рецептов!"
+	],
+	dependencies: [
+		"0a01dbe1"
+	],
+	tasks: [{
+		uid: "bf9121dc",
+		type: "item",
+		items: [{
+			item: "witchery:mandrake_seeds"
+		}]
+	},
+	{
+		uid: "d29c9ccc",
+		type: "item",
+		items: [{
+			item: "witchery:belladonna_seeds"
+		}]
+	},
+	{
+		uid: "fcc38080",
+		type: "item",
+		items: [{
+			item: "witchery:artichoke_seeds"
+		}]
+	},
+	{
+		uid: "802f983f",
+		type: "item",
+		items: [{
+			item: "witchery:snowbell_seeds"
+		}]
+	},
+	{
+		uid: "2ddbe757",
+		type: "item",
+		items: [{
+			item: "witchery:wolfsbane_seeds"
+		}]
+	},
+	{
+		uid: "96f2362e",
+		type: "item",
+		items: [{
+			item: "witchery:garlic"
+		}]
+	}],
+	rewards: [{
+		uid: "fa0c895d",
+		type: "item",
+		item: "witchery:anointing_paste"
+	},
+	{
+		uid: "51065ec2",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

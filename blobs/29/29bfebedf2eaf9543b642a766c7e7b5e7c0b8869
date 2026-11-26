@@ -1,0 +1,25 @@
+{
+	title: "Второе испытание.",
+	x: 15.5d,
+	y: 1.0d,
+	description: "Комната #2",
+	text: [
+		"Во второй комнате вы должны собрать &eпять грязного золота&f с &eГолдумов&f и отнести к золотому аккумулятору. "
+	],
+	dependencies: [
+		"0083d353"
+	],
+	tasks: [{
+		uid: "bcd248b1",
+		type: "item",
+		items: [{
+			item: "aoa3:impure_gold"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "4e3734dc",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

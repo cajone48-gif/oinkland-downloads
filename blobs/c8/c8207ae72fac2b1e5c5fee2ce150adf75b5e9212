@@ -1,0 +1,17 @@
+{
+  "enchantConsuming": {
+    "oresTrash": [
+      "gravel",
+      "sand",
+      "cobblestone",
+      "stoneDiorite",
+      "dirt",
+      "netherrack",
+      "stoneAndesite",
+      "stoneGranite"
+    ]
+  },
+  "tinkerCompatibility": {
+    "enable": true
+  }
+}

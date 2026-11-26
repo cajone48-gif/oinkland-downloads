@@ -1,0 +1,74 @@
+{
+	title: "Рог призыва.",
+	x: -7.0d,
+	y: 4.0d,
+	text: [
+		"Чтобы призвать Тирозавра, необходимо подуть в Рог в Прекасии. ",
+		"",
+		"&7Рог создаётся из бивней, которые можно выбить в измерении, например, из Саблезуба или Кая.",
+		"",
+		"Помимо бивней вам нужны фрагменты кости черепа, грудной кости, кости ноги и костной стопы. ",
+		"",
+		"Получить их можно с таких мобов как Кай(Храм Кайлу),  Иозавр(Подземные логова Прекасии) и Скелетрон."
+	],
+	dependencies: [
+		"e0800a4e"
+	],
+	tasks: [{
+		uid: "04e0b1b1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "aoa3:bone_horn"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6e01c18b",
+		type: "item",
+		items: [{
+			item: "aoa3:ivory"
+		}]
+	},
+	{
+		uid: "6c83ac43",
+		type: "item",
+		items: [{
+			item: "aoa3:skullbone_fragment"
+		}]
+	},
+	{
+		uid: "5843d411",
+		type: "item",
+		items: [{
+			item: "aoa3:chestbone_fragment"
+		}]
+	},
+	{
+		uid: "4a73363d",
+		type: "item",
+		items: [{
+			item: "aoa3:footbone_fragment"
+		}]
+	},
+	{
+		uid: "9d267368",
+		type: "item",
+		items: [{
+			item: "aoa3:legbone_fragment"
+		}]
+	}],
+	rewards: [{
+		uid: "1f984e58",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "e0fc6d8e",
+		type: "item",
+		item: "aoa3:treasure_box"
+	}]
+}

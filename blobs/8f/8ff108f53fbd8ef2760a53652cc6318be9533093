@@ -1,0 +1,73 @@
+{
+	title: "Ихор броня",
+	x: -10.5d,
+	y: -8.5d,
+	shape: "hexagon",
+	description: "Почему она так плохо защищает?",
+	text: [
+		"Для того, чтобы прочувствовать на себе все прекрасные свойства Ихор брони, её необходимо &eпробудить&f.",
+		"",
+		"&l[&6!&f&l]&f Ихор броня неломаема."
+	],
+	dependencies: [
+		"e7b4f0a7"
+	],
+	tasks: [{
+		uid: "8bcf6317",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplemagic:ichor_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6d511af7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplemagic:ichor_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e50e4208",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplemagic:ichor_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "77058e11",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplemagic:ichor_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "543d6c65",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "a3b35cb4",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

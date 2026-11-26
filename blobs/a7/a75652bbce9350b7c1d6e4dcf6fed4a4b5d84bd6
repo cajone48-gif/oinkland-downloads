@@ -1,0 +1,40 @@
+{
+	title: "Более быстрая матрица",
+	x: -11.5d,
+	y: -16.5d,
+	description: "Есть ли минусы?",
+	text: [
+		"Используйте потусторонний камень и пьедестал для постройки матрицы.",
+		"",
+		"Она изначально имеет стабильность, работает чуть быстрее, но &eстоимость наполнения увеличивается.&f",
+		"",
+		"Соблюдайте симметрию при установке пьедесталов."
+	],
+	dependencies: [
+		"d61d7f87"
+	],
+	tasks: [{
+		uid: "97cf3ba0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stone_eldritch_tile"
+		}]
+	},
+	{
+		uid: "3c63b651",
+		type: "item",
+		items: [{
+			item: "thaumcraft:pedestal_eldritch"
+		}]
+	}],
+	rewards: [{
+		uid: "af21699b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "9a8eb2d3",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	x: -25.5d,
+	y: -6.0d,
+	description: "А разлить винца по бокалам может?",
+	text: [
+		"Разливщик Звёздного Света - Позволяет переделывать некоторые предметы, используя жидкий звёздный свет.",
+		"",
+		"[&e!&f] &7Требует особой конструкции"
+	],
+	dependencies: [
+		"4fafef9f"
+	],
+	tasks: [{
+		uid: "d1106c52",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockstarlightinfuser"
+		}]
+	}],
+	rewards: [{
+		uid: "e6ccb862",
+		type: "item",
+		item: "simpletools:lootbox_astralsorcery"
+	},
+	{
+		uid: "2a75ad9e",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "5eb969c5",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

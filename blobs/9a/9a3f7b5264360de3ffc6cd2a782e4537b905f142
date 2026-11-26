@@ -1,0 +1,27 @@
+{
+	title: "Горячая картошка, Горячая картошка",
+	x: 2.5d,
+	y: -21.5d,
+	description: "Не бросай!",
+	text: [
+		"Алюментум – отличное топливо. ",
+		"",
+		"Осторожно! Взрывоопасен!"
+	],
+	dependencies: [
+		"7c204714"
+	],
+	tasks: [{
+		uid: "bd9fe1c0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alumentum"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "ec426f45",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Золото Рейна",
+	x: -9.0d,
+	y: 5.0d,
+	description: "Отвязка реликвий",
+	text: [
+		"Отвязывает реликвии и кости судьбы от игрока через верстак."
+	],
+	dependencies: [
+		"f40f63d5"
+	],
+	tasks: [{
+		uid: "2e00797a",
+		type: "item",
+		items: [{
+			item: "extrabotany:material 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "a01f426a",
+		type: "item",
+		item: "simpletools:lootbox_botania"
+	}]
+}

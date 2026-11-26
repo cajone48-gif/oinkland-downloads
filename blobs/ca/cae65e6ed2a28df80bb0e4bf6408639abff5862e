@@ -1,0 +1,79 @@
+# --- xb1tnatorV for SIMPLEMINECRAFT
+
+# --- BLOCK_WITCH_LAB
+recipes.addShaped(<extrawitchery:block_witch_lab>,
+ [[<witchery:grassper>, <botania:elementiumsword>, <witchery:grassper>],
+  [<witchery:mutating_sprig>, <thaumcraft:table_stone>, <extrawitchery:ingredient:8>],
+  [<extrawitchery:block_witching_steel>, <extrawitchery:ingredient:6>, <extrawitchery:block_witching_steel>]]);
+  
+# --- BLOCK_ADVANCED_WITCHES_OVEN
+recipes.addShaped(<extrawitchery:block_advanced_witches_oven>,
+ [[<witchery:magic_whiff>, <minecraft:anvil>, <witchery:magic_whiff>],
+  [<extrawitchery:ingredient:6>, <witchery:witches_oven>, <extrawitchery:ingredient:6>],
+  [<extrawitchery:block_witching_steel>, <witchery:mystic_unguent>, <extrawitchery:block_witching_steel>]]);
+
+# --- BLOCK_ADVANCED_DISTILLERY
+recipes.addShaped(<extrawitchery:block_advanced_distillery>,
+ [[<minecraft:iron_block>, <extrawitchery:ingredient:6>, <minecraft:iron_block>],
+  [<extrawitchery:ingredient:4>, <witchery:distillery>, <extrawitchery:ingredient:4>],
+  [<extrawitchery:block_witching_steel>, <extrawitchery:ingredient:6>, <extrawitchery:block_witching_steel>]]);
+
+# --- BLOCK_ADVANCED_KETTLE
+recipes.addShaped(<extrawitchery:block_advanced_kettle>,
+ [[<witchery:golden_thread>, <extrawitchery:ingredient:6>, <witchery:golden_thread>],
+  [<minecraft:iron_block>, <witchery:kettle>, <minecraft:iron_block>],
+  [<extrawitchery:block_witching_steel>, <extrawitchery:ingredient:6>, <extrawitchery:block_witching_steel>]]);
+
+# --- INGREDIENTS
+recipes.addShaped(<extrawitchery:ingredient:4>,
+ [[null, <witchery:purified_milk>, null],
+  [<extrawitchery:ingredient:3>, <extrawitchery:ingredient>, <extrawitchery:ingredient:1>],
+  [null, <witchery:goddess_tear>, null]]);
+
+recipes.addShaped(<extrawitchery:ingredient:5>,
+ [[null, <minecraft:spider_eye>, null],
+  [<witchery:quicklime>, <witchery:graveyard_dust>, <witchery:quicklime>],
+  [null, <minecraft:rotten_flesh>, null]]);
+
+recipes.addShaped(<extrawitchery:ingredient:6>,
+ [[<witchery:magic_whiff>, <witchery:luck_drop>, <witchery:magic_whiff>],
+  [<extrawitchery:ingredient:8>, <witchery:charged_attuned_stone>, <extrawitchery:ingredient:8>],
+  [<witchery:creeper_heart>, <witchery:glint_weed>, <witchery:creeper_heart>]]);
+
+recipes.addShaped(<extrawitchery:ingredient:8>,
+ [[null, <witchery:belladonna_flower>, null],
+  [<witchery:quicklime>, <witchery:mutandis_extremis>, <witchery:quicklime>],
+  [<witchery:quicklime>, <witchery:purified_milk>, <witchery:quicklime>]]);
+
+recipes.addShaped(<extrawitchery:ingredient:9>,
+ [[null, <minecraft:spider_eye>, <minecraft:rotten_flesh>],
+  [<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:spider_eye>],
+  [<witchery:wood_ash>, <minecraft:rotten_flesh>, null]]);
+
+recipes.addShaped(<extrawitchery:ingredient:11>,
+ [[<thaumcraft:salis_mundus>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "victus"}]}), <thaumcraft:salis_mundus>],
+  [<extrawitchery:ingredient>, <thaumcraft:flesh_block>, <extrawitchery:ingredient:2>],
+  [<thaumcraft:salis_mundus>, <extrawitchery:ingredient:5>, <thaumcraft:salis_mundus>]]);
+
+# --- CLEAN SILVER
+furnace.addRecipe(<extrawitchery:ingredient:7>, <witchery:silver_deposits>);
+
+# --- WITCHING_STEEL
+recipes.addShaped(<extrawitchery:block_witching_steel>,
+ [[<extrawitchery:ingredient:10>, <extrawitchery:ingredient:10>, <extrawitchery:ingredient:10>],
+  [<extrawitchery:ingredient:10>, <extrawitchery:ingredient:10>, <extrawitchery:ingredient:10>],
+  [<extrawitchery:ingredient:10>, <extrawitchery:ingredient:10>, <extrawitchery:ingredient:10>]]);
+
+recipes.addShaped(<extrawitchery:ingredient:10>,
+ [[<witchery:rebirth_hint>, <witchery:refined_evil>, <witchery:demonic_blood>],
+  [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
+  [<witchery:goddess_tear>, <witchery:refined_evil>, <witchery:diamond_vapor>]]);
+
+# --- TALISMAN WITCHCRAFT
+recipes.addShaped(<extrawitchery:talisman_witchcraft>,
+ [[<witchery:universal_antidote>, <thaumcraft:bath_salts>, <witchery:universal_antidote>],
+  [<extrawitchery:ingredient:2>, <thaumcraft:baubles:4>, <extrawitchery:ingredient:4>],
+  [<witchery:redstone_soup>, <extrawitchery:ingredient:1>, <witchery:redstone_soup>]]);
+
+# --- VAMPIRE_SIGIL
+mods.bloodmagic.TartaricForge.addRecipe(<extrawitchery:vampire_sigil>,[<witchery:blood_stained_wool>, <witchery:warm_blood>, <bloodmagic:component:8>, <minecraft:golden_apple>], 1024,200);

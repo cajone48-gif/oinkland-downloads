@@ -1,0 +1,107 @@
+{
+	title: "Лиственные инструменты",
+	x: -5.5d,
+	y: -6.5d,
+	description: "Острые как нож.",
+	text: [
+		""
+	],
+	dependencies: [
+		"5085467a"
+	],
+	tasks: [{
+		uid: "392e8cfd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:steeleaf_sword",
+			tag: {
+				ench: [{
+					id: 21s,
+					lvl: 2s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "922c6908",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:steeleaf_shovel",
+			tag: {
+				ench: [{
+					id: 32s,
+					lvl: 2s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c5a4a777",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:steeleaf_pickaxe",
+			tag: {
+				ench: [{
+					id: 35s,
+					lvl: 2s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "41626e3c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:steeleaf_axe",
+			tag: {
+				ench: [{
+					id: 32s,
+					lvl: 2s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d0de8e0d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:steeleaf_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c71485a9",
+		type: "item",
+		item: "twilightforest:steeleaf_ingot",
+		count: 5
+	},
+	{
+		uid: "a442af36",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

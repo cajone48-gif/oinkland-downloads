@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "igorek181",
+      "uniqueId": "059d2a59-d3fd-3cb5-b7df-acbbb1506552"
+    },
+    "time": 1691273122651,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "/root/servers/fantasy/config/heap-2023-08-06_01.05.04.hprof"
+    }
+  }
+]

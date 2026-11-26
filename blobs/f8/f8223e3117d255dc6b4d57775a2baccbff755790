@@ -1,0 +1,85 @@
+{
+	title: "Начало пути",
+	x: 12.013605442176853d,
+	y: -2.4931972789115946d,
+	shape: "square",
+	description: "Я - первый квест",
+	text: [
+		"Добро пожаловать на сервер &6Fantasy&f!",
+		"",
+		"Мы подготовили интересные, а главное полезные квесты, прохождение которых станет неотъемлемой частью вашего геймплея!",
+		"",
+		"Для Ваших же удобств мы собрали самые полезные ссылки, а именно:",
+		"",
+		"- Наша группа &b&lVK&f, в которой публикуются новости проекта.",
+		"",
+		"- Наш канал &b&lTelegram&f, в котором раньше всех появляются инсайд новости.",
+		"",
+		"- Наш канал &b&lDiscord&f, в котором Вы сможете лампово пообщаться.",
+		"",
+		"- Страница с &6&lэкономикой&f сервера. Там Вы сможете узнать минимальные цены на предметы.",
+		"",
+		"- Наш &6&lфорум&f, на котором Вы сможете найти полезные гайды, либо написать жалобу.",
+		"",
+		"- Страница с &6&lголосованием&f. Голосуя за проект Вы сможете получить ценные награды."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "533d8dd2",
+		type: "checkmark",
+		title: "ТЫК",
+		icon: {
+			id: "botania:cosmetic",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			Damage: 31s
+		}
+	}],
+	rewards: [{
+		uid: "0c19016f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:iron_shovel"
+		}
+	},
+	{
+		uid: "d6f6f8b3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:iron_pickaxe"
+		}
+	},
+	{
+		uid: "ebe78ee4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:iron_axe"
+		}
+	},
+	{
+		uid: "d4436102",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:iron_sword"
+		}
+	},
+	{
+		uid: "679253a1",
+		type: "item",
+		item: "minecraft:cooked_beef",
+		count: 4
+	}]
+}

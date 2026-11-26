@@ -1,0 +1,40 @@
+{
+	title: "Звёздный металл",
+	x: -33.5d,
+	y: -6.0d,
+	description: "Мне удалось заточить космос в слиток?",
+	text: [
+		"Квестом ранее мы ознакомились с механикой связывания, время применить на практике",
+		"",
+		"&7Привяжите кристал к железной руде, подождав чуток вы увидите как у вас на глазах железная руда сменится на звёздную.",
+		"",
+		"Вскопайте её и переплавьте"
+	],
+	dependencies: [
+		"2e9702c7"
+	],
+	tasks: [{
+		uid: "1c736653",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockcustomore 1 1"
+		}]
+	},
+	{
+		uid: "aad3e7af",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "d7997ae2",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "941fd219",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

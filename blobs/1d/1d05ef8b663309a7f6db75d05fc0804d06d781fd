@@ -1,0 +1,32 @@
+{
+	title: "Огненные слитки",
+	x: -2.0d,
+	y: 4.5d,
+	description: "Немного крови или слез и слиток готов!",
+	text: [
+		""
+	],
+	dependencies: [
+		"7fef82fa"
+	],
+	tasks: [{
+		uid: "d2cd5307",
+		type: "item",
+		items: [{
+			item: "twilightforest:fiery_ingot"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "48d89ed3",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "dd0f4023",
+		type: "item",
+		title: "Кэшбек",
+		item: "minecraft:iron_ingot",
+		count: 6
+	}]
+}

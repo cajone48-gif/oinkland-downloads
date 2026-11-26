@@ -1,0 +1,29 @@
+{
+	x: 11.0d,
+	y: -13.5d,
+	text: [
+		"&eРабота диффузера&f заключается в том, что он принимает заряженный импульс из дренажа и рассеивает нормальный импульс.",
+		"",
+		"&eНормальный импульс&f необходим для питания устройств и предметов, работающих на энергии разломов."
+	],
+	dependencies: [
+		"9519def0"
+	],
+	tasks: [{
+		uid: "c425c233",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:impetus_diffuser"
+		}]
+	}],
+	rewards: [{
+		uid: "7c9b1f50",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "7c9765b4",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

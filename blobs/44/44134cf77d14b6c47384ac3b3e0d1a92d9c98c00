@@ -1,0 +1,212 @@
+# Configuration file
+
+blacklists {
+    # Чёрный список разрушаемых блоков для Буровой установки [default: [Ljava.lang.String;@75981a62]
+    S:minerBreak <
+     >
+
+    # Чёрный список устанавливаемых блоков для Буровой установки [default: [Ljava.lang.String;@f9bcd94]
+    S:minerPlace <
+        minecraft:bedrock
+        modid:block_name@meta
+     >
+
+    # Чёрный список предметов для Сканера [default: [Ljava.lang.String;@64c81fdd]
+    S:scanner <
+     >
+
+    # Чёрный список предметов для Обменного аппарата [default: [Ljava.lang.String;@280e2e73]
+    S:tradeOMat <
+     >
+}
+
+
+energy {
+    # Множитель потребляемой энергии Улучшенной буровой установки [range: 0.0 ~ 3.4028235E38, default: 1.0]
+    S:advMinerEnergyMultiplier=1.0
+
+    # Множитель потребляемой энергии Буровой установки [range: 0.0 ~ 3.4028235E38, default: 1.0]
+    S:minerEnergyMultiplier=1.0
+
+    # Множитель вырабатываемой энергии Ядерного реактора [range: 0.0 ~ 3.4028235E38, default: 1.0]
+    S:reactorEnergyMultiplier=1.0
+}
+
+
+events {
+    # Продвинутая буровая установка (разрушение блоков) [default: true]
+    B:advminer=true
+
+    # Взрывы (разрушение блоков) [default: true]
+    B:explosion=true
+
+    # Шахтёрский лазер (разрушение блоков и урон по мобам) [default: true]
+    B:laser=true
+
+    # Буровая установка (разрушение блоков) [default: true]
+    B:miner=true
+
+    # Плазменная пушка (взрыв) [default: true]
+    B:plasma=true
+
+    # Помпа (выкачивание жидкости) [default: true]
+    B:pump=true
+
+    # Пульверизатор (установка блоков) [default: true]
+    B:sprayer=true
+
+    # Терраформер (замена/установка блоков) [default: true]
+    B:terra=true
+
+    # Катушка Теслы (урон по мобам) [default: true]
+    B:tesla=true
+}
+
+
+laser {
+    # Шахтёрский лазер (режим '3x3') [default: true]
+    B:3x3Enabled=true
+
+    # Разрушение блоков Шахтёрским лазером [default: true]
+    B:breakBlocks=true
+
+    # Нанесение урона мобам Шахтёрским лазером [default: true]
+    B:damageEntities=true
+
+    # Шахтёрский лазер (режим 'Взрывоопасный') [default: true]
+    B:explosiveEnabled=true
+
+    # Шахтёрский лазер (режим 'Горизонтальный') [default: true]
+    B:horizontalEnabled=true
+
+    # Шахтёрский лазер (режим 'Дальнего действия') [default: true]
+    B:longRangeEnabled=true
+
+    # Шахтёрский лазер (режим 'Короткого фокуса') [default: true]
+    B:lowFocusEnabled=true
+
+    # Максимальная высота, на которой может работать Шахтёрский лазер [range: 1 ~ 2147483647, default: 255]
+    I:maxBreakY=255
+
+    # Предупреждение, отправляемое игроку при попытке использовать Шахтёрский лазер выше максимальной высоты [default: §cШахтёрский лазер нельзя использовать на высоте выше %s.]
+    S:maxBreakYWarnMsg=§cШахтёрский лазер нельзя использовать на высоте выше %s.
+
+    # Шахтёрский лазер (режим 'Добыча') [default: true]
+    B:miningEnabled=true
+
+    # Шахтёрский лазер (режим 'Разброс') [default: true]
+    B:scatterEnabled=true
+
+    # Шахтёрский лазер (режим 'Перегревающий') [default: true]
+    B:superHeatEnabled=true
+
+    energy {
+        # Энергия для режима '3x3' [range: 1 ~ 2147483647, default: 7500]
+        I:3x3=7500
+
+        # Энергия для режима 'Взрывоопасный' [range: 1 ~ 2147483647, default: 5000]
+        I:explosive=5000
+
+        # Энергия для режима 'Короткого фокуса' [range: 1 ~ 2147483647, default: 100]
+        I:focus=100
+
+        # Энергия для режима 'Горизонтальный' [range: 1 ~ 2147483647, default: 3000]
+        I:horizontal=3000
+
+        # Энергия для режима 'Дальнего действия' [range: 1 ~ 2147483647, default: 5000]
+        I:longRange=5000
+
+        # Энергия для режима 'Добыча' [range: 1 ~ 2147483647, default: 1250]
+        I:mining=1250
+
+        # Энергия для режима 'Разброс' [range: 1 ~ 2147483647, default: 10000]
+        I:scatter=10000
+
+        # Энергия для режима 'Перегревающий' [range: 1 ~ 2147483647, default: 2500]
+        I:superHeat=2500
+    }
+
+}
+
+
+network {
+    # Параноидальная защита от уязвимостей (например, пакеты TileEntityEvent и TileEntityData будут игнорироваться, если у игрока не открыт контейнер ContainerBase, привязанный к соответствующему тайлу) [default: true]
+    B:paranoidProtection=true
+
+    # Валидация рецепта в Автоматическом верстаке (для некорректных рецептов шаблон будет очищен) [default: true]
+    B:validateBatchCrafter=true
+}
+
+
+other {
+    # Работать с копией стака предмета-контейнера (фикс дюпа/краша) [default: false]
+    B:copyContainerStack=false
+
+    # Включение разрушение блоков взрывами [default: true]
+    B:explosionBlockBreak=true
+
+    # Включение нанесение урона мобам взрывами [default: true]
+    B:explosionEntityDamage=true
+
+    # Включение крафт Shift'ом в Промышленном верстаке [default: true]
+    B:industrialWorkbenchShiftCraft=true
+
+    # Максимальное количество Ускорителей в механизме (0 - без ограничений) [range: 0 ~ 2147483647, default: 0]
+    I:maxOverclockerCount=0
+
+    # Установка блоков Буровой установкой [default: true]
+    B:minerPlacingEnabled=true
+
+    # Автоматическая привязка персональных блоков к владельцу [default: false]
+    B:personalBlockAutoPrivateEnabled=false
+
+    # Радиация [default: true]
+    B:radiationEnabled=true
+
+    # Шанс производства Утильсырья [range: 0.0 ~ 1.0, default: 0.125]
+    S:recycleChance=0.125
+
+    # Разрешить автоматизацию Утилизатора (подключение труб, воронок и пр.) [default: true]
+    B:recyclerAutomationEnabled=true
+
+    # Permission для доступа к персональным блокам (сейфам, торговым аппаратам и пр.) [default: ic2.accesssafe]
+    S:safeAccessPermission=ic2.accesssafe
+
+    # Включение нанесение урона игрокам Катушкой Теслы [default: true]
+    B:teslaPlayerDamage=true
+}
+
+
+performance {
+    # Оптимизация проверки размера реактора [default: true]
+    B:optimizeReactorSizeCheck=true
+}
+
+
+radiationprotection {
+    # Запрет выбрасывания радиоактивных предметов в чужих приватах [default: true]
+    B:dropProtection=true
+
+    # Предупреждение о попытке выбрасывания радиоактивного предмета в чужом привате [default: Вы не можете выбросить %s в чужом привате]
+    S:dropProtectionMsg=Вы не можете выбросить %s в чужом привате
+
+    # Запрет поднятия радиоактивных предметов без защитного костюма [default: true]
+    B:pickupProtection=true
+
+    # Предупреждение о попытке поднятия радиоактивного предмета без защитного костюма [default: Вы не можете поднять %s без надетого защитного костюма]
+    S:pickupProtectionMsg=Вы не можете поднять %s без надетого защитного костюма
+}
+
+
+recipes {
+    # Захардкодить некоторые ID рецептов (зависит от 'reuseIds') [default: false]
+    B:hardcodeIds=false
+
+    # Генерировать ID рецептов на основе их хэш-суммы, когда это возможно [default: false]
+    B:hashedIds=false
+
+    # Переиспользовать ID рецептов, когда это возможно [default: false]
+    B:reuseIds=false
+}
+
+

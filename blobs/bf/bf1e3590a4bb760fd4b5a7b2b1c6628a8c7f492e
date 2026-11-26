@@ -1,0 +1,38 @@
+{
+	title: "Мутировавший сук",
+	x: -6.5d,
+	y: -3.5d,
+	text: [
+		"&eМутировавший сук&f используется для мутаций.",
+		"",
+		"&l[&6!&f&l]&f Для создания мутировавшего сука требуется сила алтаря не менее 4200.",
+		"",
+		"Чтобы произвести мутацию, требуются определенные условия, после выполнения которых нужно кликнуть суком ПКМ."
+	],
+	dependencies: [
+		"3f5ef624"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "ea26cd8f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "witchery:mutating_sprig"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0915d2a2",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "324751de",
+		type: "item",
+		item: "simpletools:lootbox_witchery"
+	}]
+}

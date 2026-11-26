@@ -1,0 +1,28 @@
+{
+	title: "Мистический верстак",
+	x: -2.5d,
+	y: -18.5d,
+	shape: "diamond",
+	description: "Жадные рецепты",
+	text: [
+		"Это верстак, в котором осуществляются крафты из Thaumcraft.",
+		"",
+		"Для некоторых требуется &eвис&f, находящийся в ауре, и &eвис-кристаллы&f, количество и тип которых указывается в рецептах."
+	],
+	dependencies: [
+		"28000024"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "0eee66e3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "d15ac2c4",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

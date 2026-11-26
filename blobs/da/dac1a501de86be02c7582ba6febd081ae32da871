@@ -1,0 +1,32 @@
+{
+	title: "Я готов сойти с ума!",
+	x: -2.5d,
+	y: -24.5d,
+	shape: "gear",
+	text: [
+		"Чтобы начать изучение таумкрафта, вам необходимо собрать любой &eвис-кристалл &fв шахте и &eпоспать в кровати.",
+		"",
+		"&fПосле крепкого сна вы получите книгу, которую нужно прочесть."
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "36c62cc9",
+		type: "checkmark",
+		title: "ТЫК!"
+	}],
+	rewards: [{
+		uid: "153a5ca7",
+		type: "item",
+		item: "minecraft:flint"
+	},
+	{
+		uid: "2c10f3e2",
+		type: "item",
+		item: "minecraft:bowl"
+	},
+	{
+		uid: "f8c5d27d",
+		type: "item",
+		item: "minecraft:redstone"
+	}]
+}

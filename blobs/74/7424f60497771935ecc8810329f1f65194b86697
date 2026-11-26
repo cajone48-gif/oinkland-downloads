@@ -1,0 +1,60 @@
+{
+	title: "Гиганты",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "twilightforest:giant_pickaxe"
+	},
+	x: 0.0d,
+	y: 16.0d,
+	shape: "diamond",
+	text: [
+		"&eГиганты&f обитают на облаке в небе. ",
+		"",
+		"Чтобы его найти, вам необходимо посетить дождливый биом, в котором стоит белый замок, окруженный непроходимыми шипами.",
+		"",
+		"Убейте гигантов, чтобы получить гигантские инструменты.",
+		"",
+		"&7Гигантов также можно найти в белом замке."
+	],
+	dependencies: [
+		"7d740afd"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "2a144df9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:giant_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b8c40fd1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:giant_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4cdf2a98",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ab93846c",
+		type: "item",
+		item: "twilightforest:wispy_cloud",
+		count: 16
+	}]
+}

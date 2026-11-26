@@ -1,0 +1,80 @@
+{
+  "machines": {
+    "summonwitches": {
+      "workTicksBase": 2400,
+      "consumePowerAmount": 15000
+    },
+    "jewelryworkbench": {
+      "workTicksBase": 30,
+      "consumePowerAmount": 10
+    },
+    "witchlab": {
+      "workTicksBase": 600,
+      "consumePowerAmount": 5000
+    },
+    "mutationtable": {
+      "workTicksBase": 200,
+      "consumePowerAmount": 2000
+    },
+    "advancedkettle": {
+      "workTicksBase": 200,
+      "consumePowerAmount": 5000
+    },
+    "advanceddistillery": {
+      "workTicksBase": 20,
+      "consumePowerAmount": 20
+    }
+  },
+  "items": {
+    "witchcrafttalisman": {
+      "ticksBase": 200
+    },
+    "vampiresigil": {
+      "ticksBase": 100
+    }
+  },
+  "witchLabsRecipe": [
+    {
+      "itemName": "witchery:dog_tongue",
+      "itemCount": 1,
+      "chance": 25
+    },
+    {
+      "itemName": "witchery:bat_wool",
+      "itemCount": 1,
+      "chance": 25
+    },
+    {
+      "itemName": "witchery:creeper_heart",
+      "itemCount": 1,
+      "chance": 10
+    },
+    {
+      "itemName": "witchery:owlets_wing",
+      "itemCount": 1,
+      "chance": 5
+    },
+    {
+      "itemName": "witchery:frogs_toe",
+      "itemCount": 1,
+      "chance": 5
+    }
+  ],
+  "witchesOvenRecipe": [
+    {
+      "inputName": "thaumcraft:sapling_greatwood",
+      "outputName": "extrawitchery:ingredient@2",
+      "outputCount": 1
+    },
+    {
+      "inputName": "thaumcraft:sapling_silverwood",
+      "outputName": "extrawitchery:ingredient",
+      "outputCount": 1
+    },
+    {
+      "inputName": "twilightforest:twilight_sapling@1",
+      "outputName": "extrawitchery:ingredient@1",
+      "outputCount": 1
+    }
+  ]
+}

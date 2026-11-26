@@ -1,0 +1,31 @@
+{
+	title: "Абсолютное зло",
+	x: 1.5d,
+	y: 5.5d,
+	description: "Не злись!",
+	text: [
+		"&eАбсолютное зло&f создаётся путём дистилляции в перегонном кубе.",
+		"",
+		"Участвует в ритуалах и крафтах."
+	],
+	dependencies: [
+		"2d6f948d"
+	],
+	tasks: [{
+		uid: "0731913a",
+		type: "item",
+		items: [{
+			item: "witchery:refined_evil"
+		}]
+	}],
+	rewards: [{
+		uid: "d2514171",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "c1ae439b",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

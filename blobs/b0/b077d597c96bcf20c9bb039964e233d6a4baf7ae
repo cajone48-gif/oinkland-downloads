@@ -1,0 +1,30 @@
+{
+	title: "Слиток мракиума",
+	x: -13.5d,
+	y: 1.0d,
+	description: "Мрачно!",
+	text: [
+		"Слиток, являющийся элементом крафтов."
+	],
+	dependencies: [
+		"40cab953",
+		"e5e2660d"
+	],
+	tasks: [{
+		uid: "c01ce9e0",
+		type: "item",
+		items: [{
+			item: "extrabotany:material 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "abb1b151",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "f1092fb1",
+		type: "item",
+		item: "simpletools:lootbox_botania"
+	}]
+}

@@ -1,0 +1,58 @@
+{
+	title: "Доспехи из чешуи Наги",
+	x: 4.0d,
+	y: -2.0d,
+	description: "Кажется, чешуи хватило только на нагрудник и поножи...",
+	text: [
+		""
+	],
+	dependencies: [
+		"02287a9d"
+	],
+	tasks: [{
+		uid: "90b20b48",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:naga_chestplate",
+			tag: {
+				ench: [{
+					id: 1s,
+					lvl: 3s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "168f9cea",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:naga_leggings",
+			tag: {
+				ench: [{
+					id: 0s,
+					lvl: 3s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "243c0434",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "ee26aabd",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Бесконечная вода",
+	x: 1.0d,
+	y: -24.5d,
+	description: "Откуда она берётся?",
+	text: [
+		"&eУрна&f автоматически заполняет рядом стоящие сосуды водой (тигель, ведьмин котел и т.д).",
+		"",
+		"&7Вода вырабатывается за вис, находящийся в ауре.&f"
+	],
+	dependencies: [
+		"a5497398"
+	],
+	tasks: [{
+		uid: "78b9620d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:everfull_urn"
+		}]
+	}],
+	rewards: [{
+		uid: "d5de0660",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

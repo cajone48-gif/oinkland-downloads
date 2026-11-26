@@ -1,0 +1,83 @@
+{
+	x: -10.5d,
+	y: -0.5d,
+	description: "Дневная броня",
+	text: [
+		"&eПолный комплект брони&f",
+		"",
+		"В дневное время суток: ",
+		"",
+		"Повышает скорость передвижения на 4%, урон на 35 если существо является нежитью.",
+		"",
+		"Повышает количество здоровья на 50%, каждые 1.25 секунды восстанавливает единицу здоровья.",
+		"",
+		"Снижает получаемый урон на 35%.",
+		"",
+		"Снижение затрат маны на 15%."
+	],
+	dependencies: [
+		"55ecc079"
+	],
+	tasks: [{
+		uid: "cc3cc4aa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrabotany:goblinslayerhelm",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c5eb0a64",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrabotany:goblinslayerchest",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d40ea188",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrabotany:goblinslayerlegs",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ef733ac7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrabotany:goblinslayerboots",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "083fe256",
+		type: "item",
+		item: "simpletools:lootbox_botania"
+	},
+	{
+		uid: "f1fe3671",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

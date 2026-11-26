@@ -1,0 +1,28 @@
+{
+	title: "Ветер.",
+	x: -10.5d,
+	y: -7.0d,
+	text: [
+		"Руна обычного мира, создаётся на 1 уровне руноделия. "
+	],
+	dependencies: [
+		"607b224d"
+	],
+	tasks: [{
+		uid: "dfd17566",
+		type: "item",
+		items: [{
+			item: "aoa3:wind_rune"
+		}]
+	}],
+	rewards: [{
+		uid: "8873f310",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "cfb4941d",
+		type: "item",
+		item: "aoa3:rune_box"
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "На меня не действует гравитация.",
+	x: 0.5d,
+	y: 7.0d,
+	text: [
+		"Если держать его в одной из рук, он замедлит падение, но это не избавляет от урона от падения, а лишь уменьшает его.",
+		"",
+		"Он вам понадобится для открытия Луналуса"
+	],
+	dependencies: [
+		"eb04118d"
+	],
+	tasks: [{
+		uid: "f5501571",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "aoa3:gravitator"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "84ca25c5",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

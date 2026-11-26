@@ -1,0 +1,36 @@
+{
+	x: -40.5d,
+	y: -8.0d,
+	description: "Кто рассыпал по миру ночной порошок?",
+	text: [
+		"Данный предмет покажет вам синей дымком места с найбольшим скоплением света"
+	],
+	dependencies: [
+		"330f4619"
+	],
+	tasks: [{
+		uid: "2d24daa6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemskyresonator",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "80271857",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "e24c2224",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

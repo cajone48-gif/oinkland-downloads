@@ -1,0 +1,38 @@
+{
+	title: "Королева гусениц",
+	x: -2.0d,
+	y: -6.0d,
+	description: "Это личинки?",
+	text: [
+		"&eКоролеву гусениц&f можно найти в одном из сундуков в подземельях сумеречного леса.",
+		"",
+		"&7Имеет 256 зарядов гусениц, которые можно размещать на блоках в качестве замены факелам.",
+		"",
+		"Если зажать ПКМ, то гусеница запустится на расстояние, но в таком случае расход будет вдвое больше."
+	],
+	dependencies: [
+		"b99ed617"
+	],
+	tasks: [{
+		uid: "14c53d1f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:moonworm_queen"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d28715eb",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "c7af2b32",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

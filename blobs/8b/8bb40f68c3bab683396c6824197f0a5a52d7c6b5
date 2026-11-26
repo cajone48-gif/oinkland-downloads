@@ -1,0 +1,24 @@
+{
+	x: 11.0d,
+	y: -15.0d,
+	text: [
+		"&eИмпульсное реле&f используется для создания систем транспортировки импульсной энергии.",
+		"",
+		"Связать реле с другими устройствами можно с помощью &eимпульсного резонатора&f."
+	],
+	dependencies: [
+		"5356a354"
+	],
+	tasks: [{
+		uid: "e8dbcea4",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:impetus_relay"
+		}]
+	}],
+	rewards: [{
+		uid: "61774efe",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

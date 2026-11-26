@@ -1,0 +1,31 @@
+{
+	title: "Сортировщик эссенций",
+	x: 7.5d,
+	y: -25.0d,
+	description: "Поставь их друг на друга",
+	text: [
+		"Перегонные кубы отфильтровывают эссенцию из плавильни. ",
+		"",
+		"Эссенцию можно извлечь пузырьками, трубами или передатчиками."
+	],
+	dependencies: [
+		"f8a63da8"
+	],
+	tasks: [{
+		uid: "fba68158",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alembic"
+		}]
+	}],
+	rewards: [{
+		uid: "6e0bbe3b",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "f15a6508",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

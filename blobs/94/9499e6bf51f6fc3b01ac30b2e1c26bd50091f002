@@ -1,0 +1,35 @@
+{
+	x: 27.75d,
+	y: 0.75d,
+	description: "Все души этого мира!",
+	text: [
+		"&c16.384&f воли в одном адском камне!"
+	],
+	dependencies: [
+		"1e57fc78"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "7c7fc153",
+		type: "item",
+		items: [{
+			id: "bloodmagic:soul_gem",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			Damage: 4s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ca7e5c31",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "04846388",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

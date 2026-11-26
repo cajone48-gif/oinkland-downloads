@@ -1,0 +1,55 @@
+{
+	x: -13.5d,
+	y: -10.0d,
+	shape: "hexagon",
+	description: "Божественный шлем!",
+	text: [
+		"&eКапюшон даёт следующие эффекты:&f",
+		"",
+		"Водное дыхание",
+		"",
+		"Ночное зрение",
+		"",
+		"Проверка рассудка",
+		"",
+		"Защита от искажения",
+		"",
+		"Ремонт инструменов за счёт опыта",
+		"",
+		"+100% удача",
+		"",
+		"Уменьшение затрат вис 15%"
+	],
+	dependencies: [
+		"fc325558",
+		"684714c4"
+	],
+	tasks: [{
+		uid: "23e502e9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumadditions:mithminite_hood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2edf4f34",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft",
+		count: 3
+	},
+	{
+		uid: "a41db46f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "4d858e20",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

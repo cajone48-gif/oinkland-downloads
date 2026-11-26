@@ -1,0 +1,39 @@
+{
+	title: "Квантовый буфер маны",
+	x: -15.0d,
+	y: 3.0d,
+	description: "Супер пупер огромное хранилище",
+	text: [
+		"Емкость буфера 1 млрд. 24 млн. маны."
+	],
+	dependencies: [
+		"2b36916e"
+	],
+	tasks: [{
+		uid: "738ebd9a",
+		type: "item",
+		items: [{
+			item: "extrabotany:quantummanabuffer"
+		}]
+	}],
+	rewards: [{
+		uid: "511dc82f",
+		type: "xp_levels",
+		xp_levels: 2
+	},
+	{
+		uid: "112b29b9",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "97d393e8",
+		type: "item",
+		item: {
+			id: "simpletools:lootbox_botania",
+			tag: {
+				UUID: "botania"
+			}
+		}
+	}]
+}

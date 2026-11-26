@@ -1,0 +1,31 @@
+{
+	title: "Райская обитель.",
+	x: -4.0d,
+	y: 2.5d,
+	text: [
+		"&eУбейте&f одного &eФлаера&f в ближнем бою с пустым камнем царства в инвентаре, находясь высоко в &eЛелитианских деревьях&f и получите райский камень царства.",
+		"",
+		"[&e!&f] &7Учтите, оружие использовать нельзя."
+	],
+	dependencies: [
+		"bc017dbc"
+	],
+	tasks: [{
+		uid: "03aac2f4",
+		type: "kill",
+		title: "Дорога в рай.",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "aoa3:haven_realmstone"
+		},
+		entity: "aoa3:flye",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "370bd5f1",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

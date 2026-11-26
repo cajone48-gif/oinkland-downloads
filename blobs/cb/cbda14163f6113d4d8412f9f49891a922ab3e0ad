@@ -1,0 +1,69 @@
+{
+	title: "Ароматические настойки",
+	x: 9.5d,
+	y: 5.5d,
+	description: "Это что-то новенькое!",
+	text: [
+		"После создания &eулучшенной ведьминой печи&f у вас открылась возможность к созданию новых настоев, получаемых только в ней.",
+		"",
+		"&l[&6!&f&l]&f Для получения новых настоек нужны глиняные кувшины!",
+		"",
+		"&eБурление магии&f получается из Саженца серебряного дерева.",
+		"",
+		"&eЛесная сила&f получается из Саженца сумеречной сосны.",
+		"",
+		"&eЧистота природы&f с некоторым шансом можно получить как побочный материал при переплавке любых ресурсов.",
+		"",
+		"&eСила магии&f получается из Саженца великого дерева.",
+		"",
+		"&eИдеальный аромат&f - крафт можно посмотреть в рецептах."
+	],
+	dependencies: [
+		"5196419c"
+	],
+	tasks: [{
+		uid: "eaf77869",
+		type: "item",
+		items: [{
+			item: "extrawitchery:ingredient"
+		}]
+	},
+	{
+		uid: "a4c9f5c6",
+		type: "item",
+		items: [{
+			item: "extrawitchery:ingredient 1 1"
+		}]
+	},
+	{
+		uid: "b67f2eb9",
+		type: "item",
+		items: [{
+			item: "extrawitchery:ingredient 1 3"
+		}]
+	},
+	{
+		uid: "b590d996",
+		type: "item",
+		items: [{
+			item: "extrawitchery:ingredient 1 2"
+		}]
+	},
+	{
+		uid: "6d885530",
+		type: "item",
+		items: [{
+			item: "extrawitchery:ingredient 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "1bdfc927",
+		type: "item",
+		item: "simpletools:lootbox_witchery_jars"
+	},
+	{
+		uid: "26d09da6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

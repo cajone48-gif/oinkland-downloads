@@ -1,0 +1,56 @@
+{
+	title: "Создание амуниции.",
+	x: -11.5d,
+	y: 1.0d,
+	text: [
+		"Вы нашли нужные вам руды. Теперь вы можете их переплавить и сделать себе хорошее снаряжение. ",
+		"",
+		"&7Переплавив уголетлеющую руду вы получите уголетлеющий меч, который наносит 12 урона"
+	],
+	dependencies: [
+		"bc6fd0ed"
+	],
+	dependency_requirement: "one_completed",
+	optional: true,
+	tasks: [{
+		uid: "241de673",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "aoa3:emberstone_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "eeef267c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "aoa3:rosite_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "39de2902",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "aoa3:amethyst_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0f84f5dc",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

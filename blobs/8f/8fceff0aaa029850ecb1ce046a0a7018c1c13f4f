@@ -1,0 +1,26 @@
+{
+	title: "Мясо гидры",
+	x: -2.0d,
+	y: 3.5d,
+	description: "Свежее и сочное.",
+	text: [
+		"Мясо гидры можно получить, убив Гидру. ",
+		"",
+		"После поедания даёт регенерацию на несколько секунд и хорошо восполняет сытость."
+	],
+	dependencies: [
+		"7fef82fa"
+	],
+	tasks: [{
+		uid: "1885e281",
+		type: "item",
+		items: [{
+			item: "twilightforest:hydra_chop"
+		}]
+	}],
+	rewards: [{
+		uid: "be1ecf35",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

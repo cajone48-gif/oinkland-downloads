@@ -1,0 +1,31 @@
+{
+	title: "Мистический светильник",
+	x: -2.5d,
+	y: -10.0d,
+	description: "Света почему-то стало больше",
+	text: [
+		"&eМистический светильник &fразмещает источники света в пределах 16 блоков вокруг себя, если там достаточно темно.",
+		"",
+		"&l[&6!&f&l]&f Можно отключить сигналом редстоуна."
+	],
+	dependencies: [
+		"187ba0b2"
+	],
+	tasks: [{
+		uid: "bf51312c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:lamp_arcane"
+		}]
+	}],
+	rewards: [{
+		uid: "a9e62e1c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "747b6286",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

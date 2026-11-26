@@ -1,0 +1,33 @@
+{
+	x: 7.5d,
+	y: -7.5d,
+	description: "Я - часть природы!",
+	text: [
+		"&eПлетеные ботинки&f защищают от эффектов яда, моментально снимая их и отправляя в землю."
+	],
+	dependencies: [
+		"40e814cd"
+	],
+	tasks: [{
+		uid: "84e32781",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "witchery:seeping_shoes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "33732252",
+		type: "item",
+		item: "simpletools:lootbox_witchery"
+	},
+	{
+		uid: "9f21924b",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "Больше отдачи от затраченных средств",
+	x: -1.0d,
+	y: -16.0d,
+	description: "Или больше ресурсов?",
+	text: [
+		"Кластер можно получить с небольшим шансом, копая &eкиркой сущности&f или скрафтить на &eтигеле/ алхимической конструкции."
+	],
+	dependencies: [
+		"d5b5c2f7"
+	],
+	tasks: [{
+		uid: "4270e001",
+		type: "item",
+		items: [{
+			item: "thaumcraft:cluster"
+		}]
+	},
+	{
+		uid: "11d1e630",
+		type: "item",
+		items: [{
+			item: "thaumcraft:cluster 1 1"
+		}]
+	},
+	{
+		uid: "d63aa0a1",
+		type: "item",
+		items: [{
+			item: "thaumcraft:cluster 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "708d4bf5",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "397c9759",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

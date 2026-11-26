@@ -1,0 +1,46 @@
+{
+	title: "Гайя 2-го уровня",
+	x: 1.5d,
+	y: -0.5d,
+	description: "Босс посложнее",
+	text: [
+		"Гайя 2-го уровня призывается слитком духа гайи.",
+		"",
+		"С данного уровня гайи выпадает приличное количество лута, а так же кости судьбы.",
+		"",
+		"Для призыва Гайи второго уровня Вам понадобится слиток Гайи,"
+	],
+	dependencies: [
+		"984b8f88"
+	],
+	tasks: [{
+		uid: "da66071b",
+		type: "kill",
+		icon: "botania:gaiahead",
+		entity: "botania:doppleganger",
+		value: 4L
+	},
+	{
+		uid: "00675fcd",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 14"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "f5854046",
+		type: "xp_levels",
+		xp_levels: 2
+	},
+	{
+		uid: "3dd39780",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "af393502",
+		type: "item",
+		item: "simpletools:lootbox_botania_runes"
+	}]
+}

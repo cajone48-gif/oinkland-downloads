@@ -1,0 +1,118 @@
+{
+	title: "Агроном",
+	x: -4.0d,
+	y: -8.0d,
+	shape: "octagon",
+	description: "Тяжёлая работа...",
+	text: [
+		"Вам предстоит долгое и сложное путеществие по просторам иных измерений для сбора всех семян.",
+		"Не переживайте, Вы будете щедро награждены!"
+	],
+	dependencies: [
+		"62d25bd7"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "0f198454",
+		type: "item",
+		items: [{
+			item: "aoa3:lunacrike_seeds"
+		}]
+	},
+	{
+		uid: "2c95ed2d",
+		type: "item",
+		items: [{
+			item: "aoa3:lunalon_seeds"
+		}]
+	},
+	{
+		uid: "14d33b39",
+		type: "item",
+		items: [{
+			item: "aoa3:magic_marang_seeds"
+		}]
+	},
+	{
+		uid: "efc79ae5",
+		type: "item",
+		items: [{
+			item: "aoa3:holly_top_seeds"
+		}]
+	},
+	{
+		uid: "1df95e4d",
+		type: "item",
+		items: [{
+			item: "aoa3:rosidon_seeds"
+		}]
+	},
+	{
+		uid: "e2368e0e",
+		type: "item",
+		items: [{
+			item: "aoa3:tea_seeds"
+		}]
+	},
+	{
+		uid: "8d7446fd",
+		type: "item",
+		items: [{
+			item: "aoa3:thorny_plant_seeds"
+		}]
+	},
+	{
+		uid: "05147a4a",
+		type: "item",
+		items: [{
+			item: "aoa3:luna_globe_seeds"
+		}]
+	},
+	{
+		uid: "b35148e5",
+		type: "item",
+		items: [{
+			item: "aoa3:goldicap_seeds"
+		}]
+	},
+	{
+		uid: "a2b20a11",
+		type: "item",
+		items: [{
+			item: "aoa3:floracle_seeds"
+		}]
+	},
+	{
+		uid: "c0ebb6c8",
+		type: "item",
+		items: [{
+			item: "aoa3:chilli_seeds"
+		}]
+	},
+	{
+		uid: "b0870f76",
+		type: "item",
+		items: [{
+			item: "aoa3:bubble_berry_seeds"
+		}]
+	},
+	{
+		uid: "cced8df6",
+		type: "item",
+		items: [{
+			item: "aoa3:heart_fruit_seeds"
+		}]
+	},
+	{
+		uid: "1dc21903",
+		type: "item",
+		items: [{
+			item: "aoa3:trilliad_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "7b564a1c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

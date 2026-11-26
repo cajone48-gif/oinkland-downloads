@@ -1,0 +1,59 @@
+{
+	title: "Кровавый алтарь Ур.1",
+	icon: "bloodmagic:altar",
+	x: 26.0d,
+	y: -7.5d,
+	shape: "square",
+	description: "Великая жертва",
+	text: [
+		"&f&cКровавый алтарь&f является основным блоком в &cКровавой магии&f.",
+		"",
+		"Накапливайте в его хранилище жизненную энергию LP, &cпринося в жертву собственное здоровье,&f либо &cздоровье сущностей&f. Используйте накопленную эссенцию для наполнения различных предметов, а так же их превращений.",
+		"",
+		"&cОбновление Алтаря&f, по мере продвижения мода, позволит открыть больше возможностей, к примеру больше новых рецептов и больше места для &cрун&f.",
+		"",
+		"&cЩелкните ПКМ&f, держа в руках &cЖертвенный кинжал&f, стоя рядом со своим &cКровавым алтарем&f для его наполнения жизненной эсенцией LP."
+	],
+	dependencies: [
+		"7e548b84"
+	],
+	tasks: [{
+		uid: "22f4d04a",
+		type: "item",
+		items: [{
+			item: "bloodmagic:altar"
+		}]
+	},
+	{
+		uid: "5f35c7ba",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "38e5d393",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "f1f3b09a",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "2b905cb9",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_regeneration"
+			}
+		}
+	}]
+}

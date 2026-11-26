@@ -1,0 +1,52 @@
+{
+	title: "Куй пока оно горячо",
+	x: 7.5d,
+	y: -20.5d,
+	shape: "diamond",
+	description: "Пластины без использования молота?!",
+	text: [
+		"Объединив три слитка, вы получаете пластины, необходимые для крафтов механизмов и других очень нужных предметов для изучения мода."
+	],
+	dependencies: [
+		"204856d1",
+		"1ce5751a"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "513d159e",
+		type: "item",
+		title: "Латунная пластина",
+		items: [{
+			item: "thaumcraft:plate"
+		}],
+		count: 3L
+	},
+	{
+		uid: "d9e7f49e",
+		type: "item",
+		title: "Железная пластина",
+		items: [{
+			item: "thaumcraft:plate 1 1"
+		}],
+		count: 3L
+	},
+	{
+		uid: "6afd82ae",
+		type: "item",
+		title: "Пластина из таумиума",
+		items: [{
+			item: "thaumcraft:plate 1 2"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "e66b8b28",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "216ee1aa",
+		type: "item",
+		item: "simpletools:lootbox_thaumcraft"
+	}]
+}

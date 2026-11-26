@@ -1,0 +1,28 @@
+{
+	title: "Fly me to the moon.",
+	x: 0.5d,
+	y: 8.5d,
+	text: [
+		"Перепрыгните через пустоту в Раю с помощью гравитатора, держа в инвентаре пустой камень царства, чтобы получить Луналусный камень царства."
+	],
+	dependencies: [
+		"0ef0d2b8"
+	],
+	tasks: [{
+		uid: "090705e9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "aoa3:lunalus_realmstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2fbdb99e",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

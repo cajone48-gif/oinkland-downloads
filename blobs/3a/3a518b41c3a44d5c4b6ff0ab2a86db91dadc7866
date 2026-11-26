@@ -1,0 +1,46 @@
+{
+	title: "Жабка",
+	icon: "witchery:frogs_toe",
+	x: -8.0d,
+	y: -6.0d,
+	description: "Их можно красить?!",
+	text: [
+		"&eЖабу&f можно сделать своим фамильяром.",
+		"",
+		"&7Приручить можно гнилой плотью. Убив её, получаем жабий коготь. &f",
+		"",
+		"Призыв жаб осуществляется &eмутацией&f.",
+		"",
+		"В центр воду, над ней паутина, по сторонам света мухоловки с пойманными слизнями, по углам щипуны с предметами:",
+		"",
+		"3 мутандис экстремис, 1 заряженный камень.",
+		"",
+		"Ловим в паутину оцелота и кликаем ПКМ мутировавшим суком."
+	],
+	dependencies: [
+		"07eebf2f"
+	],
+	tasks: [{
+		uid: "439652ef",
+		type: "kill",
+		title: "Убить жабу",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:diamond_sword"
+		},
+		entity: "witchery:toad",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "ef321ecb",
+		type: "item",
+		item: "simpletools:lootbox_witchery"
+	},
+	{
+		uid: "3886b511",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

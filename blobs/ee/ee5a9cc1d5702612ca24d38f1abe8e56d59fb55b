@@ -1,0 +1,37 @@
+{
+	x: 9.5d,
+	y: 7.5d,
+	description: "Бесконечное молоко",
+	text: [
+		"&eКолдовской талисман&f очищает с вас все действующие эффекты.",
+		"",
+		"Кликните ПКМ, чтобы использовать талисман. ",
+		"",
+		"&7Он имеет перезарядку 10 секунд."
+	],
+	dependencies: [
+		"73d2d6f6"
+	],
+	tasks: [{
+		uid: "d48f7621",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrawitchery:talisman_witchcraft"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8f9af45e",
+		type: "item",
+		item: "simpletools:lootbox_witchery"
+	},
+	{
+		uid: "482de214",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: 33.5d,
+	y: -2.0d,
+	description: "Вопрос связывания",
+	text: [
+		"&cРеагент связи&f используется в &cАлхимической матрице&f для создания Связанных инструментов и Живой брони..."
+	],
+	dependencies: [
+		"d28e45fd"
+	],
+	tasks: [{
+		uid: "91ba214d",
+		type: "item",
+		items: [{
+			item: "bloodmagic:component 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "d5705669",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "ff1d525d",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

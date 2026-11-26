@@ -1,0 +1,45 @@
+{
+	title: "Ведьмина печь",
+	icon: "witchery:witches_oven",
+	x: 3.0d,
+	y: -6.5d,
+	description: "У ведьмы есть своя печь?",
+	text: [
+		"Для работы ведьминой печи требуются &eглиняные кувшины.&f",
+		"",
+		"Источники топлива у ведьминой печи такие же, как у обычной печки из ванильного майнкрафта.",
+		"",
+		"&7В печи можно плавить не только саженцы, но и другие ресурсы, кроме руд.&f",
+		"",
+		"&l[&6!&f&l]&f У печи не 100% шанс получения материалов при переплавке, поэтому запаситесь саженцами."
+	],
+	dependencies: [
+		"51735fec"
+	],
+	tasks: [{
+		uid: "157a2fc3",
+		type: "item",
+		items: [{
+			item: "witchery:witches_oven"
+		}]
+	},
+	{
+		uid: "3405a45b",
+		type: "item",
+		items: [{
+			item: "witchery:clay_jar"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "0cd5280c",
+		type: "item",
+		item: "minecraft:clay_ball",
+		count: 30
+	},
+	{
+		uid: "4c355677",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

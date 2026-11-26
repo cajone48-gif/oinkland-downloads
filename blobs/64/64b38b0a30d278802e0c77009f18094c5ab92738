@@ -1,0 +1,41 @@
+{
+	title: "Последний из Бессмертных.",
+	x: 26.0d,
+	y: 1.0d,
+	description: "Комната #9",
+	text: [
+		"&eФлэш&f - последний Бессмертный. Он преследует и атакует в ближнем бою. ",
+		"",
+		"Когда &eФлэш&f наносит или получает удар, он телепортируется в одно из трёх мест в комнате. ",
+		"",
+		"Позиции определяются по &eлампам&f на потолке."
+	],
+	dependencies: [
+		"e2cf2876"
+	],
+	tasks: [{
+		uid: "f074a703",
+		type: "kill",
+		entity: "aoa3:flash",
+		value: 1L
+	},
+	{
+		uid: "d7531ff7",
+		type: "item",
+		items: [{
+			item: "aoa3:flash_statue"
+		}]
+	},
+	{
+		uid: "f6fcf811",
+		type: "item",
+		items: [{
+			item: "aoa3:progress_coin4"
+		}]
+	}],
+	rewards: [{
+		uid: "511496c4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Заряжатель мистического верстака",
+	x: -0.5d,
+	y: -18.5d,
+	description: "Верстак можно зарядить?!",
+	text: [
+		"&eЗарядное устройство для верстака&f усиливает местную ауру, заряжая ею верстак.",
+		"",
+		"Это позволяет создавать предметы, требующие большое количество вис."
+	],
+	dependencies: [
+		"1af03bae"
+	],
+	tasks: [{
+		uid: "9bf83daf",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench_charger"
+		}]
+	}],
+	rewards: [{
+		uid: "0c76b162",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

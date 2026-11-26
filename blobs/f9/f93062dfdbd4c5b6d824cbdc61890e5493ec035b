@@ -1,0 +1,35 @@
+{
+	x: -38.0d,
+	y: -8.0d,
+	description: "Когда я успел попасть в культ?",
+	text: [
+		"Ритуальный Пьедестал - позволяет проводить некоторые ритуалы, связанные с мобами, и блоками. ",
+		"",
+		"Например кристалл, настроенный на Horologium с фокусом Alcara будет замораживать всех мобов в радиусе ~20-30 блоков."
+	],
+	dependencies: [
+		"35f6675d"
+	],
+	tasks: [{
+		uid: "652b93f4",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockritualpedestal"
+		}]
+	}],
+	rewards: [{
+		uid: "4d11492c",
+		type: "item",
+		item: "simpletools:lootbox_astralsorcery"
+	},
+	{
+		uid: "92393edf",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "7b2a2ecf",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

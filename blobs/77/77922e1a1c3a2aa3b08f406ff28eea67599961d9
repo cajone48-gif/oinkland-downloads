@@ -1,0 +1,37 @@
+{
+	title: "Botania - начало!",
+	x: -19.0d,
+	y: -0.5d,
+	description: "Как начать?",
+	text: [
+		"Лексикон Ботании содержит в себе множество информации по модификации. ",
+		"",
+		"Для просмотра информации о блоке из мода необходимо нажать лексиконом Shift + ПКМ, в инвентаре можно навести курсор и зажать Ctrl.",
+		"",
+		"&l[&6!&f&l]&f Первый полезный совет - собирай мистические цветы по миру, они пригодятся для крафтов."
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "fb45d800",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:lexicon",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d555e8bc",
+		type: "xp_levels",
+		xp_levels: 2
+	},
+	{
+		uid: "75e54a49",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

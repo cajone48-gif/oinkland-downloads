@@ -1,0 +1,28 @@
+{
+	title: "Иссушение.",
+	x: -11.5d,
+	y: -3.0d,
+	text: [
+		"Бездна. Создается с 30 уровня."
+	],
+	dependencies: [
+		"607b224d"
+	],
+	tasks: [{
+		uid: "63e1cbce",
+		type: "item",
+		items: [{
+			item: "aoa3:wither_rune"
+		}]
+	}],
+	rewards: [{
+		uid: "36fa9a8d",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "f0665bc6",
+		type: "item",
+		item: "aoa3:rune_box"
+	}]
+}

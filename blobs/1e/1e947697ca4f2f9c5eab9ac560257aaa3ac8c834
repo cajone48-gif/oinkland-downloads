@@ -1,0 +1,31 @@
+{
+	title: "Игроман III",
+	x: 9.085714285714289d,
+	y: -3.507142857142867d,
+	shape: "square",
+	description: "Проведите на сервере 12 часов",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5876ea52"
+	],
+	tasks: [{
+		uid: "9c4f628a",
+		type: "stat",
+		icon: "minecraft:clock",
+		stat: "stat.playOneMinute",
+		value: 864000
+	}],
+	rewards: [{
+		uid: "60561f33",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "a7597bda",
+		type: "ftbmoney:money",
+		ftb_money: 600L
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "Мана предметы",
+	x: -8.0d,
+	y: 9.5d,
+	description: "Испытаем бассейн маны?",
+	text: [
+		"Одни из часто используемых крафтовых предметов."
+	],
+	dependencies: [
+		"02dcbdfc"
+	],
+	tasks: [{
+		uid: "9f3063ad",
+		type: "item",
+		items: [{
+			item: "botania:manaresource"
+		}]
+	},
+	{
+		uid: "e7bd91fe",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 2"
+		}]
+	},
+	{
+		uid: "efb5a549",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 1"
+		}]
+	},
+	{
+		uid: "b2b78cb9",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 16"
+		}]
+	}]
+}
