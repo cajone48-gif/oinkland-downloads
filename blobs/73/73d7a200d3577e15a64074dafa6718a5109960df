@@ -1,9 +1,0 @@
-# Configuration file
-
-blacklists {
-    # Р§С‘СЂРЅС‹Р№ СЃРїРёСЃРѕРє Р±Р»РѕРєРѕРІ РґР»СЏ РЎС‚Р°РјРµСЃРєРё [default: ]
-    S:chisel <
-     >
-}
-
-

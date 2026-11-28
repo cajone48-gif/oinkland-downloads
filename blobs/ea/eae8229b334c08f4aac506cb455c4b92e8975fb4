@@ -1,4 +1,0 @@
-# --- xb1tnatorV for SIMPLEMINECRAFT
-
-# --- COMPRESSED CHEST
-recipes.addShapeless(<twilightforest:maze_wafer> * 8, [<minecraft:milk_bucket>, <minecraft:sugar>, <minecraft:wheat>, <minecraft:egg>]);

@@ -1,8 +1,0 @@
-# xb1tnatorv for SIMPLEMINECRAFT
-
-# --- RING
-recipes.remove(<baubles:ring>);
-recipes.addShaped(<baubles:ring>, [
-[<minecraft:potion>.withTag({Potion: "minecraft:strong_swiftness"}), <minecraft:iron_ingot>, <minecraft:potion>.withTag({Potion: "minecraft:strong_swiftness"})],
-[<minecraft:iron_ingot>, <thaumcraft:baubles:5>, <minecraft:iron_ingot>],
-[<minecraft:potion>.withTag({Potion: "minecraft:strong_swiftness"}), <minecraft:iron_ingot>, <minecraft:potion>.withTag({Potion: "minecraft:strong_swiftness"})]]);
